@@ -1,0 +1,1029 @@
+﻿Match ID;Region;Team;Pick;pick rival;pick Decider;Orden pick;Gano mapa Propio;gano mapa Rival;gano Decider;pick propio Pistol atk;Pick propio Pistol def;pick propio Atk propio;pick propio Defensa propia;pick propio Atk rival;pick propio Def rival;pick rival Pistol Atk;pick rival Pisto Def;pick rival Atk propio;pick rival Defensa propia; pick rival Atk rival;pick rival  Def rival;pick decider Pistol Atk;pick decider Pisto Def;pick decider Atk propio;pick decider Defensa propia;pick decider Atk rival;pick decider Def rival;Torneo;Stats equipo;;;;;;;;;;;
+M-1;Americas;NRG;Icebox;Haven;Pearl;1ro;1;1;No jugado;1;0;10;3;9;2;0;0;8;5;5;4;;;;;;;LOCK//IN;5.25;;;;;;;;;;;
+M-1;EMEA;KOI;Haven;Icebox;Pearl;2do;0;0;No jugado;1;1;5;4;8;5;1;0;9;2;10;3;;;0;0;0;0;LOCK//IN;5.49;;;;;;;;;;;
+M-2;Pacific;DFM;Haven;Icebox;Pearl;1ro;0;0;No jugado;0;0;4;0;5;8;0;0;3;4;8;5;;;;;;;LOCK//IN;5.77;;;;;;;;;;;
+M-2;EMEA;Giants;Icebox;Haven;Pearl;2do;1;1;No jugado;1;1;8;5;3;4;1;1;5;8;4;0;;;0;0;0;0;LOCK//IN;5.77;;;;;;;;;;;
+M-3;China;FPX;Lotus;Haven;Pearl;1ro;0;1;0;0;0;4;2;5;8;1;1;7;6;6;2;0;1;1;5;7;6;LOCK//IN;5.01;;;;;;;;;;;
+M-3;EMEA;Karmine Corp;Haven;Lotus;Pearl;2do;0;1;1;0;0;6;2;7;6;1;1;5;8;4;2;0;1;7;6;1;5;LOCK//IN;5.04;;;;;;;;;;;
+M-4;Pacific;DRX;Pearl;Ascent;Haven;1ro;1;0;1;1;1;9;4;0;3;0;0;3;8;4;9;1;0;11;2;6;1;LOCK//IN;5.42;;;;;;;;;;;
+M-4;EMEA;BBL;Ascent;Pearl;Haven;2do;1;0;0;1;1;4;9;3;8;0;0;0;3;9;4;1;0;6;1;11;2;LOCK//IN;5.31;;;;;;;;;;;
+M-5;Pacific;Paper Rex;Lotus;Pearl;Fracture;1ro;0;0;No jugado;0;1;5;3;6;7;1;0;2;2;10;3;;;;;;;LOCK//IN;5.86;;;;;;;;;;;
+M-5;Americas;Cloud9;Pearl;Lotus;Fracture;2do;1;1;No jugado;1;0;10;3;2;2;0;1;6;7;5;3;;;0;0;0;0;LOCK//IN;5.78;;;;;;;;;;;
+M-6;Americas;Evil Genius;Pearl;Ascent;Haven;1ro;1;1;No jugado;1;1;6;7;2;6;1;0;6;7;5;3;;;;;;;LOCK//IN;5.57;;;;;;;;;;;
+M-6;EMEA;Heretics;Ascent;Pearl;Haven;2do;0;0;No jugado;1;0;5;3;6;7;0;0;2;6;6;7;;;0;0;0;0;LOCK//IN;5.26;;;;;;;;;;;
+M-7;Americas;mibr;Haven;Fracture;Icebox;1ro;0;0;No jugado;0;0;4;4;5;8;0;1;5;6;6;7;;;;;;;LOCK//IN;5.43;;;;;;;;;;;
+M-7;Pacific;Talon;Fracture;Haven;Icebox;2do;1;1;No jugado;0;1;6;7;5;6;1;1;5;8;4;4;;;0;0;0;0;LOCK//IN;5.27;;;;;;;;;;;
+M-8;Americas;LOUD;Pearl;Fracture;Split;1ro;1;1;No jugado;1;0;8;5;7;2;0;0;9;5;8;4;;;;;;;LOCK//IN;5.61;;;;;;;;;;;
+M-8;Pacific;Gen.G;Fracture;Pearl;Split;2do;0;0;No jugado;1;1;8;4;9;5;1;0;7;2;8;5;;;0;0;0;0;LOCK//IN;5.38;;;;;;;;;;;
+M-9;Americas;NRG;Lotus;Haven;Icebox;1ro;0;1;1;1;0;8;4;9;5;1;1;11;2;0;1;1;0;4;9;3;4;LOCK//IN;5.25;;;;;;;;;;;
+M-9;EMEA;Giants;Haven;Lotus;Icebox;2do;0;1;0;0;0;0;1;11;2;1;0;9;5;8;4;1;0;3;4;4;9;LOCK//IN;5.77;;;;;;;;;;;
+M-10;Americas;LOUD;Pearl;Split;Fracture;1ro;1;1;No jugado;1;0;8;5;6;4;1;0;8;5;4;4;;;;;;;LOCK//IN;5.61;;;;;;;;;;;
+M-10;EMEA;Karmine Corp;Split;Pearl;Fracture;2do;0;0;No jugado;1;0;4;4;8;5;1;0;6;4;8;5;;;0;0;0;0;LOCK//IN;5.04;;;;;;;;;;;
+M-11;Americas;Cloud9;Pearl;Haven;Icebox;1ro;1;0;0;1;1;4;9;3;0;0;0;4;3;9;4;1;0;1;1;11;2;LOCK//IN;5.78;;;;;;;;;;;
+M-11;Pacific;DRX;Haven;Pearl;Icebox;2do;1;0;1;1;1;9;4;4;3;0;0;3;0;4;9;1;0;11;2;1;1;LOCK//IN;5.42;;;;;;;;;;;
+M-12;Americas;Evil Genius;Haven;Split;Icebox;1ro;0;0;No jugado;0;1;2;9;3;10;0;1;2;8;4;9;;;;;;;LOCK//IN;5.57;;;;;;;;;;;
+M-12;Pacific;Talon;Split;Haven;Icebox;2do;1;1;No jugado;0;1;4;9;2;8;0;1;3;10;2;9;;;0;0;0;0;LOCK//IN;5.27;;;;;;;;;;;
+M-13;Americas;NRG;Split;Pearl;Fracture;1ro;0;1;0;0;0;0;3;9;4;0;1;8;7;7;6;0;0;9;7;10;8;LOCK//IN;5.25;;;;;;;;;;;
+M-13;Americas;LOUD;Pearl;Split;Fracture;2do;0;1;1;0;1;7;6;8;7;1;1;9;4;0;3;1;1;10;8;9;7;LOCK//IN;5.61;;;;;;;;;;;
+M-14;Pacific;Talon;Fracture;Ascent;Icebox;1ro;1;0;0;0;0;5;8;4;6;0;1;0;6;6;7;0;1;5;5;7;6;LOCK//IN;5.27;;;;;;;;;;;
+M-14;Pacific;DRX;Ascent;Fracture;Icebox;2do;1;0;1;0;1;6;7;0;6;1;1;4;6;5;8;0;1;7;6;5;5;LOCK//IN;5.42;;;;;;;;;;;
+M-15;Pacific;Team Secret;Icebox;Fracture;Lotus;1ro;1;1;No jugado;1;1;3;10;2;6;0;1;4;9;3;4;;;;;;;LOCK//IN;5.37;;;;;;;;;;;
+M-15;EMEA;Liquid;Fracture;Icebox;Lotus;2do;0;0;No jugado;0;1;3;4;4;9;0;0;2;6;3;10;;;0;0;0;0;LOCK//IN;5.33;;;;;;;;;;;
+M-16;Americas;KRU;Ascent;Lotus;Pearl;1ro;0;0;No jugado;1;0;2;3;9;4;0;0;9;1;10;3;;;;;;;LOCK//IN;5.46;;;;;;;;;;;
+M-16;EMEA;Navi;Lotus;Ascent;Pearl;2do;1;1;No jugado;1;1;10;3;9;1;1;0;9;4;2;3;;;0;0;0;0;LOCK//IN;5.49;;;;;;;;;;;
+M-17;Americas;Leviatan;Ascent;Pearl;Haven;1ro;1;1;No jugado;1;0;10;3;2;2;1;1;7;6;6;5;;;;;;;LOCK//IN;5.47;;;;;;;;;;;
+M-17;Pacific;Zeta Division;Pearl;Ascent;Haven;2do;0;0;No jugado;0;0;6;5;7;6;1;0;2;2;10;3;;;0;0;0;0;LOCK//IN;5.21;;;;;;;;;;;
+M-18;Pacific;Global;Split;Pearl;Lotus;1ro;0;1;0;1;1;1;3;9;4;1;1;5;8;7;2;1;1;2;4;8;5;LOCK//IN;5.75;;;;;;;;;;;
+M-18;EMEA;Vitality;Pearl;Split;Lotus;2do;0;1;1;0;0;7;2;5;8;0;0;9;4;1;3;0;0;8;5;2;4;LOCK//IN;5.43;;;;;;;;;;;
+M-19;Pacific;Rex Regnum;Lotus;Pearl;Split;1ro;0;0;No jugado;0;0;2;1;3;10;1;0;7;4;8;5;;;;;;;LOCK//IN;5.44;;;;;;;;;;;
+M-19;EMEA;Fut;Pearl;Lotus;Split;2do;1;1;No jugado;1;0;8;5;7;4;1;1;3;10;2;1;;;0;0;0;0;LOCK//IN;5.39;;;;;;;;;;;
+M-20;Americas;100 Thieves;Icebox;Lotus;Pearl;1ro;1;0;1;1;0;5;8;4;6;0;1;7;2;8;5;0;1;6;8;5;7;LOCK//IN;5.55;;;;;;;;;;;
+M-20;China;Eduard;Lotus;Icebox;Pearl;2do;1;0;0;0;1;8;5;7;2;1;0;4;6;5;8;0;1;5;7;6;8;LOCK//IN;5.2;;;;;;;;;;;
+M-21;EMEA;Fnatic;Haven;Split;Lotus;1ro;1;1;No jugado;0;1;4;9;3;3;1;1;7;6;6;1;;;;;;;LOCK//IN;5.78;;;;;;;;;;;
+M-21;Americas;Sentinels;Split;Haven;Lotus;2do;0;0;No jugado;0;0;6;1;7;6;0;1;3;3;4;9;;;0;0;0;0;LOCK//IN;5.88;;;;;;;;;;;
+M-22;Pacific;T1;Pearl;Icebox;Fracture;1ro;0;0;No jugado;0;1;1;6;6;7;0;0;5;0;6;7;;;;;;;LOCK//IN;5.29;;;;;;;;;;;
+M-22;Americas;FURIA;Icebox;Pearl;Fracture;2do;1;1;No jugado;1;1;6;7;5;0;0;1;6;7;1;6;;;0;0;0;0;LOCK//IN;5.42;;;;;;;;;;;
+M-23;Pacific;Team Secret;Icebox;Pearl;Fracture;1ro;0;0;No jugado;1;1;6;2;7;6;1;1;3;1;4;9;;;;;;;LOCK//IN;5.37;;;;;;;;;;;
+M-23;EMEA;Navi;Pearl;Icebox;Fracture;2do;1;1;No jugado;0;0;1;9;3;1;0;0;7;6;6;2;;;0;0;0;0;LOCK//IN;5.49;;;;;;;;;;;
+M-24;Americas;Leviatan;Haven;Pearl;Ascent;1ro;1;1;No jugado;1;1;9;7;8;6;1;1;3;10;2;1;;;;;;;LOCK//IN;5.47;;;;;;;;;;;
+M-24;EMEA;Vitality;Pearl;Haven;Ascent;2do;0;0;No jugado;0;0;2;1;3;10;0;0;8;6;9;7;;;0;0;0;0;LOCK//IN;5.43;;;;;;;;;;;
+M-25;EMEA;Fut;Lotus;Haven;Icebox;1ro;1;0;0;1;0;8;5;7;2;0;0;5;6;7;6;0;1;4;4;8;5;LOCK//IN;5.39;;;;;;;;;;;
+M-25;Americas;100 Thieves;Haven;Lotus;Icebox;2do;1;0;1;1;1;7;6;5;6;1;0;7;2;8;5;0;1;8;5;4;4;LOCK//IN;5.55;;;;;;;;;;;
+M-26;EMEA;Fnatic;Haven;Ascent;Icebox;1ro;1;1;No jugado;0;0;11;7;10;6;0;0;5;8;4;5;;;;;;;LOCK//IN;5.78;;;;;;;;;;;
+M-26;Americas;FURIA;Ascent;Haven;Icebox;2do;0;0;No jugado;1;1;4;5;5;8;1;1;10;6;11;7;;;0;0;0;0;LOCK//IN;5.42;;;;;;;;;;;
+M-27;Americas;Leviatan;Ascent;Fracture;Pearl;1ro;0;0;No jugado;0;0;6;4;6;7;1;0;1;1;11;2;;;;;;;LOCK//IN;5.47;;;;;;;;;;;
+M-27;EMEA;Navi;Fracture;Ascent;Pearl;2do;1;1;No jugado;1;0;11;2;1;1;1;1;6;7;6;4;;;0;0;0;0;LOCK//IN;5.49;;;;;;;;;;;
+M-28;Americas;100 Thieves;Fracture;Icebox;Lotus;1ro;0;0;No jugado;0;0;0;1;11;2;0;1;2;8;10;3;;;;;;;LOCK//IN;5.55;;;;;;;;;;;
+M-28;EMEA;Fnatic;Icebox;Fracture;Lotus;2do;1;1;No jugado;0;1;10;3;2;8;1;1;11;2;0;1;;;0;0;0;0;LOCK//IN;5.78;;;;;;;;;;;
+M-29;Americas;LOUD;Pearl;Icebox;;1ro;1;1;No jugado;1;1;4;9;3;2;1;1;9;4;5;3;;;;;;;LOCK//IN;5.61;;;;;;;;;;;
+M-29;Pacific;DRX;Icebox;Pearl;;2do;0;0;No jugado;0;0;5;3;9;4;0;0;3;2;4;9;;;0;0;0;0;LOCK//IN;5.42;;;;;;;;;;;
+M-30;Americas;LOUD;Split;Fracture;Ascent;3ro;0;0;1;0;1;3;4;4;9;0;0;6;1;7;6;0;1;7;6;5;3;LOCK//IN;5.61;;;;;;;;;;;
+M-30;Pacific;DRX;Fracture;Split;Ascent;4to;1;1;0;1;1;7;6;6;1;0;1;4;9;3;4;0;1;5;3;7;6;LOCK//IN;5.42;;;;;;;;;;;
+M-31;EMEA;Fnatic;Haven;Lotus;;1ro;1;1;No jugado;1;0;6;7;5;6;1;0;10;3;2;2;;;;;;;LOCK//IN;5.78;;;;;;;;;;;
+M-31;EMEA;Navi;Lotus;Haven;;2do;0;0;No jugado;1;0;2;2;10;3;1;0;5;6;6;7;;;0;0;0;0;LOCK//IN;5.49;;;;;;;;;;;
+M-32;EMEA;Fnatic;Fracture;Split;Ascent;3ro;1;0;No jugado;0;1;6;7;5;6;;;;;;;;;;;;;LOCK//IN;5.78;;;;;;;;;;;
+M-32;EMEA;Navi;Split;Fracture;Ascent;4to;0;0;No jugado;;;0;0;0;0;0;1;5;6;6;7;;;0;0;0;0;LOCK//IN;5.49;;;;;;;;;;;
+M-33;Americas;LOUD;Ascent;Fracture;;1ro;0;0;No jugado;0;1;4;4;5;8;0;0;1;6;6;7;;;;;;;LOCK//IN;5.61;;;;;;;;;;;
+M-33;EMEA;Fnatic;Fracture;Ascent;;2do;1;1;No jugado;1;1;6;7;1;6;0;1;5;8;4;4;;;0;0;0;0;LOCK//IN;5.78;;;;;;;;;;;
+M-34;Americas;LOUD;Split;Lotus;Icebox;3ro;1;1;0;0;1;7;6;4;5;1;1;7;6;3;5;1;1;9;3;10;4;LOCK//IN;5.61;;;;;;;;;;;
+M-34;EMEA;Fnatic;Lotus;Split;Icebox;4to;0;0;1;0;0;3;5;7;6;0;1;4;5;7;6;0;0;10;4;9;3;LOCK//IN;5.78;;;;;;;;;;;
+M-35;Americas;Sentinels;Fracture;Split;Ascent;1ro;1;0;1;0;0;6;7;5;6;0;0;5;7;6;8;1;1;9;5;8;4;Americas;5.88;;;;;;;;;;;
+M-35;Americas;100 Thieves;Split;Fracture;Ascent;2do;1;0;0;1;1;6;8;5;7;1;1;5;6;6;7;0;0;8;4;9;5;Americas;5.55;;;;;;;;;;;
+M-36;Americas;KRU;Split;Ascent;Haven;1ro;0;0;No jugado;0;0;6;5;7;6;0;1;0;5;7;6;;;;;;;Americas;5.46;;;;;;;;;;;
+M-36;Americas;FURIA;Ascent;Split;Haven;2do;1;1;No jugado;0;1;7;6;0;5;1;1;7;6;6;5;;;0;0;0;0;Americas;5.42;;;;;;;;;;;
+M-37;Americas;LOUD;Split;Lotus;Haven;1ro;1;0;1;1;1;5;8;4;1;0;1;5;6;6;7;1;1;8;5;7;4;Americas;5.61;;;;;;;;;;;
+M-37;Americas;mibr;Lotus;Split;Haven;2do;1;0;0;0;1;6;7;5;6;0;0;4;1;5;8;0;0;7;4;8;5;Americas;5.43;;;;;;;;;;;
+M-38;Americas;Evil Genius;Pearl;Fracture;Split;1ro;0;0;No jugado;1;1;2;9;3;10;1;1;5;4;8;5;;;;;;;Americas;5.57;;;;;;;;;;;
+M-38;Americas;Cloud9;Fracture;Pearl;Split;2do;1;1;No jugado;0;0;8;5;5;4;0;0;3;10;2;9;;;0;0;0;0;Americas;5.78;;;;;;;;;;;
+M-39;Americas;Leviatan;Pearl;Lotus;Split;1ro;1;1;No jugado;0;0;7;6;6;5;1;1;5;8;4;0;;;;;;;Americas;5.47;;;;;;;;;;;
+M-39;Americas;NRG;Lotus;Pearl;Split;2do;0;0;No jugado;0;0;4;0;5;8;1;1;6;5;7;6;;;0;0;0;0;Americas;5.25;;;;;;;;;;;
+M-40;Americas;Cloud9;Split;Ascent;Pearl;1ro;1;0;0;1;1;8;5;3;4;1;1;5;3;9;4;0;1;4;3;5;8;Americas;5.78;;;;;;;;;;;
+M-40;Americas;LOUD;Ascent;Split;Pearl;2do;1;0;1;0;0;9;4;5;3;0;0;3;4;8;5;0;1;5;8;4;3;Americas;5.61;;;;;;;;;;;
+M-41;Americas;Leviatan;Pearl;Icebox;Ascent;1ro;1;0;0;1;0;10;3;9;2;0;0;3;2;10;3;0;1;1;9;3;10;Americas;5.47;;;;;;;;;;;
+M-41;Americas;FURIA;Icebox;Pearl;Ascent;2do;1;0;1;1;1;10;3;3;2;1;0;9;2;10;3;0;1;3;10;1;9;Americas;5.42;;;;;;;;;;;
+M-42;Americas;Sentinels;Lotus;Icebox;Pearl;1ro;0;0;No jugado;1;0;7;3;9;4;0;0;2;0;3;10;;;;;;;Americas;5.88;;;;;;;;;;;
+M-42;Americas;NRG;Icebox;Lotus;Pearl;2do;1;1;No jugado;1;1;3;10;2;0;1;0;9;4;7;3;;;0;0;0;0;Americas;5.25;;;;;;;;;;;
+M-43;Americas;KRU;Ascent;Lotus;Pearl;1ro;1;0;0;0;1;5;8;2;7;1;0;8;3;9;4;1;1;7;5;8;6;Americas;5.46;;;;;;;;;;;
+M-43;Americas;mibr;Lotus;Ascent;Pearl;2do;1;0;1;1;0;9;4;8;3;0;1;2;7;5;8;0;0;8;6;7;5;Americas;5.43;;;;;;;;;;;
+M-44;Americas;Evil Genius;Haven;Icebox;Fracture;1ro;0;0;No jugado;0;1;3;6;6;7;0;1;2;3;9;4;;;;;;;Americas;5.57;;;;;;;;;;;
+M-44;Americas;100 Thieves;Icebox;Haven;Fracture;2do;1;1;No jugado;0;1;9;4;2;3;0;1;6;7;3;6;;;0;0;0;0;Americas;5.55;;;;;;;;;;;
+M-45;EMEA;Navi;Ascent;Lotus;Split;1ro;0;0;No jugado;1;0;4;3;5;8;0;1;5;13;6;14;;;;;;;EMEA;5.49;;;;;;;;;;;
+M-45;EMEA;KOI;Lotus;Ascent;Split;2do;1;1;No jugado;0;1;6;14;5;13;1;0;5;8;4;3;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-46;EMEA;Fnatic;Icebox;Split;Ascent;1ro;1;1;No jugado;1;1;3;10;2;1;1;0;7;6;6;5;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-46;EMEA;Giants;Split;Icebox;Ascent;2do;0;0;No jugado;1;0;6;5;7;6;0;0;2;1;3;10;;;0;0;0;0;EMEA;5.77;;;;;;;;;;;
+M-47;EMEA;Heretics;Pearl;Lotus;Ascent;1ro;0;0;No jugado;0;0;2;2;3;10;0;0;8;1;9;4;;;;;;;EMEA;5.26;;;;;;;;;;;
+M-47;EMEA;Fut;Lotus;Pearl;Ascent;2do;1;1;No jugado;1;1;9;4;8;1;1;1;3;10;2;2;;;0;0;0;0;EMEA;5.39;;;;;;;;;;;
+M-48;EMEA;Vitality;Haven;Fracture;Lotus;1ro;1;0;1;1;0;9;4;3;3;0;0;2;0;3;10;1;1;5;8;3;7;EMEA;5.43;;;;;;;;;;;
+M-48;EMEA;Liquid;Fracture;Haven;Lotus;2do;1;0;0;1;1;3;10;2;0;1;0;3;3;9;4;0;0;3;7;5;8;EMEA;5.33;;;;;;;;;;;
+M-49;EMEA;Navi;Icebox;Split;Pearl;1ro;0;1;1;0;0;6;9;7;10;0;0;7;8;6;7;1;1;6;7;5;2;EMEA;5.49;;;;;;;;;;;
+M-49;EMEA;Giants;Split;Icebox;Pearl;2do;0;1;0;1;1;6;7;7;8;1;1;7;10;6;9;0;0;5;2;6;7;EMEA;5.77;;;;;;;;;;;
+M-50;EMEA;BBL;Icebox;Split;Lotus;1ro;0;0;No jugado;1;1;6;11;7;12;0;0;8;3;9;4;;;;;;;EMEA;5.31;;;;;;;;;;;
+M-50;EMEA;Karmine Corp;Split;Icebox;Lotus;2do;1;1;No jugado;1;1;9;4;8;3;0;0;7;12;6;11;;;0;0;0;0;EMEA;5.04;;;;;;;;;;;
+M-51;EMEA;Fut;Lotus;Split;Ascent;1ro;1;0;0;1;1;7;6;5;5;0;1;1;5;7;6;0;0;0;6;6;7;EMEA;5.39;;;;;;;;;;;
+M-51;EMEA;Liquid;Split;Lotus;Ascent;2do;1;0;1;0;1;7;6;1;5;0;0;5;5;7;6;1;1;6;7;0;6;EMEA;5.33;;;;;;;;;;;
+M-52;EMEA;Vitality;Split;Fracture;Lotus;1ro;1;1;No jugado;1;1;8;5;7;2;0;1;6;9;5;8;;;;;;;EMEA;5.43;;;;;;;;;;;
+M-52;EMEA;KOI;Fracture;Split;Lotus;2do;0;0;No jugado;0;1;5;8;6;9;0;0;7;2;8;5;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-53;EMEA;BBL;Ascent;Haven;Split;1ro;1;0;0;0;1;9;4;3;3;0;1;4;5;5;8;1;1;5;6;6;7;EMEA;5.31;;;;;;;;;;;
+M-53;EMEA;Fnatic;Haven;Ascent;Split;2do;1;0;1;0;1;5;8;4;5;0;1;3;3;9;4;0;0;6;7;5;6;EMEA;5.78;;;;;;;;;;;
+M-54;EMEA;Heretics;Icebox;Split;Lotus;1ro;1;1;No jugado;1;0;9;4;2;3;1;1;3;10;2;0;;;;;;;EMEA;5.26;;;;;;;;;;;
+M-54;EMEA;Karmine Corp;Split;Icebox;Lotus;2do;0;0;No jugado;0;0;2;0;3;10;1;0;2;3;9;4;;;0;0;0;0;EMEA;5.04;;;;;;;;;;;
+M-55;EMEA;Fut;Lotus;Haven;Icebox;1ro;1;1;No jugado;1;1;9;4;1;3;1;0;6;7;5;5;;;;;;;EMEA;5.39;;;;;;;;;;;
+M-55;EMEA;Vitality;Haven;Lotus;Icebox;2do;0;0;No jugado;1;0;5;5;6;7;0;0;1;3;9;4;;;0;0;0;0;EMEA;5.43;;;;;;;;;;;
+M-56;EMEA;BBL;Ascent;Fracture;Split;1ro;0;0;No jugado;1;0;6;4;7;6;0;0;2;6;6;7;;;;;;;EMEA;5.31;;;;;;;;;;;
+M-56;EMEA;Navi;Fracture;Ascent;Split;2do;1;1;No jugado;1;1;6;7;2;6;1;0;7;6;6;4;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-57;EMEA;Fnatic;Icebox;Ascent;Fracture;1ro;1;1;No jugado;1;1;4;9;3;0;0;1;7;6;5;1;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-57;EMEA;Heretics;Ascent;Icebox;Fracture;2do;0;0;No jugado;0;1;5;1;7;6;0;0;3;0;4;9;;;0;0;0;0;EMEA;5.26;;;;;;;;;;;
+M-58;EMEA;Liquid;Ascent;Split;Lotus;1ro;1;1;No jugado;0;1;8;5;1;4;0;1;1;12;0;2;;;;;;;EMEA;5.33;;;;;;;;;;;
+M-58;EMEA;Karmine Corp;Split;Ascent;Lotus;2do;0;0;No jugado;0;1;0;2;1;12;0;1;1;4;8;5;;;0;0;0;0;EMEA;5.04;;;;;;;;;;;
+M-59;EMEA;Giants;Lotus;Ascent;Icebox;1ro;1;1;No jugado;1;1;2;11;1;0;1;0;5;8;4;7;;;;;;;EMEA;5.77;;;;;;;;;;;
+M-59;EMEA;KOI;Ascent;Lotus;Icebox;2do;0;0;No jugado;1;0;4;7;5;8;0;0;1;0;2;11;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-60;EMEA;Navi;Pearl;Lotus;Ascent;1ro;1;0;1;1;1;9;4;0;3;1;0;7;2;10;3;0;1;2;11;1;1;EMEA;5.49;;;;;;;;;;;
+M-60;EMEA;Heretics;Lotus;Pearl;Ascent;2do;1;0;0;1;0;10;3;7;2;0;0;0;3;9;4;0;1;1;1;2;11;EMEA;5.26;;;;;;;;;;;
+M-61;Pacific;DRX;Ascent;Pearl;Haven;1ro;1;1;No jugado;0;1;8;5;1;4;1;0;11;2;4;1;;;;;;;Pacific;5.42;;;;;;;;;;;
+M-61;Pacific;Zeta Division;Pearl;Ascent;Haven;2do;0;0;No jugado;1;0;4;1;11;2;0;1;1;4;8;5;;;0;0;0;0;Pacific;5.21;;;;;;;;;;;
+M-62;Pacific;Global;Pearl;Haven;Lotus;1ro;0;1;0;0;1;3;5;4;9;1;0;10;3;2;2;0;1;4;3;5;8;Pacific;5.75;;;;;;;;;;;
+M-62;Pacific;T1;Haven;Pearl;Lotus;2do;0;1;1;1;0;2;2;10;3;0;1;4;9;3;5;0;1;5;8;4;3;Pacific;5.29;;;;;;;;;;;
+M-63;Pacific;Paper Rex;Pearl;Lotus;Fracture;1ro;1;1;No jugado;0;1;4;9;3;2;1;0;7;6;6;5;;;;;;;Pacific;5.86;;;;;;;;;;;
+M-63;Pacific;DFM;Lotus;Pearl;Fracture;2do;0;0;No jugado;1;0;6;5;7;6;0;1;3;2;4;9;;;0;0;0;0;Pacific;5.77;;;;;;;;;;;
+M-64;Pacific;Talon;Ascent;Icebox;Fracture;1ro;0;1;0;0;0;4;1;5;8;1;1;4;9;3;5;0;0;1;2;10;3;Pacific;5.27;;;;;;;;;;;
+M-64;Pacific;Team Secret;Icebox;Ascent;Fracture;2do;0;1;1;0;0;3;5;4;9;1;1;5;8;4;1;1;1;10;3;1;2;Pacific;5.37;;;;;;;;;;;
+M-65;Pacific;Gen.G;Fracture;Lotus;Haven;1ro;1;1;No jugado;0;1;8;5;5;4;0;0;8;5;2;4;;;;;;;Pacific;5.38;;;;;;;;;;;
+M-65;Pacific;Rex Regnum;Lotus;Fracture;Haven;2do;0;0;No jugado;1;1;2;4;8;5;0;1;5;4;8;5;;;0;0;0;0;Pacific;5.44;;;;;;;;;;;
+M-66;Pacific;Zeta Division;Haven;Ascent;Lotus;1ro;0;1;1;0;1;3;7;4;9;1;0;6;7;4;6;0;1;7;6;0;5;Pacific;5.21;;;;;;;;;;;
+M-66;Pacific;Rex Regnum;Ascent;Haven;Lotus;2do;0;1;0;1;0;4;6;6;7;0;1;4;9;3;7;0;1;0;5;7;6;Pacific;5.44;;;;;;;;;;;
+M-67;Pacific;T1;Ascent;Haven;Lotus;1ro;1;1;No jugado;1;1;8;5;4;4;1;1;9;4;3;3;;;;;;;Pacific;5.29;;;;;;;;;;;
+M-67;Pacific;Talon;Haven;Ascent;Lotus;2do;0;0;No jugado;0;0;3;3;9;4;0;0;4;4;8;5;;;0;0;0;0;Pacific;5.27;;;;;;;;;;;
+M-68;Pacific;Paper Rex;Haven;Fracture;Split;1ro;1;0;0;0;0;6;7;5;6;0;1;4;7;5;8;0;0;7;3;8;5;Pacific;5.86;;;;;;;;;;;
+M-68;Pacific;Team Secret;Fracture;Haven;Split;2do;1;0;1;0;1;5;8;4;7;1;1;5;6;6;7;1;1;8;5;7;3;Pacific;5.37;;;;;;;;;;;
+M-69;Pacific;DFM;Lotus;Fracture;Pearl;1ro;0;1;0;0;1;1;7;5;8;1;1;8;5;0;4;0;0;7;1;8;5;Pacific;5.77;;;;;;;;;;;
+M-69;Pacific;Gen.G;Fracture;Lotus;Pearl;2do;0;1;1;0;0;0;4;8;5;0;1;5;8;1;7;1;1;8;5;7;1;Pacific;5.38;;;;;;;;;;;
+M-70;Pacific;DRX;Haven;Split;Pearl;1ro;1;1;No jugado;0;0;6;7;5;6;0;1;8;9;7;8;;;;;;;Pacific;5.42;;;;;;;;;;;
+M-70;Pacific;Global;Split;Haven;Pearl;2do;0;0;No jugado;0;1;7;8;8;9;1;1;5;6;6;7;;;0;0;0;0;Pacific;5.75;;;;;;;;;;;
+M-71;Pacific;Rex Regnum;Haven;Pearl;Ascent;1ro;1;1;No jugado;0;1;3;10;2;2;1;1;4;9;3;4;;;;;;;Pacific;5.44;;;;;;;;;;;
+M-71;Pacific;DFM;Pearl;Haven;Ascent;2do;0;0;No jugado;0;0;3;4;4;9;0;1;2;2;3;10;;;0;0;0;0;Pacific;5.77;;;;;;;;;;;
+M-72;Pacific;T1;Pearl;Fracture;Lotus;1ro;0;0;No jugado;1;0;2;1;11;2;0;1;1;3;7;6;;;;;;;Pacific;5.29;;;;;;;;;;;
+M-72;Pacific;Paper Rex;Fracture;Pearl;Lotus;2do;1;1;No jugado;0;1;7;6;1;3;1;0;11;2;2;1;;;0;0;0;0;Pacific;5.86;;;;;;;;;;;
+M-73;Pacific;Global;Pearl;Ascent;Haven;1ro;1;0;0;0;1;4;9;3;6;1;1;5;7;6;8;1;0;4;4;5;8;Pacific;5.75;;;;;;;;;;;
+M-73;Pacific;Zeta Division;Ascent;Pearl;Haven;2do;1;0;1;0;0;6;8;5;7;0;1;3;6;4;9;1;0;5;8;4;4;Pacific;5.21;;;;;;;;;;;
+M-74;Pacific;Talon;Split;Pearl;Ascent;1ro;0;0;No jugado;0;1;1;2;2;11;0;1;5;5;6;7;;;;;;;Pacific;5.27;;;;;;;;;;;
+M-74;Pacific;DRX;Pearl;Split;Ascent;2do;1;1;No jugado;0;1;6;7;5;5;0;1;2;11;1;2;;;0;0;0;0;Pacific;5.42;;;;;;;;;;;
+M-75;Pacific;Gen.G;Haven;Fracture;Lotus;1ro;1;1;No jugado;1;1;7;6;3;5;0;1;6;7;5;6;;;;;;;Pacific;5.38;;;;;;;;;;;
+M-75;Pacific;Team Secret;Fracture;Haven;Lotus;2do;0;0;No jugado;0;1;5;6;6;7;0;0;3;5;7;6;;;0;0;0;0;Pacific;5.37;;;;;;;;;;;
+M-76;EMEA;Fut;Icebox;Ascent;Haven;1ro;1;1;No jugado;1;0;6;7;5;1;0;0;7;6;6;3;;;;;;;EMEA;5.39;;;;;;;;;;;
+M-76;EMEA;KOI;Ascent;Icebox;Haven;2do;0;0;No jugado;1;1;6;3;7;6;1;0;5;1;6;7;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-77;EMEA;Liquid;Lotus;Haven;Fracture;1ro;0;0;No jugado;1;0;5;1;11;2;0;1;0;6;6;7;;;;;;;EMEA;5.33;;;;;;;;;;;
+M-77;EMEA;Fnatic;Haven;Lotus;Fracture;2do;1;1;No jugado;0;1;6;7;0;6;1;0;11;2;5;1;;;0;0;0;0;EMEA;5.78;;;;;;;;;;;
+M-78;EMEA;BBL;Icebox;Split;Fracture;1ro;0;0;No jugado;0;1;5;5;6;7;0;1;0;3;9;4;;;;;;;EMEA;5.31;;;;;;;;;;;
+M-78;EMEA;Giants;Split;Icebox;Fracture;2do;1;1;No jugado;0;1;9;4;0;3;0;1;6;7;5;5;;;0;0;0;0;EMEA;5.77;;;;;;;;;;;
+M-79;EMEA;Karmine Corp;Ascent;Split;Lotus;1ro;0;0;No jugado;0;0;2;0;3;10;1;0;5;1;11;2;;;;;;;EMEA;5.04;;;;;;;;;;;
+M-79;EMEA;Vitality;Split;Ascent;Lotus;2do;1;1;No jugado;1;0;11;2;5;1;1;1;3;10;2;0;;;0;0;0;0;EMEA;5.43;;;;;;;;;;;
+M-80;Pacific;DRX;Ascent;Split;Fracture;1ro;1;1;No jugado;1;0;9;4;2;3;0;1;6;7;5;5;;;;;;;Pacific;5.42;;;;;;;;;;;
+M-80;Pacific;Paper Rex;Split;Ascent;Fracture;2do;0;0;No jugado;0;1;5;5;6;7;1;0;2;3;9;4;;;0;0;0;0;Pacific;5.86;;;;;;;;;;;
+M-81;Pacific;Team Secret;Icebox;Split;Haven;1ro;0;1;No jugado;1;0;5;5;6;7;1;0;10;3;5;2;;;;;;;Pacific;5.37;;;;;;;;;;;
+M-81;Pacific;Rex Regnum;Split;Icebox;Haven;2do;0;1;No jugado;1;0;5;2;10;3;1;0;6;7;5;5;;;0;0;0;0;Pacific;5.44;;;;;;;;;;;
+M-82;Pacific;T1;Ascent;Haven;Lotus;1ro;0;0;No jugado;1;1;3;2;4;9;0;0;0;5;7;6;;;;;;;Pacific;5.29;;;;;;;;;;;
+M-82;Pacific;Gen.G;Haven;Ascent;Lotus;2do;1;1;No jugado;1;1;7;6;0;5;0;0;4;9;3;2;;;0;0;0;0;Pacific;5.38;;;;;;;;;;;
+M-83;Pacific;Zeta Division;Ascent;Haven;Pearl;1ro;1;1;No jugado;1;1;10;3;7;2;1;0;9;4;2;3;;;;;;;Pacific;5.21;;;;;;;;;;;
+M-83;Pacific;DFM;Haven;Ascent;Pearl;2do;0;0;No jugado;1;0;2;3;9;4;0;0;7;2;10;3;;;0;0;0;0;Pacific;5.77;;;;;;;;;;;
+M-84;Pacific;Global;Split;Icebox;Haven;1ro;1;1;No jugado;0;1;4;9;3;3;1;1;7;6;6;5;;;;;;;Pacific;5.75;;;;;;;;;;;
+M-84;Pacific;Talon;Icebox;Split;Haven;2do;0;0;No jugado;0;0;6;5;7;6;0;1;3;3;4;9;;;0;0;0;0;Pacific;5.27;;;;;;;;;;;
+M-85;Americas;Cloud9;Lotus;Ascent;Haven;1ro;1;1;No jugado;1;1;5;8;4;3;0;1;5;9;4;8;;;;;;;Americas;5.78;;;;;;;;;;;
+M-85;Americas;100 Thieves;Ascent;Lotus;Haven;2do;0;0;No jugado;0;1;4;8;5;9;0;0;4;3;5;8;;;0;0;0;0;Americas;5.55;;;;;;;;;;;
+M-86;Americas;NRG;Icebox;Pearl;Split;1ro;0;1;0;0;1;6;4;7;6;1;1;11;5;10;4;0;1;6;8;7;9;Americas;5.25;;;;;;;;;;;
+M-86;Americas;mibr;Pearl;Icebox;Split;2do;0;1;1;0;0;10;4;11;5;0;1;7;6;6;4;0;1;7;9;6;8;Americas;5.43;;;;;;;;;;;
+M-87;Americas;Sentinels;Split;Ascent;Pearl;1ro;0;1;0;1;0;7;5;8;6;1;1;6;7;5;6;0;1;2;2;3;10;Americas;5.88;;;;;;;;;;;
+M-87;Americas;Leviatan;Ascent;Split;Pearl;2do;0;1;1;0;0;5;6;6;7;1;0;8;6;7;5;0;1;3;10;2;2;Americas;5.47;;;;;;;;;;;
+M-88;Americas;Evil Genius;Pearl;Ascent;Fracture;1ro;1;0;1;1;0;10;3;9;2;1;1;3;8;4;9;0;0;6;7;5;2;Americas;5.57;;;;;;;;;;;
+M-88;Americas;KRU;Ascent;Pearl;Fracture;2do;1;0;0;0;0;4;9;3;8;1;0;9;2;10;3;1;1;5;2;6;7;Americas;5.46;;;;;;;;;;;
+M-89;Americas;LOUD;Split;Icebox;Ascent;1ro;1;1;No jugado;1;0;6;7;3;6;1;1;8;5;0;4;;;;;;;Americas;5.61;;;;;;;;;;;
+M-89;Americas;FURIA;Icebox;Split;Ascent;2do;0;0;No jugado;0;0;0;4;8;5;1;0;3;6;6;7;;;0;0;0;0;Americas;5.42;;;;;;;;;;;
+M-90;EMEA;Liquid;Split;Fracture;Icebox;1ro;1;1;No jugado;1;0;10;3;6;2;1;1;6;11;5;10;;;;;;;EMEA;5.33;;;;;;;;;;;
+M-90;EMEA;Heretics;Fracture;Split;Icebox;2do;0;0;No jugado;0;0;5;10;6;11;1;0;6;2;10;3;;;0;0;0;0;EMEA;5.26;;;;;;;;;;;
+M-91;EMEA;Fut;Icebox;Split;Ascent;1ro;0;0;No jugado;1;1;2;3;3;10;0;0;7;4;8;5;;;;;;;EMEA;5.39;;;;;;;;;;;
+M-91;EMEA;Giants;Split;Icebox;Ascent;2do;1;1;No jugado;1;1;8;5;7;4;0;0;3;10;2;3;;;0;0;0;0;EMEA;5.77;;;;;;;;;;;
+M-92;Americas;LOUD;Pearl;Haven;Ascent;1ro;0;1;1;0;1;1;5;7;6;1;0;7;6;6;5;1;1;4;9;3;5;Americas;5.61;;;;;;;;;;;
+M-92;Americas;Sentinels;Haven;Pearl;Ascent;2do;0;1;0;1;0;6;5;7;6;0;1;7;6;1;5;0;0;3;5;4;9;Americas;5.88;;;;;;;;;;;
+M-93;Americas;Leviatan;Pearl;Icebox;Split;1ro;1;1;No jugado;1;1;3;10;2;2;1;1;3;10;2;1;;;;;;;Americas;5.47;;;;;;;;;;;
+M-93;Americas;mibr;Icebox;Pearl;Split;2do;0;0;No jugado;0;0;2;1;3;10;0;0;2;2;3;10;;;0;0;0;0;Americas;5.43;;;;;;;;;;;
+M-94;Americas;KRU;Ascent;Split;Fracture;1ro;1;0;0;1;1;4;9;3;1;0;1;3;8;4;9;0;0;4;1;5;8;Americas;5.46;;;;;;;;;;;
+M-94;Americas;100 Thieves;Split;Ascent;Fracture;2do;1;0;1;0;1;4;9;3;8;0;0;3;1;4;9;1;1;5;8;4;1;Americas;5.55;;;;;;;;;;;
+M-95;Americas;FURIA;Ascent;Fracture;Haven;1ro;1;0;1;0;1;7;8;7;6;0;1;3;4;8;5;1;1;8;5;7;3;Americas;5.42;;;;;;;;;;;
+M-95;Americas;Evil Genius;Fracture;Ascent;Haven;2do;1;0;0;0;1;8;5;3;4;0;1;7;6;7;8;0;0;7;3;8;5;Americas;5.57;;;;;;;;;;;
+M-96;Americas;Cloud9;Haven;Pearl;Ascent;1ro;0;1;1;1;1;5;3;9;4;1;1;5;8;2;7;1;0;5;8;4;3;Americas;5.78;;;;;;;;;;;
+M-96;Americas;NRG;Pearl;Haven;Ascent;2do;0;1;0;0;0;2;7;5;8;0;0;9;4;5;3;1;0;4;3;5;8;Americas;5.25;;;;;;;;;;;
+M-97;Americas;Sentinels;Pearl;Fracture;Lotus;1ro;1;1;No jugado;1;1;9;4;2;3;0;1;9;4;3;3;;;;;;;Americas;5.88;;;;;;;;;;;
+M-97;Americas;mibr;Fracture;Pearl;Lotus;2do;0;0;No jugado;0;1;3;3;9;4;0;0;2;3;9;4;;;0;0;0;0;Americas;5.43;;;;;;;;;;;
+M-98;Americas;100 Thieves;Icebox;Haven;Lotus;1ro;0;1;1;1;0;6;7;7;8;0;0;6;7;5;6;0;0;8;5;7;4;Americas;5.55;;;;;;;;;;;
+M-98;Americas;Leviatan;Haven;Icebox;Lotus;2do;0;1;0;1;1;5;6;6;7;1;0;7;8;6;7;1;1;7;4;8;5;Americas;5.47;;;;;;;;;;;
+M-99;Americas;LOUD;Split;Haven;Pearl;1ro;0;1;1;0;1;0;3;9;4;1;0;8;5;6;4;1;1;12;1;0;0;Americas;5.61;;;;;;;;;;;
+M-99;Americas;Evil Genius;Haven;Split;Pearl;2do;0;1;0;1;0;6;4;8;5;0;1;9;4;0;3;0;0;0;0;12;1;Americas;5.57;;;;;;;;;;;
+M-100;Americas;FURIA;Ascent;Fracture;Pearl;1ro;0;0;No jugado;1;0;4;4;5;8;1;0;6;3;7;6;;;;;;;Americas;5.42;;;;;;;;;;;
+M-100;Americas;Cloud9;Fracture;Ascent;Pearl;2do;1;1;No jugado;1;0;7;6;6;3;1;0;5;8;4;4;;;0;0;0;0;Americas;5.78;;;;;;;;;;;
+M-101;Americas;NRG;Haven;Ascent;Pearl;1ro;1;1;No jugado;0;0;8;5;6;4;1;1;4;9;3;1;;;;;;;Americas;5.25;;;;;;;;;;;
+M-101;Americas;KRU;Ascent;Haven;Pearl;2do;0;0;No jugado;0;0;3;1;4;9;1;1;6;4;8;5;;;0;0;0;0;Americas;5.46;;;;;;;;;;;
+M-102;EMEA;Navi;Ascent;Lotus;Split;1ro;1;1;No jugado;1;1;6;7;5;6;1;0;8;5;7;0;;;;;;;EMEA;5.49;;;;;;;;;;;
+M-102;EMEA;Karmine Corp;Lotus;Ascent;Split;2do;0;0;No jugado;1;0;7;0;8;5;0;0;5;6;6;7;;;0;0;0;0;EMEA;5.04;;;;;;;;;;;
+M-103;EMEA;BBL;Ascent;Haven;Lotus;1ro;1;1;No jugado;1;1;5;8;1;7;1;1;4;9;3;6;;;;;;;EMEA;5.31;;;;;;;;;;;
+M-103;EMEA;Vitality;Haven;Ascent;Lotus;2do;0;0;No jugado;0;0;3;6;4;9;0;0;1;7;5;8;;;0;0;0;0;EMEA;5.43;;;;;;;;;;;
+M-104;EMEA;Liquid;Ascent;Icebox;Lotus;1ro;0;1;1;0;0;5;6;6;7;1;0;7;6;6;5;1;0;7;6;5;5;EMEA;5.33;;;;;;;;;;;
+M-104;EMEA;Giants;Icebox;Ascent;Lotus;2do;0;1;0;1;0;6;5;7;6;1;1;6;7;5;6;1;0;5;5;7;6;EMEA;5.77;;;;;;;;;;;
+M-105;EMEA;BBL;Haven;Lotus;Icebox;1ro;1;0;1;1;0;8;6;7;5;0;1;6;4;7;6;0;1;2;11;7;1;EMEA;5.31;;;;;;;;;;;
+M-105;EMEA;Heretics;Lotus;Haven;Icebox;2do;1;0;0;0;1;7;6;6;4;1;0;7;5;8;6;0;1;7;1;2;11;EMEA;5.26;;;;;;;;;;;
+M-106;EMEA;Karmine Corp;Lotus;Ascent;Haven;1ro;1;0;1;0;1;2;11;1;5;0;1;2;6;6;7;0;1;5;8;4;7;EMEA;5.04;;;;;;;;;;;
+M-106;EMEA;KOI;Ascent;Lotus;Haven;2do;1;0;0;0;1;6;7;2;6;0;1;1;5;2;11;0;1;4;7;5;8;EMEA;5.49;;;;;;;;;;;
+M-107;Pacific;Paper Rex;Icebox;Split;Pearl;1ro;0;1;1;0;0;6;1;7;6;1;0;9;4;3;3;1;0;8;5;3;4;Pacific;5.86;;;;;;;;;;;
+M-107;Pacific;Global;Split;Icebox;Pearl;2do;0;1;0;1;0;3;3;9;4;1;1;7;6;6;1;1;0;3;4;8;5;Pacific;5.75;;;;;;;;;;;
+M-108;Pacific;Gen.G;Haven;Fracture;Pearl;1ro;0;1;0;1;0;6;1;11;2;1;1;6;7;4;6;0;1;3;1;9;4;Pacific;5.38;;;;;;;;;;;
+M-108;Pacific;DRX;Fracture;Haven;Pearl;2do;0;1;1;0;0;4;6;6;7;1;0;11;2;6;1;0;1;9;4;3;1;Pacific;5.42;;;;;;;;;;;
+M-109;Pacific;Rex Regnum;Haven;Fracture;Pearl;1ro;0;0;No jugado;0;0;4;5;7;6;1;1;1;3;9;4;;;;;;;Pacific;5.44;;;;;;;;;;;
+M-109;Pacific;T1;Fracture;Haven;Pearl;2do;1;1;No jugado;0;0;9;4;1;3;1;1;7;6;4;5;;;0;0;0;0;Pacific;5.29;;;;;;;;;;;
+M-110;Pacific;DFM;Ascent;Haven;Fracture;1ro;0;0;No jugado;0;1;5;6;6;7;1;1;3;5;4;9;;;;;;;Pacific;5.77;;;;;;;;;;;
+M-110;Pacific;Team Secret;Haven;Ascent;Fracture;2do;1;1;No jugado;0;0;4;9;3;5;0;1;6;7;5;6;;;0;0;0;0;Pacific;5.37;;;;;;;;;;;
+M-111;Pacific;Talon;Haven;Ascent;Split;1ro;1;1;No jugado;1;0;5;8;4;4;1;0;8;8;7;7;;;;;;;Pacific;5.27;;;;;;;;;;;
+M-111;Pacific;Zeta Division;Ascent;Haven;Split;2do;0;0;No jugado;1;0;7;7;8;8;1;0;4;4;5;8;;;0;0;0;0;Pacific;5.21;;;;;;;;;;;
+M-112;Americas;NRG;Bind;Fracture;Lotus;1ro;1;1;No jugado;0;1;6;7;5;2;1;0;11;2;2;1;;;;;;;Americas;5.25;;;;;;;;;;;
+M-112;Americas;100 Thieves;Fracture;Bind;Lotus;2do;0;0;No jugado;1;0;2;1;11;2;0;1;5;2;6;7;;;0;0;0;0;Americas;5.55;;;;;;;;;;;
+M-113;Americas;FURIA;Pearl;Split;Haven;1ro;1;1;No jugado;1;0;9;4;8;3;0;1;3;10;2;5;;;;;;;Americas;5.42;;;;;;;;;;;
+M-113;Americas;mibr;Split;Pearl;Haven;2do;0;0;No jugado;0;1;2;5;3;10;1;0;8;3;9;4;;;0;0;0;0;Americas;5.43;;;;;;;;;;;
+M-114;Pacific;T1;Lotus;Split;Fracture;1ro;1;0;1;0;1;6;7;5;4;1;0;4;5;7;6;0;0;6;7;4;6;Pacific;5.29;;;;;;;;;;;
+M-114;Pacific;DFM;Split;Lotus;Fracture;2do;1;0;0;1;0;7;6;4;5;0;1;5;4;6;7;1;1;4;6;6;7;Pacific;5.77;;;;;;;;;;;
+M-115;Pacific;Zeta Division;Split;Lotus;Fracture;1ro;1;0;1;1;1;8;5;5;4;0;1;6;4;7;6;1;1;7;6;4;5;Pacific;5.21;;;;;;;;;;;
+M-115;Pacific;Team Secret;Lotus;Split;Fracture;2do;1;0;0;0;1;7;6;6;4;0;0;5;4;8;5;0;0;4;5;7;6;Pacific;5.37;;;;;;;;;;;
+M-116;Pacific;Global;Pearl;Lotus;Haven;1ro;1;1;No jugado;1;0;8;5;7;1;0;1;7;6;3;5;;;;;;;Pacific;5.75;;;;;;;;;;;
+M-116;Pacific;Gen.G;Lotus;Pearl;Haven;2do;0;0;No jugado;0;1;3;5;7;6;1;0;7;1;8;5;;;0;0;0;0;Pacific;5.38;;;;;;;;;;;
+M-117;Pacific;DRX;Haven;Split;Pearl;1ro;0;1;1;1;1;2;6;6;7;0;1;7;6;6;4;0;1;10;3;0;2;Pacific;5.42;;;;;;;;;;;
+M-117;Pacific;Paper Rex;Split;Haven;Pearl;2do;0;1;0;0;1;6;4;7;6;0;0;6;7;2;6;0;1;0;2;10;3;Pacific;5.86;;;;;;;;;;;
+M-118;Pacific;Talon;Pearl;Split;Fracture;1ro;1;0;0;1;0;9;4;8;3;1;0;3;1;4;9;0;1;6;4;7;6;Pacific;5.27;;;;;;;;;;;
+M-118;Pacific;Paper Rex;Split;Pearl;Fracture;2do;1;0;1;1;0;4;9;3;1;1;0;8;3;9;4;0;1;7;6;6;4;Pacific;5.86;;;;;;;;;;;
+M-119;Americas;Sentinels;Lotus;Fracture;Haven;1ro;0;0;No jugado;1;0;3;1;4;9;0;1;1;5;2;11;;;;;;;Americas;5.88;;;;;;;;;;;
+M-119;Americas;Cloud9;Fracture;Lotus;Haven;2do;1;1;No jugado;0;1;2;11;1;5;1;0;4;9;3;1;;;0;0;0;0;Americas;5.78;;;;;;;;;;;
+M-120;Americas;Evil Genius;Split;Pearl;Ascent;1ro;1;0;1;0;1;4;9;2;8;0;1;6;4;7;6;0;1;4;9;3;7;Americas;5.57;;;;;;;;;;;
+M-120;Americas;Leviatan;Pearl;Split;Ascent;2do;1;0;0;0;1;7;6;6;4;0;1;2;8;4;9;0;1;3;7;4;9;Americas;5.47;;;;;;;;;;;
+M-121;Americas;LOUD;Pearl;Ascent;Split;1ro;0;1;1;1;0;8;2;9;4;0;1;4;9;3;8;1;0;8;5;6;4;Americas;5.61;;;;;;;;;;;
+M-121;Americas;KRU;Ascent;Pearl;Split;2do;0;1;0;0;1;3;8;4;9;1;0;9;4;8;2;1;0;6;4;8;5;Americas;5.46;;;;;;;;;;;
+M-122;EMEA;Fnatic;Icebox;Lotus;Haven;1ro;1;1;No jugado;1;1;6;7;5;0;1;1;8;5;1;4;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-122;EMEA;Fut;Lotus;Icebox;Haven;2do;0;0;No jugado;0;0;1;4;8;5;0;0;5;0;6;7;;;0;0;0;0;EMEA;5.39;;;;;;;;;;;
+M-123;EMEA;Vitality;Split;Fracture;Ascent;1ro;0;0;No jugado;0;1;3;7;4;9;1;1;5;5;7;6;;;;;;;EMEA;5.43;;;;;;;;;;;
+M-123;EMEA;Navi;Fracture;Split;Ascent;2do;1;1;No jugado;0;0;7;6;5;5;0;1;4;9;3;7;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-124;EMEA;Fnatic;Haven;Bind;Lotus;1ro;1;1;No jugado;1;1;6;8;5;7;0;1;6;7;2;6;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-124;EMEA;Vitality;Bind;Haven;Lotus;2do;0;0;No jugado;0;1;2;6;6;7;0;0;5;7;6;8;;;0;0;0;0;EMEA;5.43;;;;;;;;;;;
+M-125;EMEA;Fut;Haven;Ascent;Split;1ro;1;1;No jugado;0;0;6;7;5;3;1;1;5;8;4;1;;;;;;;EMEA;5.39;;;;;;;;;;;
+M-125;EMEA;Karmine Corp;Ascent;Haven;Split;2do;0;0;No jugado;0;0;4;1;5;8;1;1;5;3;6;7;;;0;0;0;0;EMEA;5.04;;;;;;;;;;;
+M-126;EMEA;KOI;Pearl;Ascent;Bind;1ro;1;0;0;1;1;4;9;3;0;0;1;1;3;9;4;0;1;0;5;7;6;EMEA;5.49;;;;;;;;;;;
+M-126;EMEA;BBL;Ascent;Pearl;Bind;2do;1;0;1;0;1;9;4;1;3;0;0;3;0;4;9;0;1;7;6;0;5;EMEA;5.31;;;;;;;;;;;
+M-127;EMEA;Navi;Fracture;Bind;Lotus;1ro;1;1;No jugado;0;1;7;6;6;5;0;1;5;8;4;7;;;;;;;EMEA;5.49;;;;;;;;;;;
+M-127;EMEA;Liquid;Bind;Fracture;Lotus;2do;0;0;No jugado;0;1;4;7;5;8;0;1;6;5;7;6;;;0;0;0;0;EMEA;5.33;;;;;;;;;;;
+M-128;EMEA;Giants;Pearl;Lotus;Bind;1ro;0;0;No jugado;1;0;6;3;9;4;1;1;7;7;8;8;;;;;;;EMEA;5.77;;;;;;;;;;;
+M-128;EMEA;Heretics;Lotus;Pearl;Bind;2do;1;1;No jugado;0;0;8;8;7;7;1;0;9;4;6;3;;;0;0;0;0;EMEA;5.26;;;;;;;;;;;
+M-129;Americas;Evil Genius;Fracture;Pearl;Ascent;1ro;1;1;No jugado;0;1;4;9;3;3;1;0;10;3;3;2;;;;;;;Americas;5.57;;;;;;;;;;;
+M-129;Americas;Sentinels;Pearl;Fracture;Ascent;2do;0;0;No jugado;1;0;3;2;10;3;0;1;3;3;4;9;;;0;0;0;0;Americas;5.88;;;;;;;;;;;
+M-130;Americas;Cloud9;Split;Lotus;Bind;1ro;1;1;No jugado;1;1;7;6;0;5;1;1;5;8;4;0;;;;;;;Americas;5.78;;;;;;;;;;;
+M-130;Americas;mibr;Lotus;Split;Bind;2do;0;0;No jugado;0;0;4;0;5;8;0;0;0;5;7;6;;;0;0;0;0;Americas;5.43;;;;;;;;;;;
+M-131;Americas;LOUD;Ascent;Split;Haven;1ro;1;1;No jugado;0;1;8;5;1;4;0;1;8;7;7;6;;;;;;;Americas;5.61;;;;;;;;;;;
+M-131;Americas;100 Thieves;Split;Ascent;Haven;2do;0;0;No jugado;0;1;7;6;8;7;0;1;1;4;8;5;;;0;0;0;0;Americas;5.55;;;;;;;;;;;
+M-132;Americas;Leviatan;Haven;Split;Pearl;1ro;1;1;No jugado;1;1;11;2;3;1;1;1;4;9;3;1;;;;;;;Americas;5.47;;;;;;;;;;;
+M-132;Americas;KRU;Split;Haven;Pearl;2do;0;0;No jugado;0;0;3;1;4;9;0;0;3;1;11;2;;;0;0;0;0;Americas;5.46;;;;;;;;;;;
+M-133;Americas;NRG;Bind;Haven;Pearl;1ro;1;0;1;1;1;10;3;9;2;0;1;6;5;7;6;1;0;8;5;2;4;Americas;5.25;;;;;;;;;;;
+M-133;Americas;FURIA;Haven;Bind;Pearl;2do;1;0;0;0;1;7;6;6;5;0;0;9;2;10;3;1;0;2;4;8;5;Americas;5.42;;;;;;;;;;;
+M-134;EMEA;Fnatic;Lotus;Ascent;Fracture;1ro;1;1;No jugado;1;0;10;3;2;2;0;1;4;9;1;8;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-134;EMEA;KOI;Ascent;Lotus;Fracture;2do;0;0;No jugado;0;1;1;8;4;9;1;0;2;2;10;3;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-135;EMEA;Giants;Lotus;Split;Ascent;1ro;1;0;1;1;1;5;8;4;2;1;0;5;5;7;6;1;0;6;7;5;5;EMEA;5.77;;;;;;;;;;;
+M-135;EMEA;Vitality;Split;Lotus;Ascent;2do;1;0;0;1;0;7;6;5;5;0;0;4;2;5;8;1;0;5;5;6;7;EMEA;5.43;;;;;;;;;;;
+M-136;EMEA;Fut;Lotus;Pearl;Split;1ro;0;0;No jugado;0;1;3;6;4;9;1;1;3;8;4;9;;;;;;;EMEA;5.39;;;;;;;;;;;
+M-136;EMEA;Navi;Pearl;Lotus;Split;2do;1;1;No jugado;0;0;4;9;3;8;0;1;4;9;3;6;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-137;EMEA;Fnatic;Haven;Lotus;Fracture;1ro;1;1;No jugado;1;1;3;10;2;0;1;0;6;7;4;6;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-137;EMEA;Karmine Corp;Lotus;Haven;Fracture;2do;0;0;No jugado;1;0;4;6;6;7;0;0;2;0;3;10;;;0;0;0;0;EMEA;5.04;;;;;;;;;;;
+M-138;EMEA;Liquid;Split;Ascent;Bind;1ro;1;0;1;1;0;9;4;8;3;1;1;3;4;8;5;0;1;7;6;2;5;EMEA;5.33;;;;;;;;;;;
+M-138;EMEA;BBL;Ascent;Split;Bind;2do;1;0;0;0;0;8;5;3;4;1;0;8;3;9;4;0;1;2;5;7;6;EMEA;5.31;;;;;;;;;;;
+M-139;Pacific;Gen.G;Fracture;Lotus;Haven;1ro;0;0;No jugado;0;0;3;5;7;6;1;0;5;2;6;7;;;;;;;Pacific;5.38;;;;;;;;;;;
+M-139;Pacific;Talon;Lotus;Fracture;Haven;2do;1;1;No jugado;1;0;6;7;5;2;1;1;7;6;3;5;;;0;0;0;0;Pacific;5.27;;;;;;;;;;;
+M-140;Pacific;Paper Rex;Split;Ascent;Lotus;1ro;1;1;No jugado;1;1;7;6;1;5;0;1;8;5;6;4;;;;;;;Pacific;5.86;;;;;;;;;;;
+M-140;Pacific;Zeta Division;Ascent;Split;Lotus;2do;0;0;No jugado;0;1;6;4;8;5;0;0;1;5;7;6;;;0;0;0;0;Pacific;5.21;;;;;;;;;;;
+M-141;Pacific;Rex Regnum;Fracture;Pearl;Bind;1ro;1;1;No jugado;1;1;7;6;6;4;0;0;8;5;7;4;;;;;;;Pacific;5.44;;;;;;;;;;;
+M-141;Pacific;Global;Pearl;Fracture;Bind;2do;0;0;No jugado;1;1;7;4;8;5;0;0;6;4;7;6;;;0;0;0;0;Pacific;5.75;;;;;;;;;;;
+M-142;Pacific;Team Secret;Lotus;Bind;Fracture;1ro;0;0;No jugado;0;0;2;2;3;10;1;1;3;5;7;6;;;;;;;Pacific;5.37;;;;;;;;;;;
+M-142;Pacific;T1;Bind;Lotus;Fracture;2do;1;1;No jugado;0;0;7;6;3;5;1;1;3;10;2;2;;;0;0;0;0;Pacific;5.29;;;;;;;;;;;
+M-143;Pacific;DFM;Fracture;Ascent;Pearl;1ro;0;0;No jugado;0;0;1;7;5;8;1;1;1;3;9;4;;;;;;;Pacific;5.77;;;;;;;;;;;
+M-143;Pacific;DRX;Ascent;Fracture;Pearl;2do;1;1;No jugado;0;0;9;4;1;3;1;1;5;8;1;7;;;0;0;0;0;Pacific;5.42;;;;;;;;;;;
+M-144;EMEA;KOI;Fracture;Lotus;Ascent;1ro;1;0;1;1;0;9;4;4;3;1;0;7;2;8;5;1;0;8;5;7;4;EMEA;5.49;;;;;;;;;;;
+M-144;EMEA;Heretics;Lotus;Fracture;Ascent;2do;1;0;0;1;0;8;5;7;2;1;0;4;3;9;4;1;0;7;4;8;5;EMEA;5.26;;;;;;;;;;;
+M-145;Pacific;Paper Rex;Split;Ascent;Lotus;1ro;1;1;No jugado;1;0;9;4;4;3;1;1;10;3;0;2;;;;;;;Pacific;5.86;;;;;;;;;;;
+M-145;Pacific;Gen.G;Ascent;Split;Lotus;2do;0;0;No jugado;0;0;0;2;10;3;1;0;4;3;9;4;;;0;0;0;0;Pacific;5.38;;;;;;;;;;;
+M-146;Pacific;Zeta Division;Fracture;Lotus;Bind;1ro;0;1;0;0;0;6;5;7;6;0;1;3;10;1;9;0;0;3;0;4;9;Pacific;5.21;;;;;;;;;;;
+M-146;Pacific;T1;Lotus;Fracture;Bind;2do;0;1;1;0;1;1;9;3;10;1;1;7;6;6;5;1;1;4;9;3;0;Pacific;5.29;;;;;;;;;;;
+M-147;Pacific;Team Secret;Haven;Ascent;Fracture;1ro;1;1;No jugado;0;0;5;8;4;4;1;0;10;3;9;2;;;;;;;Pacific;5.37;;;;;;;;;;;
+M-147;Pacific;DRX;Ascent;Haven;Fracture;2do;0;0;No jugado;1;0;9;2;10;3;1;1;4;4;5;8;;;0;0;0;0;Pacific;5.42;;;;;;;;;;;
+M-148;Pacific;DFM;Lotus;Pearl;Bind;1ro;0;0;No jugado;0;0;3;4;8;5;0;0;5;1;11;2;;;;;;;Pacific;5.77;;;;;;;;;;;
+M-148;Pacific;Global;Pearl;Lotus;Bind;2do;1;1;No jugado;1;1;11;2;5;1;1;1;8;5;3;4;;;0;0;0;0;Pacific;5.75;;;;;;;;;;;
+M-149;Pacific;Rex Regnum;Split;Ascent;Haven;1ro;0;1;1;0;1;0;3;9;4;1;1;9;4;1;3;0;1;5;8;4;3;Pacific;5.44;;;;;;;;;;;
+M-149;Pacific;Talon;Ascent;Split;Haven;2do;0;1;0;0;0;1;3;9;4;0;1;9;4;0;3;0;1;4;3;5;8;Pacific;5.27;;;;;;;;;;;
+M-150;Pacific;Gen.G;Haven;Ascent;Fracture;1ro;0;1;0;1;0;4;4;8;5;0;0;9;4;1;3;0;0;4;0;5;8;Pacific;5.38;;;;;;;;;;;
+M-150;Pacific;Zeta Division;Ascent;Haven;Fracture;2do;0;1;1;1;1;1;3;9;4;1;0;8;5;4;4;1;1;5;8;4;0;Pacific;5.21;;;;;;;;;;;
+M-151;Pacific;T1;Bind;Pearl;Ascent;1ro;0;0;No jugado;0;0;7;3;9;4;0;0;3;6;4;9;;;;;;;Pacific;5.29;;;;;;;;;;;
+M-151;Pacific;DRX;Pearl;Bind;Ascent;2do;1;1;No jugado;1;1;4;9;3;6;1;1;9;4;7;3;;;0;0;0;0;Pacific;5.42;;;;;;;;;;;
+M-152;Pacific;Team Secret;Haven;Lotus;Bind;1ro;1;1;No jugado;1;0;7;6;6;3;1;1;7;6;5;5;;;;;;;Pacific;5.37;;;;;;;;;;;
+M-152;Pacific;Global;Lotus;Haven;Bind;2do;0;0;No jugado;0;0;5;5;7;6;1;0;6;3;7;6;;;0;0;0;0;Pacific;5.75;;;;;;;;;;;
+M-153;Americas;FURIA;Pearl;Fracture;Haven;1ro;1;0;0;0;0;6;7;5;5;1;0;5;2;10;3;0;0;5;6;6;7;Americas;5.42;;;;;;;;;;;
+M-153;Americas;100 Thieves;Fracture;Pearl;Haven;2do;1;0;1;1;0;10;3;5;2;1;1;5;5;6;7;1;1;6;7;5;6;Americas;5.55;;;;;;;;;;;
+M-154;Americas;mibr;Lotus;Fracture;Ascent;1ro;0;0;No jugado;0;0;2;0;3;10;1;1;4;1;5;8;;;;;;;Americas;5.43;;;;;;;;;;;
+M-154;Americas;Evil Genius;Fracture;Lotus;Ascent;2do;1;1;No jugado;0;0;5;8;4;1;1;1;3;10;2;0;;;0;0;0;0;Americas;5.57;;;;;;;;;;;
+M-155;Americas;Sentinels;Lotus;Bind;Pearl;1ro;1;1;No jugado;1;1;7;7;6;6;1;0;5;8;4;6;;;;;;;Americas;5.88;;;;;;;;;;;
+M-155;Americas;KRU;Bind;Lotus;Pearl;2do;0;0;No jugado;1;0;4;6;5;8;0;0;6;6;7;7;;;0;0;0;0;Americas;5.46;;;;;;;;;;;
+M-156;Americas;LOUD;Split;Pearl;Haven;1ro;0;0;No jugado;1;0;2;3;9;4;0;0;6;3;7;6;;;;;;;Americas;5.61;;;;;;;;;;;
+M-156;Americas;NRG;Pearl;Split;Haven;2do;1;1;No jugado;1;1;7;6;6;3;1;0;9;4;2;3;;;0;0;0;0;Americas;5.25;;;;;;;;;;;
+M-157;Americas;Cloud9;Lotus;Haven;Bind;1ro;1;1;No jugado;1;0;9;4;4;3;1;0;10;3;2;2;;;;;;;Americas;5.78;;;;;;;;;;;
+M-157;Americas;Leviatan;Haven;Lotus;Bind;2do;0;0;No jugado;1;0;2;2;10;3;1;0;4;3;9;4;;;0;0;0;0;Americas;5.47;;;;;;;;;;;
+M-158;Pacific;Talon;Lotus;Bind;Fracture;1ro;1;1;No jugado;0;1;7;6;6;5;1;1;10;3;2;2;;;;;;;Pacific;5.27;;;;;;;;;;;
+M-158;Pacific;DFM;Bind;Lotus;Fracture;2do;0;0;No jugado;0;0;2;2;10;3;0;1;6;5;7;6;;;0;0;0;0;Pacific;5.77;;;;;;;;;;;
+M-159;Pacific;Rex Regnum;Bind;Pearl;Fracture;1ro;0;0;No jugado;0;0;4;5;7;6;0;0;4;7;5;8;;;;;;;Pacific;5.44;;;;;;;;;;;
+M-159;Pacific;Paper Rex;Pearl;Bind;Fracture;2do;1;1;No jugado;1;1;5;8;4;7;1;1;7;6;4;5;;;0;0;0;0;Pacific;5.86;;;;;;;;;;;
+M-160;EMEA;Fnatic;Lotus;Split;Fracture;1ro;1;1;No jugado;0;0;7;6;6;3;1;1;5;8;4;4;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-160;EMEA;Navi;Split;Lotus;Fracture;2do;0;0;No jugado;0;0;4;4;5;8;1;1;6;3;7;6;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-161;EMEA;Vitality;Haven;Lotus;Ascent;1ro;1;1;No jugado;0;0;4;9;2;8;0;0;10;5;9;4;;;;;;;EMEA;5.43;;;;;;;;;;;
+M-161;EMEA;Heretics;Lotus;Haven;Ascent;2do;0;0;No jugado;1;1;9;4;10;5;1;1;2;8;4;9;;;0;0;0;0;EMEA;5.26;;;;;;;;;;;
+M-162;EMEA;Karmine Corp;Lotus;Ascent;Haven;1ro;0;0;No jugado;1;0;10;4;11;5;0;1;1;4;8;5;;;;;;;EMEA;5.04;;;;;;;;;;;
+M-162;EMEA;Giants;Ascent;Lotus;Haven;2do;1;1;No jugado;0;1;8;5;1;4;1;0;11;5;10;4;;;0;0;0;0;EMEA;5.77;;;;;;;;;;;
+M-163;Americas;Sentinels;Split;Haven;Bind;1ro;1;0;1;0;0;9;4;4;3;0;1;1;4;8;5;1;0;9;10;8;9;Americas;5.88;;;;;;;;;;;
+M-163;Americas;FURIA;Haven;Split;Bind;2do;1;0;0;0;1;8;5;1;4;1;1;4;3;9;4;1;0;8;9;9;10;Americas;5.42;;;;;;;;;;;
+M-164;Americas;NRG;Bind;Split;Ascent;1ro;1;1;No jugado;1;1;4;9;1;8;0;1;7;6;2;5;;;;;;;Americas;5.25;;;;;;;;;;;
+M-164;Americas;Evil Genius;Split;Bind;Ascent;2do;0;0;No jugado;0;1;2;5;7;6;0;0;1;8;4;9;;;0;0;0;0;Americas;5.57;;;;;;;;;;;
+M-165;EMEA;Liquid;Fracture;Split;Lotus;1ro;1;0;1;1;1;6;7;5;2;1;0;7;4;8;5;1;0;6;7;5;3;EMEA;5.33;;;;;;;;;;;
+M-165;EMEA;KOI;Split;Fracture;Lotus;2do;1;0;0;1;0;8;5;7;4;0;0;5;2;6;7;1;0;5;3;6;7;EMEA;5.49;;;;;;;;;;;
+M-166;EMEA;Fut;Pearl;Haven;Split;1ro;1;1;No jugado;0;1;7;6;0;5;1;0;10;3;5;2;;;;;;;EMEA;5.39;;;;;;;;;;;
+M-166;EMEA;BBL;Haven;Pearl;Split;2do;0;0;No jugado;1;0;5;2;10;3;0;1;0;5;7;6;;;0;0;0;0;EMEA;5.31;;;;;;;;;;;
+M-167;Americas;Cloud9;Lotus;Ascent;Split;1ro;1;0;1;1;1;11;4;10;3;0;0;0;6;6;7;0;1;8;5;5;4;Americas;5.78;;;;;;;;;;;
+M-167;Americas;KRU;Ascent;Lotus;Split;2do;1;0;0;1;1;6;7;0;6;0;0;10;3;11;4;0;1;5;4;8;5;Americas;5.46;;;;;;;;;;;
+M-168;Americas;Leviatan;Haven;Ascent;Lotus;1ro;0;0;No jugado;1;1;3;4;8;5;0;1;2;3;9;4;;;;;;;Americas;5.47;;;;;;;;;;;
+M-168;Americas;LOUD;Ascent;Haven;Lotus;2do;1;1;No jugado;0;1;9;4;2;3;0;0;8;5;3;4;;;0;0;0;0;Americas;5.61;;;;;;;;;;;
+M-169;Americas;100 Thieves;Fracture;Pearl;Lotus;1ro;0;1;0;0;0;2;4;8;5;1;1;5;9;4;8;1;1;5;2;6;7;Americas;5.55;;;;;;;;;;;
+M-169;Americas;mibr;Pearl;Fracture;Lotus;2do;0;1;1;0;0;4;8;5;9;1;1;8;5;2;4;0;0;6;7;5;2;Americas;5.43;;;;;;;;;;;
+M-170;Americas;FURIA;Ascent;Pearl;Bind;1ro;1;0;1;1;1;8;5;1;4;1;0;11;7;12;8;0;1;7;6;1;5;Americas;5.42;;;;;;;;;;;
+M-170;Americas;Leviatan;Pearl;Ascent;Bind;2do;1;0;0;1;0;12;8;11;7;0;0;1;4;8;5;0;1;1;5;7;6;Americas;5.47;;;;;;;;;;;
+M-171;Americas;NRG;Haven;Split;Ascent;1ro;1;0;0;1;1;6;7;5;6;1;1;4;9;5;10;1;1;2;5;7;6;Americas;5.25;;;;;;;;;;;
+M-171;Americas;Evil Genius;Split;Haven;Ascent;2do;1;0;1;0;0;5;10;4;9;0;0;5;6;6;7;0;0;7;6;2;5;Americas;5.57;;;;;;;;;;;
+M-172;Americas;FURIA;Haven;Ascent;Bind;1ro;0;0;No jugado;0;0;1;3;9;4;1;1;2;3;9;4;;;;;;;Americas;5.42;;;;;;;;;;;
+M-172;Americas;LOUD;Ascent;Haven;Bind;2do;1;1;No jugado;0;0;9;4;2;3;1;1;9;4;1;3;;;0;0;0;0;Americas;5.61;;;;;;;;;;;
+M-173;Americas;Evil Genius;Fracture;Bind;Ascent;1ro;1;1;No jugado;1;1;5;8;4;1;1;1;3;10;2;0;;;;;;;Americas;5.57;;;;;;;;;;;
+M-173;Americas;Cloud9;Bind;Fracture;Ascent;2do;0;0;No jugado;0;0;2;0;3;10;0;0;4;1;5;8;;;0;0;0;0;Americas;5.78;;;;;;;;;;;
+M-174;Americas;Leviatan;Haven;Lotus;Ascent;1ro;0;1;0;0;0;5;3;9;4;1;1;7;6;6;4;0;0;0;4;8;5;Americas;5.47;;;;;;;;;;;
+M-174;Americas;Cloud9;Lotus;Haven;Ascent;2do;0;1;1;0;0;6;4;7;6;1;1;9;4;5;3;1;1;8;5;0;4;Americas;5.78;;;;;;;;;;;
+M-175;Americas;NRG;Bind;Haven;Split;1ro;1;1;No jugado;0;1;3;10;2;7;0;1;5;8;3;7;;;;;;;Americas;5.25;;;;;;;;;;;
+M-175;Americas;FURIA;Haven;Bind;Split;2do;0;0;No jugado;0;1;3;7;5;8;0;1;2;7;3;10;;;0;0;0;0;Americas;5.42;;;;;;;;;;;
+M-176;Americas;Evil Genius;Fracture;Ascent;Bind;1ro;0;1;0;1;1;4;5;7;6;1;0;8;5;7;4;1;0;1;2;10;3;Americas;5.57;;;;;;;;;;;
+M-176;Americas;LOUD;Ascent;Fracture;Bind;2do;0;1;1;1;0;7;4;8;5;0;0;7;6;4;5;1;0;10;3;1;2;Americas;5.61;;;;;;;;;;;
+M-177;Americas;NRG;Pearl;Lotus;Haven;1ro;0;1;1;0;1;3;7;5;8;0;1;7;6;4;5;0;0;7;7;6;6;Americas;5.25;;;;;;;;;;;
+M-177;Americas;Cloud9;Lotus;Pearl;Haven;2do;0;1;0;0;1;4;5;7;6;0;1;5;8;3;7;1;1;6;6;7;7;Americas;5.78;;;;;;;;;;;
+M-178;Americas;NRG;Haven;Ascent;;1ro;0;1;No jugado;0;0;5;6;6;7;1;1;4;9;3;5;;;;;;;Americas;5.25;;;;;;;;;;;
+M-178;Americas;Evil Genius;Ascent;Haven;0;2do;0;1;No jugado;0;0;3;5;4;9;1;1;6;7;5;6;;;0;0;0;0;Americas;5.57;;;;;;;;;;;
+M-179;Americas;NRG;Lotus;Split;Pearl;3ro;1;1;No jugado;1;1;5;8;3;7;1;0;11;2;3;1;;;;;;;Americas;5.25;;;;;;;;;;;
+M-179;Americas;Evil Genius;Split;Lotus;Pearl;4to;0;0;No jugado;1;0;3;1;11;2;0;0;3;7;5;8;;;0;0;0;0;Americas;5.57;;;;;;;;;;;
+M-180;Americas;LOUD;Ascent;Bind;;1ro;1;1;No jugado;1;1;5;8;2;7;1;1;7;6;6;5;;;;;;;Americas;5.61;;;;;;;;;;;
+M-180;Americas;NRG;Bind;Ascent;0;2do;0;0;No jugado;0;0;6;5;7;6;0;0;2;7;5;8;;;0;0;0;0;Americas;5.25;;;;;;;;;;;
+M-181;Americas;LOUD;Fracture;Lotus;Haven;3ro;1;0;No jugado;1;0;8;5;7;4;;;;;;;;;;;;;Americas;5.61;;;;;;;;;;;
+M-181;Americas;NRG;Lotus;Fracture;Haven;4to;0;0;No jugado;;;0;0;0;0;1;0;7;4;8;5;;;0;0;0;0;Americas;5.25;;;;;;;;;;;
+M-182;EMEA;Fut;Haven;Ascent;Lotus;1ro;1;1;No jugado;1;1;4;9;3;2;0;1;4;10;3;9;;;;;;;EMEA;5.39;;;;;;;;;;;
+M-182;EMEA;Giants;Ascent;Haven;Lotus;2do;0;0;No jugado;0;1;3;9;4;10;0;0;3;2;4;9;;;0;0;0;0;EMEA;5.77;;;;;;;;;;;
+M-183;EMEA;Vitality;Lotus;Bind;Ascent;1ro;1;0;0;0;0;4;9;3;3;0;0;4;7;5;8;1;0;5;6;6;7;EMEA;5.43;;;;;;;;;;;
+M-183;EMEA;Liquid;Bind;Lotus;Ascent;2do;1;0;1;1;1;5;8;4;7;1;1;3;3;4;9;1;0;6;7;5;6;EMEA;5.33;;;;;;;;;;;
+M-184;EMEA;Fnatic;Bind;Split;Lotus;1ro;0;1;1;1;0;8;1;9;4;1;1;3;10;2;0;1;1;11;2;0;1;EMEA;5.78;;;;;;;;;;;
+M-184;EMEA;Fut;Split;Bind;Lotus;2do;0;1;0;0;0;2;0;3;10;1;0;9;4;8;1;0;0;0;1;11;2;EMEA;5.39;;;;;;;;;;;
+M-185;EMEA;Liquid;Bind;Split;Fracture;1ro;1;1;No jugado;0;1;4;9;3;8;1;1;9;4;8;2;;;;;;;EMEA;5.33;;;;;;;;;;;
+M-185;EMEA;Navi;Split;Bind;Fracture;2do;0;0;No jugado;0;0;8;2;9;4;0;1;3;8;4;9;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-186;EMEA;Vitality;Split;Haven;Lotus;1ro;0;1;0;1;0;8;1;9;4;0;0;8;5;5;4;0;1;3;3;4;9;EMEA;5.43;;;;;;;;;;;
+M-186;EMEA;Fut;Haven;Split;Lotus;2do;0;1;1;1;1;5;4;8;5;1;0;9;4;8;1;0;1;4;9;3;3;EMEA;5.39;;;;;;;;;;;
+M-187;EMEA;Navi;Pearl;Ascent;Lotus;1ro;1;1;No jugado;0;1;6;7;3;6;0;0;5;8;4;5;;;;;;;EMEA;5.49;;;;;;;;;;;
+M-187;EMEA;Giants;Ascent;Pearl;Lotus;2do;0;0;No jugado;1;1;4;5;5;8;0;1;3;6;6;7;;;0;0;0;0;EMEA;5.77;;;;;;;;;;;
+M-188;EMEA;Fut;Lotus;Fracture;Ascent;1ro;1;1;No jugado;1;0;10;3;6;2;1;1;8;5;3;4;;;;;;;EMEA;5.39;;;;;;;;;;;
+M-188;EMEA;Navi;Fracture;Lotus;Ascent;2do;0;0;No jugado;0;0;3;4;8;5;1;0;6;2;10;3;;;0;0;0;0;EMEA;5.49;;;;;;;;;;;
+M-189;EMEA;Fnatic;Lotus;Bind;Ascent;1ro;1;1;No jugado;1;1;8;6;7;5;1;0;7;6;6;0;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-189;EMEA;Liquid;Bind;Lotus;Ascent;2do;0;0;No jugado;1;0;6;0;7;6;0;0;7;5;8;6;;;0;0;0;0;EMEA;5.33;;;;;;;;;;;
+M-190;EMEA;Liquid;Ascent;Lotus;;1ro;1;1;No jugado;1;0;9;4;2;3;1;0;12;5;11;4;;;;;;;EMEA;5.33;;;;;;;;;;;
+M-190;EMEA;Fut;Lotus;Ascent;0;2do;0;0;No jugado;1;0;11;4;12;5;1;0;2;3;9;4;;;0;0;0;0;EMEA;5.39;;;;;;;;;;;
+M-191;EMEA;Liquid;Split;Pearl;Bind;3ro;1;No jugado;No jugado;0;1;7;6;0;5;;;;;;;;;;;;;EMEA;5.33;;;;;;;;;;;
+M-191;EMEA;Fut;Pearl;Split;Bind;4to;0;0;No jugado;;;0;0;0;0;0;1;0;5;7;6;;;0;0;0;0;EMEA;5.39;;;;;;;;;;;
+M-192;EMEA;Fnatic;Lotus;Ascent;;1ro;1;0;No jugado;1;0;8;5;7;4;1;0;4;8;5;9;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-192;EMEA;Liquid;Ascent;Lotus;0;2do;1;0;No jugado;1;0;5;9;4;8;1;0;7;4;8;5;;;0;0;0;0;EMEA;5.33;;;;;;;;;;;
+M-193;EMEA;Fnatic;Haven;Fracture;Bind;1ro;0;0;No jugado;0;0;4;2;5;8;0;1;4;7;5;8;;;;;;;EMEA;5.78;;;;;;;;;;;
+M-193;EMEA;Liquid;Fracture;Haven;Bind;2do;1;1;No jugado;0;1;5;8;4;7;1;1;5;8;4;2;;;0;0;0;0;EMEA;5.33;;;;;;;;;;;
+M-194;Pacific;Team Secret;Haven;Ascent;Lotus;1ro;1;1;No jugado;0;1;5;10;4;9;1;1;6;8;5;7;;;;;;;Pacific;5.37;;;;;;;;;;;
+M-194;Pacific;Zeta Division;Ascent;Haven;Lotus;2do;0;0;No jugado;0;0;5;7;6;8;0;1;4;9;5;10;;;0;0;0;0;Pacific;5.21;;;;;;;;;;;
+M-195;Pacific;T1;Fracture;Ascent;Lotus;1ro;1;0;1;1;0;6;7;5;3;0;1;3;8;4;9;1;0;7;6;6;1;Pacific;5.29;;;;;;;;;;;
+M-195;Pacific;Gen.G;Ascent;Fracture;Lotus;2do;1;0;0;0;1;4;9;3;8;1;0;5;3;6;7;1;0;6;1;7;6;Pacific;5.38;;;;;;;;;;;
+M-196;Pacific;Team Secret;Haven;Split;Bind;1ro;1;0;0;0;1;8;5;5;4;1;1;3;2;10;3;0;1;2;2;3;10;Pacific;5.37;;;;;;;;;;;
+M-196;Pacific;DRX;Split;Haven;Bind;2do;1;0;1;0;0;10;3;3;2;0;1;5;4;8;5;0;1;3;10;2;2;Pacific;5.42;;;;;;;;;;;
+M-197;Pacific;T1;Lotus;Fracture;Bind;1ro;0;0;No jugado;1;0;4;6;6;7;0;0;4;6;5;8;;;;;;;Pacific;5.29;;;;;;;;;;;
+M-197;Pacific;Paper Rex;Fracture;Lotus;Bind;2do;1;1;No jugado;1;1;5;8;4;6;1;0;6;7;4;6;;;0;0;0;0;Pacific;5.86;;;;;;;;;;;
+M-198;Pacific;Gen.G;Ascent;Haven;Split;1ro;0;1;1;1;1;6;2;7;6;1;0;10;3;6;2;1;0;6;8;7;5;Pacific;5.38;;;;;;;;;;;
+M-198;Pacific;Team Secret;Haven;Ascent;Split;2do;0;1;0;1;0;6;2;10;3;0;0;7;6;6;2;1;0;7;5;6;8;Pacific;5.37;;;;;;;;;;;
+M-199;Pacific;Zeta Division;Haven;Bind;Fracture;1ro;0;1;0;0;0;4;6;5;8;1;1;8;6;7;5;0;0;7;3;8;5;Pacific;5.21;;;;;;;;;;;
+M-199;Pacific;T1;Bind;Haven;Fracture;2do;0;1;1;0;0;7;5;8;6;1;1;5;8;4;6;1;1;8;5;7;3;Pacific;5.29;;;;;;;;;;;
+M-200;Pacific;T1;Fracture;Ascent;Lotus;1ro;1;1;No jugado;1;1;8;5;7;3;1;0;6;7;5;5;;;;;;;Pacific;5.29;;;;;;;;;;;
+M-200;Pacific;Gen.G;Ascent;Fracture;Lotus;2do;0;0;No jugado;1;0;5;5;6;7;0;0;7;3;8;5;;;0;0;0;0;Pacific;5.38;;;;;;;;;;;
+M-201;Pacific;Paper Rex;Fracture;Bind;Pearl;1ro;1;1;No jugado;1;0;6;7;5;0;0;0;8;5;2;4;;;;;;;Pacific;5.86;;;;;;;;;;;
+M-201;Pacific;DRX;Bind;Fracture;Pearl;2do;0;0;No jugado;1;1;2;4;8;5;1;0;5;0;6;7;;;0;0;0;0;Pacific;5.42;;;;;;;;;;;
+M-202;Pacific;Paper Rex;Fracture;Ascent;;1ro;0;0;No jugado;1;1;3;3;9;4;1;1;6;8;7;9;;;;;;;Pacific;5.86;;;;;;;;;;;
+M-202;Pacific;DRX;Ascent;Fracture;0;2do;1;1;No jugado;0;0;7;9;6;8;0;0;9;4;3;3;;;0;0;0;0;Pacific;5.42;;;;;;;;;;;
+M-203;Pacific;Paper Rex;Lotus;Pearl;Bind;3ro;1;1;1;1;0;4;9;3;0;1;0;8;5;4;4;0;1;4;9;3;3;Pacific;5.86;;;;;;;;;;;
+M-203;Pacific;DRX;Pearl;Lotus;Bind;4to;0;0;0;1;0;4;4;8;5;1;0;3;0;4;9;0;1;3;3;4;9;Pacific;5.42;;;;;;;;;;;
+M-204;Pacific;DRX;Ascent;Fracture;;1ro;0;1;No jugado;0;0;9;2;10;3;0;1;4;9;3;8;;;;;;;Pacific;5.42;;;;;;;;;;;
+M-204;Pacific;T1;Fracture;Ascent;0;2do;0;1;No jugado;0;1;3;8;4;9;1;1;10;3;9;2;;;0;0;0;0;Pacific;5.29;;;;;;;;;;;
+M-205;Pacific;DRX;Haven;Bind;Pearl;1ro;1;0;0;0;0;9;4;8;3;1;0;4;2;5;8;0;0;4;2;5;8;Pacific;5.42;;;;;;;;;;;
+M-205;Pacific;T1;Bind;Haven;Pearl;2do;1;0;1;1;0;5;8;4;2;1;1;8;3;9;4;1;1;5;8;4;2;Pacific;5.29;;;;;;;;;;;
+M-206;Pacific;T1;Fracture;Haven;Pearl;1ro;1;0;1;1;1;7;6;6;4;0;0;1;6;6;7;1;0;7;7;6;6;Master Tokio;5.29;;;;;;;;;;;
+M-206;China;Eduard;Haven;Fracture;Pearl;2do;1;0;0;1;1;6;7;1;6;0;0;6;4;7;6;1;0;6;6;7;7;Master Tokio;5.2;;;;;;;;;;;
+M-207;EMEA;Navi;Ascent;Lotus;Split;1ro;0;1;0;1;1;6;2;7;6;1;0;9;5;8;4;1;0;4;2;10;3;Master Tokio;5.49;;;;;;;;;;;
+M-207;Americas;NRG;Lotus;Ascent;Split;2do;0;1;1;1;0;8;4;9;5;0;0;7;6;6;2;1;0;10;3;4;2;Master Tokio;5.25;;;;;;;;;;;
+M-208;Americas;Evil Genius;Split;Lotus;Pearl;1ro;1;1;No jugado;1;1;7;6;0;5;1;1;7;7;6;6;;;;;;;Master Tokio;5.57;;;;;;;;;;;
+M-208;EMEA;Fut;Lotus;Split;Pearl;2do;0;0;No jugado;0;0;6;6;7;7;0;0;0;5;7;6;;;0;0;0;0;Master Tokio;5.39;;;;;;;;;;;
+M-209;China;Attacking Soul;Fracture;Pearl;Ascent;1ro;0;0;No jugado;0;1;5;5;7;6;1;0;3;4;8;5;;;;;;;Master Tokio;5.1;;;;;;;;;;;
+M-209;Pacific;DRX;Pearl;Fracture;Ascent;2do;1;1;No jugado;1;0;8;5;3;4;0;1;7;6;5;5;;;0;0;0;0;Master Tokio;5.42;;;;;;;;;;;
+M-210;Pacific;T1;Lotus;Bind;Pearl;1ro;1;0;0;1;0;7;6;6;5;0;1;1;6;6;7;1;0;6;5;7;6;Master Tokio;5.29;;;;;;;;;;;
+M-210;Americas;NRG;Bind;Lotus;Pearl;2do;1;0;1;0;1;6;7;1;6;1;0;6;5;7;6;1;0;7;6;6;5;Master Tokio;5.25;;;;;;;;;;;
+M-211;Americas;Evil Genius;Fracture;Ascent;Pearl;1ro;1;1;No jugado;1;1;5;8;4;1;1;1;6;7;5;4;;;;;;;Master Tokio;5.57;;;;;;;;;;;
+M-211;Pacific;DRX;Ascent;Fracture;Pearl;2do;0;0;No jugado;0;0;5;4;6;7;0;0;4;1;5;8;;;0;0;0;0;Master Tokio;5.42;;;;;;;;;;;
+M-212;EMEA;Navi;Pearl;Bind;Lotus;1ro;0;0;No jugado;1;0;9;6;10;7;0;0;6;6;7;7;;;;;;;Master Tokio;5.49;;;;;;;;;;;
+M-212;China;Eduard;Bind;Pearl;Lotus;2do;1;1;No jugado;1;1;7;7;6;6;1;0;10;7;9;6;;;0;0;0;0;Master Tokio;5.2;;;;;;;;;;;
+M-213;EMEA;Fut;Haven;Ascent;Lotus;1ro;0;1;1;0;1;3;5;4;9;1;1;6;7;5;0;1;1;8;5;2;4;Master Tokio;5.39;;;;;;;;;;;
+M-213;China;Attacking Soul;Ascent;Haven;Lotus;2do;0;1;0;0;0;5;0;6;7;0;1;4;9;3;5;0;0;2;4;8;5;Master Tokio;5.1;;;;;;;;;;;
+M-214;Pacific;T1;Fracture;Haven;Lotus;1ro;0;0;No jugado;0;0;0;4;8;5;1;0;4;2;10;3;;;;;;;Master Tokio;5.29;;;;;;;;;;;
+M-214;China;Eduard;Haven;Fracture;Lotus;2do;1;1;No jugado;1;0;10;3;4;2;1;1;8;5;0;4;;;0;0;0;0;Master Tokio;5.2;;;;;;;;;;;
+M-215;EMEA;Fut;Bind;Fracture;Haven;1ro;1;0;0;1;1;4;9;3;6;0;0;6;2;7;6;0;1;1;3;2;11;Master Tokio;5.39;;;;;;;;;;;
+M-215;Pacific;DRX;Fracture;Bind;Haven;2do;1;0;1;1;1;7;6;6;2;0;0;3;6;4;9;0;1;2;11;1;3;Master Tokio;5.42;;;;;;;;;;;
+M-216;China;Eduard;Haven;Split;Lotus;1ro;0;1;0;1;0;6;3;7;6;0;1;6;7;2;6;1;1;7;4;8;5;Master Tokio;5.2;;;;;;;;;;;
+M-216;EMEA;Liquid;Split;Haven;Lotus;2do;0;1;1;0;1;2;6;6;7;1;0;7;6;6;3;0;0;8;5;7;4;Master Tokio;5.33;;;;;;;;;;;
+M-217;Americas;Evil Genius;Fracture;Ascent;Lotus;1ro;1;1;No jugado;1;0;9;4;4;3;1;1;6;7;5;0;;;;;;;Master Tokio;5.57;;;;;;;;;;;
+M-217;Americas;LOUD;Ascent;Fracture;Lotus;2do;0;0;No jugado;0;0;5;0;6;7;1;0;4;3;9;4;;;0;0;0;0;Master Tokio;5.61;;;;;;;;;;;
+M-218;EMEA;Fnatic;Fracture;Bind;Split;1ro;1;1;No jugado;1;0;7;6;6;3;1;1;10;3;2;2;;;;;;;Master Tokio;5.78;;;;;;;;;;;
+M-218;Americas;NRG;Bind;Fracture;Split;2do;0;0;No jugado;0;0;2;2;10;3;1;0;6;3;7;6;;;0;0;0;0;Master Tokio;5.25;;;;;;;;;;;
+M-219;Pacific;DRX;Split;Bind;Fracture;1ro;0;0;No jugado;1;0;7;3;9;4;0;1;4;6;5;8;;;;;;;Master Tokio;5.42;;;;;;;;;;;
+M-219;Pacific;Paper Rex;Bind;Split;Fracture;2do;1;1;No jugado;0;1;5;8;4;6;1;0;9;4;7;3;;;0;0;0;0;Master Tokio;5.86;;;;;;;;;;;
+M-220;Pacific;DRX;Pearl;Haven;Split;1ro;0;0;No jugado;0;1;3;8;4;9;0;0;4;1;5;8;;;;;;;Master Tokio;5.42;;;;;;;;;;;
+M-220;Americas;NRG;Haven;Pearl;Split;2do;1;1;No jugado;1;1;5;8;4;1;0;1;4;9;3;8;;;0;0;0;0;Master Tokio;5.25;;;;;;;;;;;
+M-221;Americas;LOUD;Lotus;Fracture;Bind;1ro;0;0;No jugado;1;0;2;4;8;5;0;1;7;3;8;5;;;;;;;Master Tokio;5.61;;;;;;;;;;;
+M-221;China;Eduard;Fracture;Lotus;Bind;2do;1;1;No jugado;0;1;8;5;7;3;1;0;8;5;2;4;;;0;0;0;0;Master Tokio;5.2;;;;;;;;;;;
+M-222;EMEA;Fnatic;Lotus;Bind;Split;1ro;1;1;No jugado;0;1;1;12;0;5;1;1;9;4;4;3;;;;;;;Master Tokio;5.78;;;;;;;;;;;
+M-222;Pacific;Paper Rex;Bind;Lotus;Split;2do;0;0;No jugado;0;0;4;3;9;4;0;1;0;5;1;12;;;0;0;0;0;Master Tokio;5.86;;;;;;;;;;;
+M-223;Americas;Evil Genius;Fracture;Haven;Split;1ro;1;1;No jugado;1;0;11;2;1;1;0;1;6;7;5;4;;;;;;;Master Tokio;5.57;;;;;;;;;;;
+M-223;EMEA;Liquid;Haven;Fracture;Split;2do;0;0;No jugado;0;1;5;4;6;7;1;0;1;1;11;2;;;0;0;0;0;Master Tokio;5.33;;;;;;;;;;;
+M-224;Americas;NRG;Haven;Ascent;Split;1ro;1;0;1;0;0;5;9;4;8;0;1;3;5;7;6;0;1;8;5;1;4;Master Tokio;5.25;;;;;;;;;;;
+M-224;EMEA;Liquid;Ascent;Haven;Split;2do;1;0;0;0;1;7;6;3;5;1;1;4;8;5;9;0;1;1;4;8;5;Master Tokio;5.33;;;;;;;;;;;
+M-225;China;Eduard;Fracture;Split;Lotus;1ro;0;1;0;1;1;4;8;5;9;0;0;6;7;3;6;0;1;4;4;5;8;Master Tokio;5.2;;;;;;;;;;;
+M-225;Pacific;Paper Rex;Split;Fracture;Lotus;2do;0;1;1;1;1;3;6;6;7;0;0;5;9;4;8;0;1;5;8;4;4;Master Tokio;5.86;;;;;;;;;;;
+M-226;Americas;NRG;Pearl;Lotus;Bind;1ro;0;1;0;1;1;6;7;7;8;1;1;10;3;4;2;0;1;7;4;8;5;Master Tokio;5.25;;;;;;;;;;;
+M-226;Pacific;Paper Rex;Lotus;Pearl;Bind;2do;0;1;1;0;0;4;2;10;3;0;0;7;8;6;7;0;1;8;5;7;4;Master Tokio;5.86;;;;;;;;;;;
+M-227;EMEA;Fnatic;Lotus;Fracture;Split;1ro;1;0;1;1;1;10;3;1;2;0;1;3;6;4;9;1;0;7;6;6;5;Master Tokio;5.78;;;;;;;;;;;
+M-227;Americas;Evil Genius;Fracture;Lotus;Split;2do;1;0;0;0;1;4;9;3;6;0;0;1;2;10;3;1;0;6;5;7;6;Master Tokio;5.57;;;;;;;;;;;
+M-228;Americas;Evil Genius;Fracture;Lotus;;1ro;1;1;No jugado;0;1;4;9;3;4;0;1;8;6;7;5;;;;;;;Master Tokio;5.57;;;;;;;;;;;
+M-228;Pacific;Paper Rex;Lotus;Fracture;0;2do;0;0;No jugado;0;1;7;5;8;6;0;1;3;4;4;9;;;0;0;0;0;Master Tokio;5.86;;;;;;;;;;;
+M-229;Americas;Evil Genius;Split;Pearl;Ascent;3ro;0;1;1;0;1;2;8;4;9;1;1;6;7;5;1;0;1;8;5;4;4;Master Tokio;5.57;;;;;;;;;;;
+M-229;Pacific;Paper Rex;Pearl;Split;Ascent;4to;0;1;0;0;0;5;1;6;7;0;1;4;9;2;8;0;1;4;4;8;5;Master Tokio;5.86;;;;;;;;;;;
+M-230;EMEA;Fnatic;Lotus;Split;;1ro;1;1;No jugado;0;1;6;7;2;6;0;1;5;8;4;7;;;;;;;Master Tokio;5.78;;;;;;;;;;;
+M-230;Americas;Evil Genius;Split;Lotus;0;2do;0;0;No jugado;0;1;4;7;5;8;0;1;2;6;6;7;;;0;0;0;0;Master Tokio;5.57;;;;;;;;;;;
+M-231;EMEA;Fnatic;Bind;Ascent;Haven;1ro;1;No jugado;No jugado;0;1;9;5;8;4;;;;;;;;;;;;;Master Tokio;5.78;;;;;;;;;;;
+M-231;Americas;Evil Genius;Ascent;Bind;Haven;2do;0;0;No jugado;;;0;0;0;0;0;1;8;4;9;5;;;0;0;0;0;Master Tokio;5.57;;;;;;;;;;;
+M-232;Americas;KRU;Bind;Lotus;Ascent;1ro;1;1;No jugado;0;1;4;9;3;4;1;1;9;4;5;3;;;;;;;LCQ Americas;5.46;;;;;;;;;;;
+M-232;Americas;mibr;Lotus;Bind;Ascent;2do;0;0;No jugado;0;0;5;3;9;4;0;1;3;4;4;9;;;0;0;0;0;LCQ Americas;5.43;;;;;;;;;;;
+M-233;Americas;KRU;Split;Ascent;Bind;1ro;0;1;1;0;0;7;5;8;6;0;0;9;4;1;3;0;0;5;8;7;4;LCQ Americas;5.46;;;;;;;;;;;
+M-233;Americas;FURIA;Ascent;Split;Bind;2do;0;1;0;1;1;1;3;9;4;1;1;8;6;7;5;1;1;7;4;5;8;LCQ Americas;5.42;;;;;;;;;;;
+M-234;Americas;100 Thieves;Pearl;Split;Bind;1ro;1;0;0;0;1;4;10;3;9;0;1;0;7;5;8;1;0;5;2;10;3;LCQ Americas;5.55;;;;;;;;;;;
+M-234;Americas;Sentinels;Split;Pearl;Bind;2do;1;0;1;0;1;5;8;0;7;0;1;3;9;4;10;1;0;10;3;5;2;LCQ Americas;5.88;;;;;;;;;;;
+M-235;Americas;Sentinels;Pearl;Fracture;Split;1ro;0;1;0;0;0;4;4;8;5;1;1;4;9;3;2;0;0;4;4;8;5;LCQ Americas;5.88;;;;;;;;;;;
+M-235;Americas;Cloud9;Fracture;Pearl;Split;2do;0;1;1;0;0;3;2;4;9;1;1;8;5;4;4;1;1;8;5;4;4;LCQ Americas;5.78;;;;;;;;;;;
+M-236;Americas;KRU;Split;Lotus;Haven;1ro;1;1;No jugado;0;1;9;4;2;3;1;1;6;7;5;2;;;;;;;LCQ Americas;5.46;;;;;;;;;;;
+M-236;Americas;Leviatan;Lotus;Split;Haven;2do;0;0;No jugado;0;0;5;2;6;7;0;1;2;3;9;4;;;0;0;0;0;LCQ Americas;5.47;;;;;;;;;;;
+M-237;Americas;Leviatan;Fracture;Split;Pearl;1ro;1;1;No jugado;1;1;6;7;2;6;1;0;5;8;4;0;;;;;;;LCQ Americas;5.47;;;;;;;;;;;
+M-237;Americas;Sentinels;Split;Fracture;Pearl;2do;0;0;No jugado;1;0;4;0;5;8;0;0;2;6;6;7;;;0;0;0;0;LCQ Americas;5.88;;;;;;;;;;;
+M-238;Americas;KRU;Ascent;Pearl;Haven;1ro;0;1;1;1;0;4;0;5;8;1;0;12;1;4;0;0;0;8;5;2;4;LCQ Americas;5.46;;;;;;;;;;;
+M-238;Americas;Cloud9;Pearl;Ascent;Haven;2do;0;1;0;1;0;4;0;12;1;1;0;5;8;4;0;1;1;2;4;8;5;LCQ Americas;5.78;;;;;;;;;;;
+M-239;EMEA;KOI;Fracture;Pearl;Haven;1ro;1;0;1;1;0;8;5;7;1;0;0;2;8;4;9;1;1;5;8;4;2;LCQ EMEA;5.49;;;;;;;;;;;
+M-239;EMEA;Heretics;Pearl;Fracture;Haven;2do;1;0;0;1;1;4;9;2;8;1;0;7;1;8;5;0;0;4;2;5;8;LCQ EMEA;5.26;;;;;;;;;;;
+M-240;EMEA;BBL;Haven;Lotus;Bind;1ro;1;0;0;0;0;5;9;6;7;1;1;5;4;6;7;1;0;7;5;8;6;LCQ EMEA;5.31;;;;;;;;;;;
+M-240;EMEA;Karmine Corp;Lotus;Haven;Bind;2do;1;0;1;0;0;6;7;5;4;1;1;6;7;5;9;1;0;8;6;7;5;LCQ EMEA;5.04;;;;;;;;;;;
+M-241;EMEA;KOI;Split;Lotus;Ascent;1ro;1;1;No jugado;1;1;6;7;0;6;1;1;4;9;3;0;;;;;;;LCQ EMEA;5.49;;;;;;;;;;;
+M-241;EMEA;Navi;Lotus;Split;Ascent;2do;0;0;No jugado;0;0;3;0;4;9;0;0;0;6;6;7;;;0;0;0;0;LCQ EMEA;5.49;;;;;;;;;;;
+M-242;EMEA;Karmine Corp;Pearl;Split;Lotus;1ro;0;0;No jugado;0;1;3;8;4;9;0;0;3;2;10;3;;;;;;;LCQ EMEA;5.04;;;;;;;;;;;
+M-242;EMEA;Giants;Split;Pearl;Lotus;2do;1;1;No jugado;1;1;10;3;3;2;0;1;4;9;3;8;;;0;0;0;0;LCQ EMEA;5.77;;;;;;;;;;;
+M-243;EMEA;Karmine Corp;Lotus;Ascent;Pearl;1ro;0;1;0;1;0;5;1;6;7;1;1;6;7;5;2;0;1;3;4;8;5;LCQ EMEA;5.04;;;;;;;;;;;
+M-243;EMEA;Navi;Ascent;Lotus;Pearl;2do;0;1;1;0;0;5;2;6;7;1;0;6;7;5;1;0;1;8;5;3;4;LCQ EMEA;5.49;;;;;;;;;;;
+M-244;EMEA;KOI;Haven;Pearl;Ascent;1ro;0;0;No jugado;1;0;5;7;6;8;0;0;0;5;7;6;;;;;;;LCQ EMEA;5.49;;;;;;;;;;;
+M-244;EMEA;Giants;Pearl;Haven;Ascent;2do;1;1;No jugado;1;1;7;6;0;5;1;0;6;8;5;7;;;0;0;0;0;LCQ EMEA;5.77;;;;;;;;;;;
+M-245;EMEA;KOI;Split;Pearl;;1ro;0;0;No jugado;0;1;5;7;6;8;1;0;8;2;10;3;;;;;;;LCQ EMEA;5.49;;;;;;;;;;;
+M-245;EMEA;Navi;Pearl;Split;0;2do;1;1;No jugado;1;0;10;3;8;2;0;1;6;8;5;7;;;0;0;0;0;LCQ EMEA;5.49;;;;;;;;;;;
+M-246;EMEA;KOI;Fracture;Ascent;Lotus;3ro;0;No jugado;No jugado;0;0;7;2;8;5;;;;;;;;;;;;;LCQ EMEA;5.49;;;;;;;;;;;
+M-246;EMEA;Navi;Ascent;Fracture;Lotus;4to;0;1;No jugado;;;0;0;0;0;1;1;8;5;7;2;;;0;0;0;0;LCQ EMEA;5.49;;;;;;;;;;;
+M-247;Pacific;DFM;Fracture;Ascent;Pearl;1ro;0;0;No jugado;0;0;2;5;7;6;0;1;3;5;7;6;;;;;;;LCQ Pacific;5.77;;;;;;;;;;;
+M-247;Pacific;Talon;Ascent;Fracture;Pearl;2do;1;1;No jugado;0;1;7;6;3;5;1;1;7;6;2;5;;;0;0;0;0;LCQ Pacific;5.27;;;;;;;;;;;
+M-248;Pacific;Global;Split;Ascent;Bind;1ro;0;0;No jugado;0;0;5;5;7;6;1;1;4;6;6;7;;;;;;;LCQ Pacific;5.75;;;;;;;;;;;
+M-248;Pacific;Rex Regnum;Ascent;Split;Bind;2do;1;1;No jugado;0;0;6;7;4;6;1;1;7;6;5;5;;;0;0;0;0;LCQ Pacific;5.44;;;;;;;;;;;
+M-249;Pacific;Talon;Pearl;Split;Haven;1ro;1;0;0;0;1;3;10;2;9;0;1;5;5;6;7;0;0;9;4;10;5;LCQ Pacific;5.27;;;;;;;;;;;
+M-249;Pacific;Gen.G;Split;Pearl;Haven;2do;1;0;1;0;1;6;7;5;5;0;1;2;9;3;10;1;1;10;5;9;4;LCQ Pacific;5.38;;;;;;;;;;;
+M-250;Pacific;Rex Regnum;Haven;Split;Ascent;1ro;1;0;0;1;1;3;10;2;0;1;0;5;3;7;6;0;1;10;9;11;10;LCQ Pacific;5.44;;;;;;;;;;;
+M-250;Pacific;Zeta Division;Split;Haven;Ascent;2do;1;0;1;1;0;7;6;5;3;0;0;2;0;3;10;0;1;11;10;10;9;LCQ Pacific;5.21;;;;;;;;;;;
+M-251;Pacific;Team Secret;Haven;Ascent;Lotus;1ro;1;1;No jugado;0;1;4;9;3;3;1;1;5;8;4;4;;;;;;;LCQ Pacific;5.37;;;;;;;;;;;
+M-251;Pacific;Gen.G;Ascent;Haven;Lotus;2do;0;0;No jugado;0;0;4;4;5;8;0;1;3;3;4;9;;;0;0;0;0;LCQ Pacific;5.38;;;;;;;;;;;
+M-252;Pacific;Team Secret;Lotus;Fracture;Ascent;1ro;0;0;No jugado;1;0;6;3;9;4;1;0;6;1;7;6;;;;;;;LCQ Pacific;5.37;;;;;;;;;;;
+M-252;Pacific;Zeta Division;Fracture;Lotus;Ascent;2do;1;1;No jugado;1;0;7;6;6;1;1;0;9;4;6;3;;;0;0;0;0;LCQ Pacific;5.21;;;;;;;;;;;
+M-253;Pacific;Team Secret;Haven;Pearl;;1ro;0;1;No jugado;0;1;3;7;4;9;1;1;5;8;4;7;;;;;;;LCQ Pacific;5.37;;;;;;;;;;;
+M-253;Pacific;Gen.G;Pearl;Haven;0;2do;0;1;No jugado;0;0;4;7;5;8;0;1;4;9;3;7;;;0;0;0;0;LCQ Pacific;5.38;;;;;;;;;;;
+M-254;Pacific;Team Secret;Ascent;Lotus;Fracture;1ro;1;1;No jugado;1;1;10;3;0;2;1;0;10;3;4;2;;;;;;;LCQ Pacific;5.37;;;;;;;;;;;
+M-254;Pacific;Gen.G;Lotus;Ascent;Fracture;2do;0;0;No jugado;1;0;4;2;10;3;0;0;0;2;10;3;;;0;0;0;0;LCQ Pacific;5.38;;;;;;;;;;;
+M-255;Pacific;Zeta Division;Fracture;Ascent;;1ro;1;0;No jugado;1;0;6;8;5;7;0;0;3;6;6;7;;;;;;;LCQ Pacific;5.21;;;;;;;;;;;
+M-255;Pacific;Team Secret;Ascent;Fracture;0;2do;1;0;No jugado;1;1;6;7;3;6;1;0;5;7;6;8;;;0;0;0;0;LCQ Pacific;5.37;;;;;;;;;;;
+M-256;Pacific;Zeta Division;Split;Lotus;Bind;1ro;1;1;No jugado;1;0;10;3;5;2;1;1;7;6;1;5;;;;;;;LCQ Pacific;5.21;;;;;;;;;;;
+M-256;Pacific;Team Secret;Lotus;Split;Bind;2do;0;0;No jugado;0;0;1;5;7;6;1;0;5;2;10;3;;;0;0;0;0;LCQ Pacific;5.37;;;;;;;;;;;
+M-257;Pacific;Rex Regnum;Haven;Lotus;Ascent;1ro;0;1;0;0;0;4;2;5;8;1;1;10;3;0;2;0;0;4;3;9;4;LCQ Pacific;5.44;;;;;;;;;;;
+M-257;Pacific;Gen.G;Lotus;Haven;Ascent;2do;0;1;1;0;0;0;2;10;3;1;1;5;8;4;2;1;1;9;4;4;3;LCQ Pacific;5.38;;;;;;;;;;;
+M-1;EMEA;KOI;Haven;Icebox;Pearl;2do;0;0;No jugado;1;1;5;4;8;5;1;0;9;2;10;3;;;0;0;0;0;LOCK//IN;5.49;;;;;;1;;5;4;8;5
+M-1;Americas;NRG;Icebox;Haven;Pearl;1ro;1;1;No jugado;1;0;10;3;9;2;0;0;8;5;5;4;0;0;0;0;0;0;LOCK//IN;5.25;;;;;;1;;10;3;9;2
+M-2;EMEA;Giants;Icebox;Haven;Pearl;2do;1;1;No jugado;1;1;8;5;3;4;1;1;5;8;4;0;;;0;0;0;0;LOCK//IN;5.77;;;;;;0;;8;5;3;4
+M-2;Pacific;DFM;Haven;Icebox;Pearl;1ro;0;0;No jugado;0;0;4;0;5;8;0;0;3;4;8;5;0;0;0;0;0;0;LOCK//IN;5.77;;;;;;1;;4;0;5;8
+M-3;EMEA;Karmine Corp;Haven;Lotus;Pearl;2do;0;1;1;0;0;6;2;7;6;1;1;5;8;4;2;0;1;7;6;1;5;LOCK//IN;5.04;;;;;;0;;6;2;7;6
+M-3;China;FPX;Lotus;Haven;Pearl;1ro;0;1;0;0;0;4;2;5;8;1;1;7;6;6;2;0;1;1;5;7;6;LOCK//IN;5.01;;;;;;0;;4;2;5;8
+M-4;EMEA;BBL;Ascent;Pearl;Haven;2do;1;0;0;1;1;4;9;3;8;0;0;0;3;9;4;1;0;6;1;11;2;LOCK//IN;5.31;;;;;;1;;4;9;3;8
+M-4;Pacific;DRX;Pearl;Ascent;Haven;1ro;1;0;1;1;1;9;4;0;3;0;0;3;8;4;9;1;0;11;2;6;1;LOCK//IN;5.42;;;;;;1;;9;4;0;3
+M-5;Americas;Cloud9;Pearl;Lotus;Fracture;2do;1;1;No jugado;1;0;10;3;2;2;0;1;6;7;5;3;;;0;0;0;0;LOCK//IN;5.78;;;;;;0;;10;3;2;2
+M-5;Pacific;Paper Rex;Lotus;Pearl;Fracture;1ro;0;0;No jugado;0;1;5;3;6;7;1;0;2;2;10;3;0;0;0;0;0;0;LOCK//IN;5.86;;;;;;1;;5;3;6;7
+M-6;EMEA;Heretics;Ascent;Pearl;Haven;2do;0;0;No jugado;1;0;5;3;6;7;0;0;2;6;6;7;;;0;0;0;0;LOCK//IN;5.26;;;;;;1;;5;3;6;7
+M-6;Americas;Evil Genius;Pearl;Ascent;Haven;1ro;1;1;No jugado;1;1;6;7;2;6;1;0;6;7;5;3;0;0;0;0;0;0;LOCK//IN;5.57;;;;;;1;;6;7;2;6
+M-7;Pacific;Talon;Fracture;Haven;Icebox;2do;1;1;No jugado;0;1;6;7;5;6;1;1;5;8;4;4;;;0;0;0;0;LOCK//IN;5.27;;;;;;0;;6;7;5;6
+M-7;Americas;mibr;Haven;Fracture;Icebox;1ro;0;0;No jugado;0;0;4;4;5;8;0;1;5;6;6;7;0;0;0;0;0;0;LOCK//IN;5.43;;;;;;0;;4;4;5;8
+M-8;Pacific;Gen.G;Fracture;Pearl;Split;2do;0;0;No jugado;1;1;8;4;9;5;1;0;7;2;8;5;;;0;0;0;0;LOCK//IN;5.38;;;;;;1;;8;4;9;5
+M-8;Americas;LOUD;Pearl;Fracture;Split;1ro;1;1;No jugado;1;0;8;5;7;2;0;0;9;5;8;4;0;0;0;0;0;0;LOCK//IN;5.61;;;;;;1;;8;5;7;2
+M-9;EMEA;Giants;Haven;Lotus;Icebox;2do;0;1;0;0;0;0;1;11;2;1;0;9;5;8;4;1;0;3;4;4;9;LOCK//IN;5.77;;;;;;1;;0;1;11;2
+M-9;Americas;NRG;Lotus;Haven;Icebox;1ro;0;1;1;1;0;8;4;9;5;1;1;11;2;0;1;1;0;4;9;3;4;LOCK//IN;5.25;;;;;;0;;8;4;9;5
+M-10;EMEA;Karmine Corp;Split;Pearl;Fracture;2do;0;0;No jugado;1;0;4;4;8;5;1;0;6;4;8;5;;;0;0;0;0;LOCK//IN;5.04;;;;;;1;;4;4;8;5
+M-10;Americas;LOUD;Pearl;Split;Fracture;1ro;1;1;No jugado;1;0;8;5;6;4;1;0;8;5;4;4;0;0;0;0;0;0;LOCK//IN;5.61;;;;;;1;;8;5;6;4
+M-11;Pacific;DRX;Haven;Pearl;Icebox;2do;1;0;1;1;1;9;4;4;3;0;0;3;0;4;9;1;0;11;2;1;1;LOCK//IN;5.42;;;;;;1;;9;4;4;3
+M-11;Americas;Cloud9;Pearl;Haven;Icebox;1ro;1;0;0;1;1;4;9;3;0;0;0;4;3;9;4;1;0;1;1;11;2;LOCK//IN;5.78;;;;;;1;;4;9;3;0
+M-12;Pacific;Talon;Split;Haven;Icebox;2do;1;1;No jugado;0;1;4;9;2;8;0;1;3;10;2;9;;;0;0;0;0;LOCK//IN;5.27;;;;;;0;;4;9;2;8
+M-12;Americas;Evil Genius;Haven;Split;Icebox;1ro;0;0;No jugado;0;1;2;9;3;10;0;1;2;8;4;9;0;0;0;0;0;0;LOCK//IN;5.57;;;;;;0;;2;9;3;10
+M-13;Americas;LOUD;Pearl;Split;Fracture;2do;0;1;1;0;1;7;6;8;7;1;1;9;4;0;3;1;1;10;8;9;7;LOCK//IN;5.61;;;;;;0;;7;6;8;7
+M-13;Americas;NRG;Split;Pearl;Fracture;1ro;0;1;0;0;0;0;3;9;4;0;1;8;7;7;6;0;0;9;7;10;8;LOCK//IN;5.25;;;;;;0;;0;3;9;4
+M-14;Pacific;DRX;Ascent;Fracture;Icebox;2do;1;0;1;0;1;6;7;0;6;1;1;4;6;5;8;0;1;7;6;5;5;LOCK//IN;5.42;;;;;;0;;6;7;0;6
+M-14;Pacific;Talon;Fracture;Ascent;Icebox;1ro;1;0;0;0;0;5;8;4;6;0;1;0;6;6;7;0;1;5;5;7;6;LOCK//IN;5.27;;;;;;0;;5;8;4;6
+M-15;EMEA;Liquid;Fracture;Icebox;Lotus;2do;0;0;No jugado;0;1;3;4;4;9;0;0;2;6;3;10;;;0;0;0;0;LOCK//IN;5.33;;;;;;1;;3;4;4;9
+M-15;Pacific;Team Secret;Icebox;Fracture;Lotus;1ro;1;1;No jugado;1;1;3;10;2;6;0;1;4;9;3;4;0;0;0;0;0;0;LOCK//IN;5.37;;;;;;0;;3;10;2;6
+M-16;EMEA;Navi;Lotus;Ascent;Pearl;2do;1;1;No jugado;1;1;10;3;9;1;1;0;9;4;2;3;;;0;0;0;0;LOCK//IN;5.49;;;;;;1;;10;3;9;1
+M-16;Americas;KRU;Ascent;Lotus;Pearl;1ro;0;0;No jugado;1;0;2;3;9;4;0;0;9;1;10;3;0;0;0;0;0;0;LOCK//IN;5.46;;;;;;1;;2;3;9;4
+M-17;Pacific;Zeta Division;Pearl;Ascent;Haven;2do;0;0;No jugado;0;0;6;5;7;6;1;0;2;2;10;3;;;0;0;0;0;LOCK//IN;5.21;;;;;;1;;6;5;7;6
+M-17;Americas;Leviatan;Ascent;Pearl;Haven;1ro;1;1;No jugado;1;0;10;3;2;2;1;1;7;6;6;5;0;0;0;0;0;0;LOCK//IN;5.47;;;;;;0;;10;3;2;2
+M-18;EMEA;Vitality;Pearl;Split;Lotus;2do;0;1;1;0;0;7;2;5;8;0;0;9;4;1;3;0;0;8;5;2;4;LOCK//IN;5.43;;;;;;1;;7;2;5;8
+M-18;Pacific;Global;Split;Pearl;Lotus;1ro;0;1;0;1;1;1;3;9;4;1;1;5;8;7;2;1;1;2;4;8;5;LOCK//IN;5.75;;;;;;0;;1;3;9;4
+M-19;EMEA;Fut;Pearl;Lotus;Split;2do;1;1;No jugado;1;0;8;5;7;4;1;1;3;10;2;1;;;0;0;0;0;LOCK//IN;5.39;;;;;;0;;8;5;7;4
+M-19;Pacific;Rex Regnum;Lotus;Pearl;Split;1ro;0;0;No jugado;0;0;2;1;3;10;1;0;7;4;8;5;0;0;0;0;0;0;LOCK//IN;5.44;;;;;;1;;2;1;3;10
+M-20;China;Eduard;Lotus;Icebox;Pearl;2do;1;0;0;0;1;8;5;7;2;1;0;4;6;5;8;0;1;5;7;6;8;LOCK//IN;5.2;;;;;;1;;8;5;7;2
+M-20;Americas;100 Thieves;Icebox;Lotus;Pearl;1ro;1;0;1;1;0;5;8;4;6;0;1;7;2;8;5;0;1;6;8;5;7;LOCK//IN;5.55;;;;;;0;;5;8;4;6
+M-21;Americas;Sentinels;Split;Haven;Lotus;2do;0;0;No jugado;0;0;6;1;7;6;0;1;3;3;4;9;;;0;0;0;0;LOCK//IN;5.88;;;;;;0;;6;1;7;6
+M-21;EMEA;Fnatic;Haven;Split;Lotus;1ro;1;1;No jugado;0;1;4;9;3;3;1;1;7;6;6;1;0;0;0;0;0;0;LOCK//IN;5.78;;;;;;0;;4;9;3;3
+M-22;Americas;FURIA;Icebox;Pearl;Fracture;2do;1;1;No jugado;1;1;6;7;5;0;0;1;6;7;1;6;;;0;0;0;0;LOCK//IN;5.42;;;;;;0;;6;7;5;0
+M-22;Pacific;T1;Pearl;Icebox;Fracture;1ro;0;0;No jugado;0;1;1;6;6;7;0;0;5;0;6;7;0;0;0;0;0;0;LOCK//IN;5.29;;;;;;1;;1;6;6;7
+M-23;EMEA;Navi;Pearl;Icebox;Fracture;2do;1;1;No jugado;0;0;4;9;3;1;0;0;7;6;6;2;;;0;0;0;0;LOCK//IN;5.49;;;;;;1;;4;9;3;1
+M-23;Pacific;Team Secret;Icebox;Pearl;Fracture;1ro;0;0;No jugado;1;1;6;2;7;6;1;1;3;1;1;9;0;0;0;0;0;0;LOCK//IN;5.37;;;;;;0;;6;2;7;6
+M-24;EMEA;Vitality;Pearl;Haven;Ascent;2do;0;0;No jugado;0;0;2;1;3;10;0;0;8;6;9;7;;;0;0;0;0;LOCK//IN;5.43;;;;;;1;;2;1;3;10
+M-24;Americas;Leviatan;Haven;Pearl;Ascent;1ro;1;1;No jugado;1;1;9;7;8;6;1;1;3;10;2;1;0;0;0;0;0;0;LOCK//IN;5.47;;;;;;0;;9;7;8;6
+M-25;Americas;100 Thieves;Haven;Lotus;Icebox;2do;1;0;1;1;1;7;6;5;6;1;0;7;2;8;5;0;1;8;5;4;4;LOCK//IN;5.55;;;;;;1;;7;6;5;6
+M-25;EMEA;Fut;Lotus;Haven;Icebox;1ro;1;0;0;1;0;8;5;7;2;0;0;5;6;7;6;0;1;4;4;8;5;LOCK//IN;5.39;;;;;;1;;8;5;7;2
+M-26;Americas;FURIA;Ascent;Haven;Icebox;2do;0;0;No jugado;1;1;4;5;5;8;1;1;10;6;11;7;;;0;0;0;0;LOCK//IN;5.42;;;;;;0;;4;5;5;8
+M-26;EMEA;Fnatic;Haven;Ascent;Icebox;1ro;1;1;No jugado;0;0;11;7;10;6;0;0;5;8;4;5;0;0;0;0;0;0;LOCK//IN;5.78;;;;;;1;;11;7;10;6
+M-27;EMEA;Navi;Fracture;Ascent;Pearl;2do;1;1;No jugado;1;0;11;2;1;1;1;1;6;7;6;4;;;0;0;0;0;LOCK//IN;5.49;;;;;;0;;11;2;1;1
+M-27;Americas;Leviatan;Ascent;Fracture;Pearl;1ro;0;0;No jugado;0;0;6;4;6;7;1;0;1;1;11;2;0;0;0;0;0;0;LOCK//IN;5.47;;;;;;1;;6;4;6;7
+M-28;EMEA;Fnatic;Icebox;Fracture;Lotus;2do;1;1;No jugado;0;1;10;3;2;8;1;1;11;2;0;1;;;0;0;0;0;LOCK//IN;5.78;;;;;;0;;10;3;2;8
+M-28;Americas;100 Thieves;Fracture;Icebox;Lotus;1ro;0;0;No jugado;0;0;0;1;11;2;0;1;2;8;10;3;0;0;0;0;0;0;LOCK//IN;5.55;;;;;;0;;0;1;11;2
+M-29;Pacific;DRX;Icebox;Pearl;;2do;0;0;No jugado;0;0;5;3;9;4;0;0;3;2;4;9;;;0;0;0;0;LOCK//IN;5.42;;;;;;1;;5;3;9;4
+M-29;Americas;LOUD;Pearl;Icebox;;1ro;1;1;No jugado;1;1;4;9;3;2;1;1;9;4;5;3;0;0;0;0;0;0;LOCK//IN;5.61;;;;;;0;;4;9;3;2
+M-30;Pacific;DRX;Fracture;Split;Ascent;FALSE;1;1;0;1;1;7;6;6;1;0;1;4;9;3;4;0;1;5;3;7;6;LOCK//IN;5.42;;;;;;0;;7;6;6;1
+M-30;Americas;LOUD;Split;Fracture;Ascent;FALSE;0;0;1;0;1;3;4;4;9;0;0;6;1;7;6;0;1;7;6;5;3;LOCK//IN;5.61;;;;;;1;;3;4;4;9
+M-31;EMEA;Navi;Lotus;Haven;;2do;0;0;No jugado;1;0;2;2;10;3;1;0;5;6;6;7;;;0;0;0;0;LOCK//IN;5.49;;;;;;1;;2;2;10;3
+M-31;EMEA;Fnatic;Haven;Lotus;;1ro;1;1;No jugado;1;0;6;7;5;6;1;0;10;3;2;2;0;0;0;0;0;0;LOCK//IN;5.78;;;;;;1;;6;7;5;6
+M-32;EMEA;Navi;Split;Fracture;Ascent;FALSE;0;0;No jugado;;;;;;;0;1;5;6;6;7;;;0;0;0;0;LOCK//IN;5.49;;;;;;0;;;;;
+M-32;EMEA;Fnatic;Fracture;Split;Ascent;FALSE;1;0;No jugado;0;1;6;7;5;6;0;0;0;0;0;0;0;0;0;0;0;0;LOCK//IN;5.78;;;;;;;;6;7;5;6
+M-33;EMEA;Fnatic;Fracture;Ascent;;2do;1;1;No jugado;1;1;6;7;1;6;0;1;5;8;4;4;;;0;0;0;0;LOCK//IN;5.78;;;;;;0;;6;7;1;6
+M-33;Americas;LOUD;Ascent;Fracture;;1ro;0;0;No jugado;0;1;4;4;5;8;0;0;1;6;6;7;0;0;0;0;0;0;LOCK//IN;5.61;;;;;;1;;4;4;5;8
+M-34;EMEA;Fnatic;Lotus;Split;Icebox;FALSE;0;0;1;0;0;3;5;7;6;0;1;4;5;7;6;0;0;10;4;9;3;LOCK//IN;5.78;;;;;;0;;3;5;7;6
+M-34;Americas;LOUD;Split;Lotus;Icebox;FALSE;1;1;0;0;1;7;6;4;5;1;1;7;6;3;5;1;1;9;3;10;4;LOCK//IN;5.61;;;;;;0;;7;6;4;5
+M-35;Americas;100 Thieves;Split;Fracture;Ascent;2do;1;0;0;1;1;6;8;5;7;1;1;5;6;6;7;0;0;8;4;9;5;Americas;5.55;;;;;;0;;6;8;5;7
+M-35;Americas;Sentinels;Fracture;Split;Ascent;1ro;1;0;1;0;0;6;7;5;6;0;0;5;7;6;8;1;1;9;5;8;4;Americas;5.88;;;;;;1;;6;7;5;6
+M-36;Americas;FURIA;Ascent;Split;Haven;2do;1;1;No jugado;0;1;7;6;0;5;1;1;7;6;6;5;;;0;0;0;0;Americas;5.42;;;;;;0;;7;6;0;5
+M-36;Americas;KRU;Split;Ascent;Haven;1ro;0;0;No jugado;0;0;6;5;7;6;0;1;0;5;7;6;0;0;0;0;0;0;Americas;5.46;;;;;;0;;6;5;7;6
+M-37;Americas;mibr;Lotus;Split;Haven;2do;1;0;0;0;1;6;7;5;6;0;0;4;1;5;8;0;0;7;4;8;5;Americas;5.43;;;;;;1;;6;7;5;6
+M-37;Americas;LOUD;Split;Lotus;Haven;1ro;1;0;1;1;1;5;8;4;1;0;1;5;6;6;7;1;1;8;5;7;4;Americas;5.61;;;;;;0;;5;8;4;1
+M-38;Americas;Cloud9;Fracture;Pearl;Split;2do;1;1;No jugado;0;0;8;5;5;4;0;0;3;10;2;9;;;0;0;0;0;Americas;5.78;;;;;;1;;8;5;5;4
+M-38;Americas;Evil Genius;Pearl;Fracture;Split;1ro;0;0;No jugado;1;1;2;9;3;10;1;1;5;4;8;5;0;0;0;0;0;0;Americas;5.57;;;;;;0;;2;9;3;10
+M-39;Americas;NRG;Lotus;Pearl;Split;2do;0;0;No jugado;0;0;4;0;5;8;1;1;6;5;7;6;;;0;0;0;0;Americas;5.25;;;;;;0;;4;0;5;8
+M-39;Americas;Leviatan;Pearl;Lotus;Split;1ro;1;1;No jugado;0;0;7;6;6;5;1;1;5;8;4;0;0;0;0;0;0;0;Americas;5.47;;;;;;0;;7;6;6;5
+M-40;Americas;LOUD;Ascent;Split;Pearl;2do;1;0;1;0;0;9;4;5;3;0;0;3;4;8;5;0;1;5;8;4;3;Americas;5.61;;;;;;1;;9;4;5;3
+M-40;Americas;Cloud9;Split;Ascent;Pearl;1ro;1;0;0;1;1;8;5;3;4;1;1;5;3;9;4;0;1;4;3;5;8;Americas;5.78;;;;;;0;;8;5;3;4
+M-41;Americas;FURIA;Icebox;Pearl;Ascent;2do;1;0;1;1;1;10;3;3;2;1;0;9;2;10;3;0;1;3;10;1;9;Americas;5.42;;;;;;1;;10;3;3;2
+M-41;Americas;Leviatan;Pearl;Icebox;Ascent;1ro;1;0;0;1;0;10;3;9;2;0;0;3;2;10;3;0;1;1;9;3;10;Americas;5.47;;;;;;1;;10;3;9;2
+M-42;Americas;NRG;Icebox;Lotus;Pearl;2do;1;1;No jugado;1;1;3;10;2;0;1;0;9;4;7;3;;;0;0;0;0;Americas;5.25;;;;;;1;;3;10;2;0
+M-42;Americas;Sentinels;Lotus;Icebox;Pearl;1ro;0;0;No jugado;1;0;7;3;9;4;0;0;2;0;3;10;0;0;0;0;0;0;Americas;5.88;;;;;;1;;7;3;9;4
+M-43;Americas;mibr;Lotus;Ascent;Pearl;2do;1;0;1;1;0;9;4;8;3;0;1;2;7;5;8;0;0;8;6;7;5;Americas;5.43;;;;;;0;;9;4;8;3
+M-43;Americas;KRU;Ascent;Lotus;Pearl;1ro;1;0;0;0;1;5;8;2;7;1;0;8;3;9;4;1;1;7;5;8;6;Americas;5.46;;;;;;1;;5;8;2;7
+M-44;Americas;100 Thieves;Icebox;Haven;Fracture;2do;1;1;No jugado;0;1;9;4;2;3;0;1;6;7;3;6;;;0;0;0;0;Americas;5.55;;;;;;0;;9;4;2;3
+M-44;Americas;Evil Genius;Haven;Icebox;Fracture;1ro;0;0;No jugado;0;1;3;6;6;7;0;1;2;3;9;4;0;0;0;0;0;0;Americas;5.57;;;;;;0;;3;6;6;7
+M-45;EMEA;KOI;Lotus;Ascent;Split;2do;1;1;No jugado;0;1;6;14;5;13;1;0;5;8;4;3;;;0;0;0;0;EMEA;5.49;;;;;;1;;6;14;5;13
+M-45;EMEA;Navi;Ascent;Lotus;Split;1ro;0;0;No jugado;1;0;4;3;5;8;0;1;5;13;6;14;0;0;0;0;0;0;EMEA;5.49;;;;;;0;;4;3;5;8
+M-46;EMEA;Giants;Split;Icebox;Ascent;2do;0;0;No jugado;1;0;6;5;7;6;0;0;2;1;3;10;;;0;0;0;0;EMEA;5.77;;;;;;1;;6;5;7;6
+M-46;EMEA;Fnatic;Icebox;Split;Ascent;1ro;1;1;No jugado;1;1;3;10;2;1;1;0;7;6;6;5;0;0;0;0;0;0;EMEA;5.78;;;;;;1;;3;10;2;1
+M-47;EMEA;Fut;Lotus;Pearl;Ascent;2do;1;1;No jugado;1;1;9;4;8;1;1;1;3;10;2;2;;;0;0;0;0;EMEA;5.39;;;;;;0;;9;4;8;1
+M-47;EMEA;Heretics;Pearl;Lotus;Ascent;1ro;0;0;No jugado;0;0;2;2;3;10;0;0;8;1;9;4;0;0;0;0;0;0;EMEA;5.26;;;;;;1;;2;2;3;10
+M-48;EMEA;Liquid;Fracture;Haven;Lotus;2do;1;0;0;1;1;3;10;2;0;1;0;3;3;9;4;0;0;3;7;5;8;EMEA;5.33;;;;;;1;;3;10;2;0
+M-48;EMEA;Vitality;Haven;Fracture;Lotus;1ro;1;0;1;1;0;9;4;3;3;0;0;2;0;3;10;1;1;5;8;3;7;EMEA;5.43;;;;;;1;;9;4;3;3
+M-49;EMEA;Giants;Split;Icebox;Pearl;2do;0;1;0;1;1;6;7;7;8;1;1;7;10;6;9;0;0;5;2;6;7;EMEA;5.77;;;;;;0;;6;7;7;8
+M-49;EMEA;Navi;Icebox;Split;Pearl;1ro;0;1;1;0;0;6;9;7;10;0;0;7;8;6;7;1;1;6;7;5;2;EMEA;5.49;;;;;;1;;6;9;7;10
+M-50;EMEA;Karmine Corp;Split;Icebox;Lotus;2do;1;1;No jugado;1;1;9;4;8;3;0;0;7;12;6;11;;;0;0;0;0;EMEA;5.04;;;;;;1;;9;4;8;3
+M-50;EMEA;BBL;Icebox;Split;Lotus;1ro;0;0;No jugado;1;1;6;11;7;12;0;0;8;3;9;4;0;0;0;0;0;0;EMEA;5.31;;;;;;1;;6;11;7;12
+M-51;EMEA;Liquid;Split;Lotus;Ascent;2do;1;0;1;0;1;7;6;1;5;0;0;5;5;7;6;1;1;6;7;0;6;EMEA;5.33;;;;;;1;;7;6;1;5
+M-51;EMEA;Fut;Lotus;Split;Ascent;1ro;1;0;0;1;1;7;6;5;5;0;1;1;5;7;6;0;0;0;6;6;7;EMEA;5.39;;;;;;0;;7;6;5;5
+M-52;EMEA;KOI;Fracture;Split;Lotus;2do;0;0;No jugado;0;1;5;8;6;9;0;0;7;2;8;5;;;0;0;0;0;EMEA;5.49;;;;;;1;;5;8;6;9
+M-52;EMEA;Vitality;Split;Fracture;Lotus;1ro;1;1;No jugado;1;1;8;5;7;2;0;1;6;9;5;8;0;0;0;0;0;0;EMEA;5.43;;;;;;0;;8;5;7;2
+M-53;EMEA;Fnatic;Haven;Ascent;Split;2do;1;0;1;0;1;5;8;4;5;0;1;3;3;9;4;0;0;6;7;5;6;EMEA;5.78;;;;;;0;;5;8;4;5
+M-53;EMEA;BBL;Ascent;Haven;Split;1ro;1;0;0;0;1;9;4;3;3;0;1;4;5;5;8;1;1;5;6;6;7;EMEA;5.31;;;;;;0;;9;4;3;3
+M-54;EMEA;Karmine Corp;Split;Icebox;Lotus;2do;0;0;No jugado;0;0;2;0;3;10;1;0;2;3;9;4;;;0;0;0;0;EMEA;5.04;;;;;;1;;2;0;3;10
+M-54;EMEA;Heretics;Icebox;Split;Lotus;1ro;1;1;No jugado;1;0;9;4;2;3;1;1;3;10;2;0;0;0;0;0;0;0;EMEA;5.26;;;;;;0;;9;4;2;3
+M-55;EMEA;Vitality;Haven;Lotus;Icebox;2do;0;0;No jugado;1;0;5;5;6;7;0;0;1;3;9;4;;;0;0;0;0;EMEA;5.43;;;;;;1;;5;5;6;7
+M-55;EMEA;Fut;Lotus;Haven;Icebox;1ro;1;1;No jugado;1;1;9;4;1;3;1;0;6;7;5;5;0;0;0;0;0;0;EMEA;5.39;;;;;;1;;9;4;1;3
+M-56;EMEA;Navi;Fracture;Ascent;Split;2do;1;1;No jugado;1;1;6;7;2;6;1;0;7;6;6;4;;;0;0;0;0;EMEA;5.49;;;;;;1;;6;7;2;6
+M-56;EMEA;BBL;Ascent;Fracture;Split;1ro;0;0;No jugado;1;0;6;4;7;6;0;0;2;6;6;7;0;0;0;0;0;0;EMEA;5.31;;;;;;1;;6;4;7;6
+M-57;EMEA;Heretics;Ascent;Icebox;Fracture;2do;0;0;No jugado;0;1;5;1;7;6;0;0;3;0;4;9;;;0;0;0;0;EMEA;5.26;;;;;;1;;5;1;7;6
+M-57;EMEA;Fnatic;Icebox;Ascent;Fracture;1ro;1;1;No jugado;1;1;4;9;3;0;0;1;7;6;5;1;0;0;0;0;0;0;EMEA;5.78;;;;;;0;;4;9;3;0
+M-58;EMEA;Karmine Corp;Split;Ascent;Lotus;2do;0;0;No jugado;0;1;0;2;1;12;0;1;1;4;8;5;;;0;0;0;0;EMEA;5.04;;;;;;0;;0;2;1;12
+M-58;EMEA;Liquid;Ascent;Split;Lotus;1ro;1;1;No jugado;0;1;8;5;1;4;0;1;1;12;0;2;0;0;0;0;0;0;EMEA;5.33;;;;;;0;;8;5;1;4
+M-59;EMEA;KOI;Ascent;Lotus;Icebox;2do;0;0;No jugado;1;0;4;7;5;8;0;0;1;0;2;11;;;0;0;0;0;EMEA;5.49;;;;;;1;;4;7;5;8
+M-59;EMEA;Giants;Lotus;Ascent;Icebox;1ro;1;1;No jugado;1;1;2;11;1;0;1;0;5;8;4;7;0;0;0;0;0;0;EMEA;5.77;;;;;;1;;2;11;1;0
+M-60;EMEA;Heretics;Lotus;Pearl;Ascent;2do;1;0;0;1;0;10;3;7;2;0;0;0;3;9;4;0;1;1;1;2;11;EMEA;5.26;;;;;;1;;10;3;7;2
+M-60;EMEA;Navi;Pearl;Lotus;Ascent;1ro;1;0;1;1;1;9;4;0;3;1;0;7;2;10;3;0;1;2;11;1;1;EMEA;5.49;;;;;;1;;9;4;0;3
+M-61;Pacific;Zeta Division;Pearl;Ascent;Haven;2do;0;0;No jugado;1;0;4;1;11;2;0;1;1;4;8;5;;;0;0;0;0;Pacific;5.21;;;;;;0;;4;1;11;2
+M-61;Pacific;DRX;Ascent;Pearl;Haven;1ro;1;1;No jugado;0;1;8;5;1;4;1;0;11;2;4;1;0;0;0;0;0;0;Pacific;5.42;;;;;;1;;8;5;1;4
+M-62;Pacific;T1;Haven;Pearl;Lotus;2do;0;1;1;1;0;2;2;10;3;0;1;4;9;3;5;0;1;5;8;4;3;Pacific;5.29;;;;;;0;;2;2;10;3
+M-62;Pacific;Global;Pearl;Haven;Lotus;1ro;0;1;0;0;1;3;5;4;9;1;0;10;3;2;2;0;1;4;3;5;8;Pacific;5.75;;;;;;1;;3;5;4;9
+M-63;Pacific;DFM;Lotus;Pearl;Fracture;2do;0;0;No jugado;1;0;6;5;7;6;0;1;3;2;4;9;;;0;0;0;0;Pacific;5.77;;;;;;0;;6;5;7;6
+M-63;Pacific;Paper Rex;Pearl;Lotus;Fracture;1ro;1;1;No jugado;0;1;4;9;3;2;1;0;7;6;6;5;0;0;0;0;0;0;Pacific;5.86;;;;;;1;;4;9;3;2
+M-64;Pacific;Team Secret;Icebox;Ascent;Fracture;2do;0;1;1;0;0;3;5;4;9;1;1;5;8;4;1;1;1;10;3;1;2;Pacific;5.37;;;;;;0;;3;5;4;9
+M-64;Pacific;Talon;Ascent;Icebox;Fracture;1ro;0;1;0;0;0;4;1;5;8;1;1;4;9;3;5;0;0;1;2;10;3;Pacific;5.27;;;;;;0;;4;1;5;8
+M-65;Pacific;Rex Regnum;Lotus;Fracture;Haven;2do;0;0;No jugado;1;1;2;4;8;5;0;1;5;4;8;5;;;0;0;0;0;Pacific;5.44;;;;;;0;;2;4;8;5
+M-65;Pacific;Gen.G;Fracture;Lotus;Haven;1ro;1;1;No jugado;0;1;8;5;5;4;0;0;8;5;2;4;0;0;0;0;0;0;Pacific;5.38;;;;;;1;;8;5;5;4
+M-66;Pacific;Rex Regnum;Ascent;Haven;Lotus;2do;0;1;0;1;0;4;6;6;7;0;1;4;9;3;7;0;1;0;5;7;6;Pacific;5.44;;;;;;0;;4;6;6;7
+M-66;Pacific;Zeta Division;Haven;Ascent;Lotus;1ro;0;1;1;0;1;3;7;4;9;1;0;6;7;4;6;0;1;7;6;0;5;Pacific;5.21;;;;;;1;;3;7;4;9
+M-67;Pacific;Talon;Haven;Ascent;Lotus;2do;0;0;No jugado;0;0;3;3;9;4;0;0;4;4;8;5;;;0;0;0;0;Pacific;5.27;;;;;;1;;3;3;9;4
+M-67;Pacific;T1;Ascent;Haven;Lotus;1ro;1;1;No jugado;1;1;8;5;4;4;1;1;9;4;3;3;0;0;0;0;0;0;Pacific;5.29;;;;;;0;;8;5;4;4
+M-68;Pacific;Team Secret;Fracture;Haven;Split;2do;1;0;1;0;1;5;8;4;7;1;1;5;6;6;7;1;1;8;5;7;3;Pacific;5.37;;;;;;0;;5;8;4;7
+M-68;Pacific;Paper Rex;Haven;Fracture;Split;1ro;1;0;0;0;0;6;7;5;6;0;1;4;7;5;8;0;0;7;3;8;5;Pacific;5.86;;;;;;0;;6;7;5;6
+M-69;Pacific;Gen.G;Fracture;Lotus;Pearl;2do;0;1;1;0;0;0;4;8;5;0;1;5;8;1;7;1;1;8;5;7;1;Pacific;5.38;;;;;;0;;0;4;8;5
+M-69;Pacific;DFM;Lotus;Fracture;Pearl;1ro;0;1;0;0;1;1;7;5;8;1;1;8;5;0;4;0;0;7;1;8;5;Pacific;5.77;;;;;;0;;1;7;5;8
+M-70;Pacific;Global;Split;Haven;Pearl;2do;0;0;No jugado;0;1;7;8;8;9;1;1;5;6;6;7;;;0;0;0;0;Pacific;5.75;;;;;;0;;7;8;8;9
+M-70;Pacific;DRX;Haven;Split;Pearl;1ro;1;1;No jugado;0;0;6;7;5;6;0;1;8;9;7;8;0;0;0;0;0;0;Pacific;5.42;;;;;;0;;6;7;5;6
+M-71;Pacific;DFM;Pearl;Haven;Ascent;2do;0;0;No jugado;0;0;3;4;4;9;0;1;2;2;3;10;;;0;0;0;0;Pacific;5.77;;;;;;0;;3;4;4;9
+M-71;Pacific;Rex Regnum;Haven;Pearl;Ascent;1ro;1;1;No jugado;0;1;3;10;2;2;1;1;4;9;3;4;0;0;0;0;0;0;Pacific;5.44;;;;;;0;;3;10;2;2
+M-72;Pacific;Paper Rex;Fracture;Pearl;Lotus;2do;1;1;No jugado;0;1;7;6;1;3;1;0;11;2;2;1;;;0;0;0;0;Pacific;5.86;;;;;;1;;7;6;1;3
+M-72;Pacific;T1;Pearl;Fracture;Lotus;1ro;0;0;No jugado;1;0;2;1;11;2;0;1;1;3;7;6;0;0;0;0;0;0;Pacific;5.29;;;;;;0;;2;1;11;2
+M-73;Pacific;Zeta Division;Ascent;Pearl;Haven;2do;1;0;1;0;0;6;8;5;7;0;1;3;6;4;9;1;0;5;8;4;4;Pacific;5.21;;;;;;0;;6;8;5;7
+M-73;Pacific;Global;Pearl;Ascent;Haven;1ro;1;0;0;0;1;4;9;3;6;1;1;5;7;6;8;1;0;4;4;5;8;Pacific;5.75;;;;;;0;;4;9;3;6
+M-74;Pacific;DRX;Pearl;Split;Ascent;2do;1;1;No jugado;0;1;6;7;5;5;0;1;2;11;1;2;;;0;0;0;0;Pacific;5.42;;;;;;0;;6;7;5;5
+M-74;Pacific;Talon;Split;Pearl;Ascent;1ro;0;0;No jugado;0;1;1;2;2;11;0;1;5;5;6;7;0;0;0;0;0;0;Pacific;5.27;;;;;;0;;1;2;2;11
+M-75;Pacific;Team Secret;Fracture;Haven;Lotus;2do;0;0;No jugado;0;1;5;6;6;7;0;0;3;5;7;6;;;0;0;0;0;Pacific;5.37;;;;;;1;;5;6;6;7
+M-75;Pacific;Gen.G;Haven;Fracture;Lotus;1ro;1;1;No jugado;1;1;7;6;3;5;0;1;6;7;5;6;0;0;0;0;0;0;Pacific;5.38;;;;;;0;;7;6;3;5
+M-76;EMEA;KOI;Ascent;Icebox;Haven;2do;0;0;No jugado;1;1;6;3;7;6;1;0;5;1;6;7;;;0;0;0;0;EMEA;5.49;;;;;;1;;6;3;7;6
+M-76;EMEA;Fut;Icebox;Ascent;Haven;1ro;1;1;No jugado;1;0;6;7;5;1;0;0;7;6;6;3;0;0;0;0;0;0;EMEA;5.39;;;;;;1;;6;7;5;1
+M-77;EMEA;Fnatic;Haven;Lotus;Fracture;2do;1;1;No jugado;0;1;6;7;0;6;1;0;11;2;5;1;;;0;0;0;0;EMEA;5.78;;;;;;1;;6;7;0;6
+M-77;EMEA;Liquid;Lotus;Haven;Fracture;1ro;0;0;No jugado;1;0;5;1;11;2;0;1;0;6;6;7;0;0;0;0;0;0;EMEA;5.33;;;;;;0;;5;1;11;2
+M-78;EMEA;Giants;Split;Icebox;Fracture;2do;1;1;No jugado;0;1;9;4;0;3;0;1;6;7;5;5;;;0;0;0;0;EMEA;5.77;;;;;;0;;9;4;0;3
+M-78;EMEA;BBL;Icebox;Split;Fracture;1ro;0;0;No jugado;0;1;5;5;6;7;0;1;0;3;9;4;0;0;0;0;0;0;EMEA;5.31;;;;;;0;;5;5;6;7
+M-79;EMEA;Vitality;Split;Ascent;Lotus;2do;1;1;No jugado;1;0;11;2;5;1;1;1;3;10;2;0;;;0;0;0;0;EMEA;5.43;;;;;;0;;11;2;5;1
+M-79;EMEA;Karmine Corp;Ascent;Split;Lotus;1ro;0;0;No jugado;0;0;2;0;3;10;1;0;5;1;11;2;0;0;0;0;0;0;EMEA;5.04;;;;;;1;;2;0;3;10
+M-80;Pacific;Paper Rex;Split;Ascent;Fracture;2do;0;0;No jugado;0;1;5;5;6;7;1;0;2;3;9;4;;;0;0;0;0;Pacific;5.86;;;;;;1;;5;5;6;7
+M-80;Pacific;DRX;Ascent;Split;Fracture;1ro;1;1;No jugado;1;0;9;4;2;3;0;1;6;7;5;5;0;0;0;0;0;0;Pacific;5.42;;;;;;0;;9;4;2;3
+M-81;Pacific;Rex Regnum;Split;Icebox;Haven;2do;0;1;No jugado;1;0;5;2;10;3;1;0;6;7;5;5;;;0;0;0;0;Pacific;5.44;;;;;;1;;5;2;10;3
+M-81;Pacific;Team Secret;Icebox;Split;Haven;1ro;0;1;No jugado;1;0;5;5;6;7;1;0;10;3;5;2;0;0;0;0;0;0;Pacific;5.37;;;;;;1;;5;5;6;7
+M-82;Pacific;Gen.G;Haven;Ascent;Lotus;2do;1;1;No jugado;1;1;7;6;0;5;0;0;4;9;3;2;;;0;0;0;0;Pacific;5.38;;;;;;1;;7;6;0;5
+M-82;Pacific;T1;Ascent;Haven;Lotus;1ro;0;0;No jugado;1;1;3;2;4;9;0;0;0;5;7;6;0;0;0;0;0;0;Pacific;5.29;;;;;;1;;3;2;4;9
+M-83;Pacific;DFM;Haven;Ascent;Pearl;2do;0;0;No jugado;1;0;2;3;9;4;0;0;7;2;10;3;;;0;0;0;0;Pacific;5.77;;;;;;1;;2;3;9;4
+M-83;Pacific;Zeta Division;Ascent;Haven;Pearl;1ro;1;1;No jugado;1;1;10;3;7;2;1;0;9;4;2;3;0;0;0;0;0;0;Pacific;5.21;;;;;;1;;10;3;7;2
+M-84;Pacific;Talon;Icebox;Split;Haven;2do;0;0;No jugado;0;0;6;5;7;6;0;1;3;3;4;9;;;0;0;0;0;Pacific;5.27;;;;;;0;;6;5;7;6
+M-84;Pacific;Global;Split;Icebox;Haven;1ro;1;1;No jugado;0;1;4;9;3;3;1;1;7;6;6;5;0;0;0;0;0;0;Pacific;5.75;;;;;;0;;4;9;3;3
+M-85;Americas;100 Thieves;Ascent;Lotus;Haven;2do;0;0;No jugado;0;1;4;8;5;9;0;0;4;3;5;8;;;0;0;0;0;Americas;5.55;;;;;;1;;4;8;5;9
+M-85;Americas;Cloud9;Lotus;Ascent;Haven;1ro;1;1;No jugado;1;1;5;8;4;3;0;1;5;9;4;8;0;0;0;0;0;0;Americas;5.78;;;;;;0;;5;8;4;3
+M-86;Americas;mibr;Pearl;Icebox;Split;2do;0;1;1;0;0;10;4;11;5;0;1;7;6;6;4;0;1;7;9;6;8;Americas;5.43;;;;;;0;;10;4;11;5
+M-86;Americas;NRG;Icebox;Pearl;Split;1ro;0;1;0;0;1;6;4;7;6;1;1;11;5;10;4;0;1;6;8;7;9;Americas;5.25;;;;;;0;;6;4;7;6
+M-87;Americas;Leviatan;Ascent;Split;Pearl;2do;0;1;1;0;0;5;6;6;7;1;0;8;6;7;5;0;1;3;10;2;2;Americas;5.47;;;;;;1;;5;6;6;7
+M-87;Americas;Sentinels;Split;Ascent;Pearl;1ro;0;1;0;1;0;7;5;8;6;1;1;6;7;5;6;0;1;2;2;3;10;Americas;5.88;;;;;;0;;7;5;8;6
+M-88;Americas;KRU;Ascent;Pearl;Fracture;2do;1;0;0;0;0;4;9;3;8;1;0;9;2;10;3;1;1;5;2;6;7;Americas;5.46;;;;;;1;;4;9;3;8
+M-88;Americas;Evil Genius;Pearl;Ascent;Fracture;1ro;1;0;1;1;0;10;3;9;2;1;1;3;8;4;9;0;0;6;7;5;2;Americas;5.57;;;;;;0;;10;3;9;2
+M-89;Americas;FURIA;Icebox;Split;Ascent;2do;0;0;No jugado;0;0;0;4;8;5;1;0;3;6;6;7;;;0;0;0;0;Americas;5.42;;;;;;1;;0;4;8;5
+M-89;Americas;LOUD;Split;Icebox;Ascent;1ro;1;1;No jugado;1;0;6;7;3;6;1;1;8;5;0;4;0;0;0;0;0;0;Americas;5.61;;;;;;0;;6;7;3;6
+M-90;EMEA;Heretics;Fracture;Split;Icebox;2do;0;0;No jugado;0;0;5;10;6;11;1;0;6;2;10;3;;;0;0;0;0;EMEA;5.26;;;;;;1;;5;10;6;11
+M-90;EMEA;Liquid;Split;Fracture;Icebox;1ro;1;1;No jugado;1;0;10;3;6;2;1;1;6;11;5;10;0;0;0;0;0;0;EMEA;5.33;;;;;;0;;10;3;6;2
+M-91;EMEA;Giants;Split;Icebox;Ascent;2do;1;1;No jugado;1;1;8;5;7;4;0;0;3;10;2;3;;;0;0;0;0;EMEA;5.77;;;;;;1;;8;5;7;4
+M-91;EMEA;Fut;Icebox;Split;Ascent;1ro;0;0;No jugado;1;1;2;3;3;10;0;0;7;4;8;5;0;0;0;0;0;0;EMEA;5.39;;;;;;1;;2;3;3;10
+M-92;Americas;Sentinels;Haven;Pearl;Ascent;2do;0;1;0;1;0;6;5;7;6;0;1;7;6;1;5;0;0;3;5;4;9;Americas;5.88;;;;;;0;;6;5;7;6
+M-92;Americas;LOUD;Pearl;Haven;Ascent;1ro;0;1;1;0;1;1;5;7;6;1;0;7;6;6;5;1;1;4;9;3;5;Americas;5.61;;;;;;1;;1;5;7;6
+M-93;Americas;mibr;Icebox;Pearl;Split;2do;0;0;No jugado;0;0;2;1;3;10;0;0;2;2;3;10;;;0;0;0;0;Americas;5.43;;;;;;1;;2;1;3;10
+M-93;Americas;Leviatan;Pearl;Icebox;Split;1ro;1;1;No jugado;1;1;3;10;2;2;1;1;3;10;2;1;0;0;0;0;0;0;Americas;5.47;;;;;;0;;3;10;2;2
+M-94;Americas;100 Thieves;Split;Ascent;Fracture;2do;1;0;1;0;1;4;9;3;8;0;0;3;1;4;9;1;1;5;8;4;1;Americas;5.55;;;;;;1;;4;9;3;8
+M-94;Americas;KRU;Ascent;Split;Fracture;1ro;1;0;0;1;1;4;9;3;1;0;1;3;8;4;9;0;0;4;1;5;8;Americas;5.46;;;;;;0;;4;9;3;1
+M-95;Americas;Evil Genius;Fracture;Ascent;Haven;2do;1;0;0;0;1;8;5;3;4;0;1;7;6;7;8;0;0;7;3;8;5;Americas;5.57;;;;;;0;;8;5;3;4
+M-95;Americas;FURIA;Ascent;Fracture;Haven;1ro;1;0;1;0;1;7;8;7;6;0;1;3;4;8;5;1;1;8;5;7;3;Americas;5.42;;;;;;0;;7;8;7;6
+M-96;Americas;NRG;Pearl;Haven;Ascent;2do;0;1;0;0;0;2;7;5;8;0;0;9;4;5;3;1;0;4;3;5;8;Americas;5.25;;;;;;1;;2;7;5;8
+M-96;Americas;Cloud9;Haven;Pearl;Ascent;1ro;0;1;1;1;1;5;3;9;4;1;1;5;8;2;7;1;0;5;8;4;3;Americas;5.78;;;;;;0;;5;3;9;4
+M-97;Americas;mibr;Fracture;Pearl;Lotus;2do;0;0;No jugado;0;1;3;3;9;4;0;0;2;3;9;4;;;0;0;0;0;Americas;5.43;;;;;;1;;3;3;9;4
+M-97;Americas;Sentinels;Pearl;Fracture;Lotus;1ro;1;1;No jugado;1;1;9;4;2;3;0;1;9;4;3;3;0;0;0;0;0;0;Americas;5.88;;;;;;0;;9;4;2;3
+M-98;Americas;Leviatan;Haven;Icebox;Lotus;2do;0;1;0;1;1;5;6;6;7;1;0;7;8;6;7;1;1;7;4;8;5;Americas;5.47;;;;;;1;;5;6;6;7
+M-98;Americas;100 Thieves;Icebox;Haven;Lotus;1ro;0;1;1;1;0;6;7;7;8;0;0;6;7;5;6;0;0;8;5;7;4;Americas;5.55;;;;;;1;;6;7;7;8
+M-99;Americas;Evil Genius;Haven;Split;Pearl;2do;0;1;0;1;0;6;4;8;5;0;1;9;4;0;3;0;0;0;0;12;1;Americas;5.57;;;;;;0;;6;4;8;5
+M-99;Americas;LOUD;Split;Haven;Pearl;1ro;0;1;1;0;1;0;3;9;4;1;0;8;5;6;4;1;1;12;1;0;0;Americas;5.61;;;;;;1;;0;3;9;4
+M-100;Americas;Cloud9;Fracture;Ascent;Pearl;2do;1;1;No jugado;1;0;7;6;6;3;1;0;5;8;4;4;;;0;0;0;0;Americas;5.78;;;;;;1;;7;6;6;3
+M-100;Americas;FURIA;Ascent;Fracture;Pearl;1ro;0;0;No jugado;1;0;4;4;5;8;1;0;6;3;7;6;0;0;0;0;0;0;Americas;5.42;;;;;;1;;4;4;5;8
+M-101;Americas;KRU;Ascent;Haven;Pearl;2do;0;0;No jugado;0;0;3;1;4;9;1;1;6;4;8;5;;;0;0;0;0;Americas;5.46;;;;;;0;;3;1;4;9
+M-101;Americas;NRG;Haven;Ascent;Pearl;1ro;1;1;No jugado;0;0;8;5;6;4;1;1;4;9;3;1;0;0;0;0;0;0;Americas;5.25;;;;;;0;;8;5;6;4
+M-102;EMEA;Karmine Corp;Lotus;Ascent;Split;2do;0;0;No jugado;1;0;7;0;8;5;0;0;5;6;6;7;;;0;0;0;0;EMEA;5.04;;;;;;1;;7;0;8;5
+M-102;EMEA;Navi;Ascent;Lotus;Split;1ro;1;1;No jugado;1;1;6;7;5;6;1;0;8;5;7;0;0;0;0;0;0;0;EMEA;5.49;;;;;;1;;6;7;5;6
+M-103;EMEA;Vitality;Haven;Ascent;Lotus;2do;0;0;No jugado;0;0;3;6;4;9;0;0;1;7;5;8;;;0;0;0;0;EMEA;5.43;;;;;;1;;3;6;4;9
+M-103;EMEA;BBL;Ascent;Haven;Lotus;1ro;1;1;No jugado;1;1;5;8;1;7;1;1;4;9;3;6;0;0;0;0;0;0;EMEA;5.31;;;;;;0;;5;8;1;7
+M-104;EMEA;Giants;Icebox;Ascent;Lotus;2do;0;1;0;1;0;6;5;7;6;1;1;6;7;5;6;1;0;5;5;7;6;EMEA;5.77;;;;;;0;;6;5;7;6
+M-104;EMEA;Liquid;Ascent;Icebox;Lotus;1ro;0;1;1;0;0;5;6;6;7;1;0;7;6;6;5;1;0;7;6;5;5;EMEA;5.33;;;;;;1;;5;6;6;7
+M-105;EMEA;Heretics;Lotus;Haven;Icebox;2do;1;0;0;0;1;7;6;6;4;1;0;7;5;8;6;0;1;7;1;2;11;EMEA;5.26;;;;;;1;;7;6;6;4
+M-105;EMEA;BBL;Haven;Lotus;Icebox;1ro;1;0;1;1;0;8;6;7;5;0;1;6;4;7;6;0;1;2;11;7;1;EMEA;5.31;;;;;;0;;8;6;7;5
+M-106;EMEA;KOI;Ascent;Lotus;Haven;2do;1;0;0;0;1;6;7;2;6;0;1;1;5;2;11;0;1;4;7;5;8;EMEA;5.49;;;;;;0;;6;7;2;6
+M-106;EMEA;Karmine Corp;Lotus;Ascent;Haven;1ro;1;0;1;0;1;2;11;1;5;0;1;2;6;6;7;0;1;5;8;4;7;EMEA;5.04;;;;;;0;;2;11;1;5
+M-107;Pacific;Global;Split;Icebox;Pearl;2do;0;1;0;1;0;3;3;9;4;1;1;7;6;6;1;1;0;3;4;8;5;Pacific;5.75;;;;;;0;;3;3;9;4
+M-107;Pacific;Paper Rex;Icebox;Split;Pearl;1ro;0;1;1;0;0;6;1;7;6;1;0;9;4;3;3;1;0;8;5;3;4;Pacific;5.86;;;;;;1;;6;1;7;6
+M-108;Pacific;DRX;Fracture;Haven;Pearl;2do;0;1;1;0;0;4;6;6;7;1;0;11;2;6;1;0;1;9;4;3;1;Pacific;5.42;;;;;;1;;4;6;6;7
+M-108;Pacific;Gen.G;Haven;Fracture;Pearl;1ro;0;1;0;1;0;6;1;11;2;1;1;6;7;4;6;0;1;3;1;9;4;Pacific;5.38;;;;;;0;;6;1;11;2
+M-109;Pacific;T1;Fracture;Haven;Pearl;2do;1;1;No jugado;0;0;9;4;1;3;1;1;7;6;4;5;;;0;0;0;0;Pacific;5.29;;;;;;0;;9;4;1;3
+M-109;Pacific;Rex Regnum;Haven;Fracture;Pearl;1ro;0;0;No jugado;0;0;4;5;7;6;1;1;1;3;9;4;0;0;0;0;0;0;Pacific;5.44;;;;;;0;;4;5;7;6
+M-110;Pacific;Team Secret;Haven;Ascent;Fracture;2do;1;1;No jugado;0;0;4;9;3;5;0;1;6;7;5;6;;;0;0;0;0;Pacific;5.37;;;;;;0;;4;9;3;5
+M-110;Pacific;DFM;Ascent;Haven;Fracture;1ro;0;0;No jugado;0;1;5;6;6;7;1;1;3;5;4;9;0;0;0;0;0;0;Pacific;5.77;;;;;;0;;5;6;6;7
+M-111;Pacific;Zeta Division;Ascent;Haven;Split;2do;0;0;No jugado;1;0;7;7;8;8;1;0;4;4;5;8;;;0;0;0;0;Pacific;5.21;;;;;;1;;7;7;8;8
+M-111;Pacific;Talon;Haven;Ascent;Split;1ro;1;1;No jugado;1;0;5;8;4;4;1;0;8;8;7;7;0;0;0;0;0;0;Pacific;5.27;;;;;;1;;5;8;4;4
+M-112;Americas;100 Thieves;Fracture;Bind;Lotus;2do;0;0;No jugado;1;0;2;1;11;2;0;1;5;2;6;7;;;0;0;0;0;Americas;5.55;;;;;;0;;2;1;11;2
+M-112;Americas;NRG;Bind;Fracture;Lotus;1ro;1;1;No jugado;0;1;6;7;5;2;1;0;11;2;2;1;0;0;0;0;0;0;Americas;5.25;;;;;;1;;6;7;5;2
+M-113;Americas;mibr;Split;Pearl;Haven;2do;0;0;No jugado;0;1;2;5;3;10;1;0;8;3;9;4;;;0;0;0;0;Americas;5.43;;;;;;1;;2;5;3;10
+M-113;Americas;FURIA;Pearl;Split;Haven;1ro;1;1;No jugado;1;0;9;4;8;3;0;1;3;10;2;5;0;0;0;0;0;0;Americas;5.42;;;;;;0;;9;4;8;3
+M-114;Pacific;DFM;Split;Lotus;Fracture;2do;1;0;0;1;0;7;6;4;5;0;1;5;4;6;7;1;1;4;6;6;7;Pacific;5.77;;;;;;0;;7;6;4;5
+M-114;Pacific;T1;Lotus;Split;Fracture;1ro;1;0;1;0;1;6;7;5;4;1;0;4;5;7;6;0;0;6;7;4;6;Pacific;5.29;;;;;;1;;6;7;5;4
+M-115;Pacific;Team Secret;Lotus;Split;Fracture;2do;1;0;0;0;1;7;6;6;4;0;0;5;4;8;5;0;0;4;5;7;6;Pacific;5.37;;;;;;1;;7;6;6;4
+M-115;Pacific;Zeta Division;Split;Lotus;Fracture;1ro;1;0;1;1;1;8;5;5;4;0;1;6;4;7;6;1;1;7;6;4;5;Pacific;5.21;;;;;;0;;8;5;5;4
+M-116;Pacific;Gen.G;Lotus;Pearl;Haven;2do;0;0;No jugado;0;1;3;5;7;6;1;0;7;1;8;5;;;0;0;0;0;Pacific;5.38;;;;;;1;;3;5;7;6
+M-116;Pacific;Global;Pearl;Lotus;Haven;1ro;1;1;No jugado;1;0;8;5;7;1;0;1;7;6;3;5;0;0;0;0;0;0;Pacific;5.75;;;;;;0;;8;5;7;1
+M-117;Pacific;Paper Rex;Split;Haven;Pearl;2do;0;1;0;0;1;6;4;7;6;0;0;6;7;2;6;0;1;0;2;10;3;Pacific;5.86;;;;;;1;;6;4;7;6
+M-117;Pacific;DRX;Haven;Split;Pearl;1ro;0;1;1;1;1;2;6;6;7;0;1;7;6;6;4;0;1;10;3;0;2;Pacific;5.42;;;;;;0;;2;6;6;7
+M-118;Pacific;Paper Rex;Split;Pearl;Fracture;2do;1;0;1;1;0;4;9;3;1;1;0;8;3;9;4;0;1;7;6;6;4;Pacific;5.86;;;;;;1;;4;9;3;1
+M-118;Pacific;Talon;Pearl;Split;Fracture;1ro;1;0;0;1;0;9;4;8;3;1;0;3;1;4;9;0;1;6;4;7;6;Pacific;5.27;;;;;;1;;9;4;8;3
+M-119;Americas;Cloud9;Fracture;Lotus;Haven;2do;1;1;No jugado;0;1;2;11;1;5;1;0;4;9;3;1;;;0;0;0;0;Americas;5.78;;;;;;1;;2;11;1;5
+M-119;Americas;Sentinels;Lotus;Fracture;Haven;1ro;0;0;No jugado;1;0;3;1;4;9;0;1;1;5;2;11;0;0;0;0;0;0;Americas;5.88;;;;;;0;;3;1;4;9
+M-120;Americas;Leviatan;Pearl;Split;Ascent;2do;1;0;0;0;1;7;6;6;4;0;1;2;8;4;9;0;1;3;7;4;9;Americas;5.47;;;;;;0;;7;6;6;4
+M-120;Americas;Evil Genius;Split;Pearl;Ascent;1ro;1;0;1;0;1;4;9;2;8;0;1;6;4;7;6;0;1;4;9;3;7;Americas;5.57;;;;;;0;;4;9;2;8
+M-121;Americas;KRU;Ascent;Pearl;Split;2do;0;1;0;0;1;3;8;4;9;1;0;9;4;8;2;1;0;6;4;8;5;Americas;5.46;;;;;;1;;3;8;4;9
+M-121;Americas;LOUD;Pearl;Ascent;Split;1ro;0;1;1;1;0;8;2;9;4;0;1;4;9;3;8;1;0;8;5;6;4;Americas;5.61;;;;;;0;;8;2;9;4
+M-122;EMEA;Fut;Lotus;Icebox;Haven;2do;0;0;No jugado;0;0;1;4;8;5;0;0;5;0;6;7;;;0;0;0;0;EMEA;5.39;;;;;;1;;1;4;8;5
+M-122;EMEA;Fnatic;Icebox;Lotus;Haven;1ro;1;1;No jugado;1;1;6;7;5;0;1;1;8;5;1;4;0;0;0;0;0;0;EMEA;5.78;;;;;;0;;6;7;5;0
+M-123;EMEA;Navi;Fracture;Split;Ascent;2do;1;1;No jugado;0;0;7;6;5;5;0;1;4;9;3;7;;;0;0;0;0;EMEA;5.49;;;;;;0;;7;6;5;5
+M-123;EMEA;Vitality;Split;Fracture;Ascent;1ro;0;0;No jugado;0;1;3;7;4;9;1;1;5;5;7;6;0;0;0;0;0;0;EMEA;5.43;;;;;;0;;3;7;4;9
+M-124;EMEA;Vitality;Bind;Haven;Lotus;2do;0;0;No jugado;0;1;2;6;6;7;0;0;5;7;6;8;;;0;0;0;0;EMEA;5.43;;;;;;1;;2;6;6;7
+M-124;EMEA;Fnatic;Haven;Bind;Lotus;1ro;1;1;No jugado;1;1;6;8;5;7;0;1;6;7;2;6;0;0;0;0;0;0;EMEA;5.78;;;;;;0;;6;8;5;7
+M-125;EMEA;Karmine Corp;Ascent;Haven;Split;2do;0;0;No jugado;0;0;4;1;5;8;1;1;5;3;6;7;;;0;0;0;0;EMEA;5.04;;;;;;0;;4;1;5;8
+M-125;EMEA;Fut;Haven;Ascent;Split;1ro;1;1;No jugado;0;0;6;7;5;3;1;1;5;8;4;1;0;0;0;0;0;0;EMEA;5.39;;;;;;0;;6;7;5;3
+M-126;EMEA;BBL;Ascent;Pearl;Bind;2do;1;0;1;0;1;9;4;1;3;0;0;3;0;4;9;0;1;7;6;0;5;EMEA;5.31;;;;;;1;;9;4;1;3
+M-126;EMEA;KOI;Pearl;Ascent;Bind;1ro;1;0;0;1;1;4;9;3;0;0;1;1;3;9;4;0;1;0;5;7;6;EMEA;5.49;;;;;;0;;4;9;3;0
+M-127;EMEA;Liquid;Bind;Fracture;Lotus;2do;0;0;No jugado;0;1;4;7;5;8;0;1;6;5;7;6;;;0;0;0;0;EMEA;5.33;;;;;;0;;4;7;5;8
+M-127;EMEA;Navi;Fracture;Bind;Lotus;1ro;1;1;No jugado;0;1;7;6;6;5;0;1;5;8;4;7;0;0;0;0;0;0;EMEA;5.49;;;;;;0;;7;6;6;5
+M-128;EMEA;Heretics;Lotus;Pearl;Bind;2do;1;1;No jugado;0;0;8;8;7;7;1;0;9;4;6;3;;;0;0;0;0;EMEA;5.26;;;;;;1;;8;8;7;7
+M-128;EMEA;Giants;Pearl;Lotus;Bind;1ro;0;0;No jugado;1;0;6;3;9;4;1;1;7;7;8;8;0;0;0;0;0;0;EMEA;5.77;;;;;;0;;6;3;9;4
+M-129;Americas;Sentinels;Pearl;Fracture;Ascent;2do;0;0;No jugado;1;0;3;2;10;3;0;1;3;3;4;9;;;0;0;0;0;Americas;5.88;;;;;;0;;3;2;10;3
+M-129;Americas;Evil Genius;Fracture;Pearl;Ascent;1ro;1;1;No jugado;0;1;4;9;3;3;1;0;10;3;3;2;0;0;0;0;0;0;Americas;5.57;;;;;;1;;4;9;3;3
+M-130;Americas;mibr;Lotus;Split;Bind;2do;0;0;No jugado;0;0;4;0;5;8;0;0;0;5;7;6;;;0;0;0;0;Americas;5.43;;;;;;1;;4;0;5;8
+M-130;Americas;Cloud9;Split;Lotus;Bind;1ro;1;1;No jugado;1;1;7;6;0;5;1;1;5;8;4;0;0;0;0;0;0;0;Americas;5.78;;;;;;0;;7;6;0;5
+M-131;Americas;100 Thieves;Split;Ascent;Haven;2do;0;0;No jugado;0;1;7;6;8;7;0;1;1;4;8;5;;;0;0;0;0;Americas;5.55;;;;;;0;;7;6;8;7
+M-131;Americas;LOUD;Ascent;Split;Haven;1ro;1;1;No jugado;0;1;8;5;1;4;0;1;8;7;7;6;0;0;0;0;0;0;Americas;5.61;;;;;;0;;8;5;1;4
+M-132;Americas;KRU;Split;Haven;Pearl;2do;0;0;No jugado;0;0;3;1;4;9;0;0;3;1;11;2;;;0;0;0;0;Americas;5.46;;;;;;1;;3;1;4;9
+M-132;Americas;Leviatan;Haven;Split;Pearl;1ro;1;1;No jugado;1;1;11;2;3;1;1;1;4;9;3;1;0;0;0;0;0;0;Americas;5.47;;;;;;0;;11;2;3;1
+M-133;Americas;FURIA;Haven;Bind;Pearl;2do;1;0;0;0;1;7;6;6;5;0;0;9;2;10;3;1;0;2;4;8;5;Americas;5.42;;;;;;1;;7;6;6;5
+M-133;Americas;NRG;Bind;Haven;Pearl;1ro;1;0;1;1;1;10;3;9;2;0;1;6;5;7;6;1;0;8;5;2;4;Americas;5.25;;;;;;0;;10;3;9;2
+M-134;EMEA;KOI;Ascent;Lotus;Fracture;2do;0;0;No jugado;0;1;1;8;4;9;1;0;2;2;10;3;;;0;0;0;0;EMEA;5.49;;;;;;1;;1;8;4;9
+M-134;EMEA;Fnatic;Lotus;Ascent;Fracture;1ro;1;1;No jugado;1;0;10;3;2;2;0;1;4;9;1;8;0;0;0;0;0;0;EMEA;5.78;;;;;;0;;10;3;2;2
+M-135;EMEA;Vitality;Split;Lotus;Ascent;2do;1;0;0;1;0;7;6;5;5;0;0;4;2;5;8;1;0;5;5;6;7;EMEA;5.43;;;;;;1;;7;6;5;5
+M-135;EMEA;Giants;Lotus;Split;Ascent;1ro;1;0;1;1;1;5;8;4;2;1;0;5;5;7;6;1;0;6;7;5;5;EMEA;5.77;;;;;;1;;5;8;4;2
+M-136;EMEA;Navi;Pearl;Lotus;Split;2do;1;1;No jugado;0;0;4;9;3;8;0;1;4;9;3;6;;;0;0;0;0;EMEA;5.49;;;;;;0;;4;9;3;8
+M-136;EMEA;Fut;Lotus;Pearl;Split;1ro;0;0;No jugado;0;1;3;6;4;9;1;1;3;8;4;9;0;0;0;0;0;0;EMEA;5.39;;;;;;0;;3;6;4;9
+M-137;EMEA;Karmine Corp;Lotus;Haven;Fracture;2do;0;0;No jugado;1;0;4;6;6;7;0;0;2;0;3;10;;;0;0;0;0;EMEA;5.04;;;;;;1;;4;6;6;7
+M-137;EMEA;Fnatic;Haven;Lotus;Fracture;1ro;1;1;No jugado;1;1;3;10;2;0;1;0;6;7;4;6;0;0;0;0;0;0;EMEA;5.78;;;;;;1;;3;10;2;0
+M-138;EMEA;BBL;Ascent;Split;Bind;2do;1;0;0;0;0;8;5;3;4;1;0;8;3;9;4;0;1;2;5;7;6;EMEA;5.31;;;;;;1;;8;5;3;4
+M-138;EMEA;Liquid;Split;Ascent;Bind;1ro;1;0;1;1;0;9;4;8;3;1;1;3;4;8;5;0;1;7;6;2;5;EMEA;5.33;;;;;;0;;9;4;8;3
+M-139;Pacific;Talon;Lotus;Fracture;Haven;2do;1;1;No jugado;1;0;6;7;5;2;1;1;7;6;3;5;;;0;0;0;0;Pacific;5.27;;;;;;0;;6;7;5;2
+M-139;Pacific;Gen.G;Fracture;Lotus;Haven;1ro;0;0;No jugado;0;0;3;5;7;6;1;0;5;2;6;7;0;0;0;0;0;0;Pacific;5.38;;;;;;1;;3;5;7;6
+M-140;Pacific;Zeta Division;Ascent;Split;Lotus;2do;0;0;No jugado;0;1;6;4;8;5;0;0;1;5;7;6;;;0;0;0;0;Pacific;5.21;;;;;;1;;6;4;8;5
+M-140;Pacific;Paper Rex;Split;Ascent;Lotus;1ro;1;1;No jugado;1;1;7;6;1;5;0;1;8;5;6;4;0;0;0;0;0;0;Pacific;5.86;;;;;;0;;7;6;1;5
+M-141;Pacific;Global;Pearl;Fracture;Bind;2do;0;0;No jugado;1;1;7;4;8;5;0;0;6;4;7;6;;;0;0;0;0;Pacific;5.75;;;;;;1;;7;4;8;5
+M-141;Pacific;Rex Regnum;Fracture;Pearl;Bind;1ro;1;1;No jugado;1;1;7;6;6;4;0;0;8;5;7;4;0;0;0;0;0;0;Pacific;5.44;;;;;;1;;7;6;6;4
+M-142;Pacific;T1;Bind;Lotus;Fracture;2do;1;1;No jugado;0;0;7;6;3;5;1;1;3;10;2;2;;;0;0;0;0;Pacific;5.29;;;;;;0;;7;6;3;5
+M-142;Pacific;Team Secret;Lotus;Bind;Fracture;1ro;0;0;No jugado;0;0;2;2;3;10;1;1;3;5;7;6;0;0;0;0;0;0;Pacific;5.37;;;;;;0;;2;2;3;10
+M-143;Pacific;DRX;Ascent;Fracture;Pearl;2do;1;1;No jugado;0;0;9;4;1;3;1;1;5;8;1;7;;;0;0;0;0;Pacific;5.42;;;;;;0;;9;4;1;3
+M-143;Pacific;DFM;Fracture;Ascent;Pearl;1ro;0;0;No jugado;0;0;1;7;5;8;1;1;1;3;9;4;0;0;0;0;0;0;Pacific;5.77;;;;;;0;;1;7;5;8
+M-144;EMEA;Heretics;Lotus;Fracture;Ascent;2do;1;0;0;1;0;8;5;7;2;1;0;4;3;9;4;1;0;7;4;8;5;EMEA;5.26;;;;;;1;;8;5;7;2
+M-144;EMEA;KOI;Fracture;Lotus;Ascent;1ro;1;0;1;1;0;9;4;4;3;1;0;7;2;8;5;1;0;8;5;7;4;EMEA;5.49;;;;;;1;;9;4;4;3
+M-145;Pacific;Gen.G;Ascent;Split;Lotus;2do;0;0;No jugado;0;0;0;2;10;3;1;0;4;3;9;4;;;0;0;0;0;Pacific;5.38;;;;;;1;;0;2;10;3
+M-145;Pacific;Paper Rex;Split;Ascent;Lotus;1ro;1;1;No jugado;1;0;9;4;4;3;1;1;10;3;0;2;0;0;0;0;0;0;Pacific;5.86;;;;;;0;;9;4;4;3
+M-146;Pacific;T1;Lotus;Fracture;Bind;2do;0;1;1;0;1;1;9;3;10;1;1;7;6;6;5;1;1;4;9;3;0;Pacific;5.29;;;;;;0;;1;9;3;10
+M-146;Pacific;Zeta Division;Fracture;Lotus;Bind;1ro;0;1;0;0;0;6;5;7;6;0;1;3;10;1;9;0;0;3;0;4;9;Pacific;5.21;;;;;;0;;6;5;7;6
+M-147;Pacific;DRX;Ascent;Haven;Fracture;2do;0;0;No jugado;1;0;9;2;10;3;1;1;4;4;5;8;;;0;0;0;0;Pacific;5.42;;;;;;0;;9;2;10;3
+M-147;Pacific;Team Secret;Haven;Ascent;Fracture;1ro;1;1;No jugado;0;0;5;8;4;4;1;0;10;3;9;2;0;0;0;0;0;0;Pacific;5.37;;;;;;1;;5;8;4;4
+M-148;Pacific;Global;Pearl;Lotus;Bind;2do;1;1;No jugado;1;1;11;2;5;1;1;1;8;5;3;4;;;0;0;0;0;Pacific;5.75;;;;;;0;;11;2;5;1
+M-148;Pacific;DFM;Lotus;Pearl;Bind;1ro;0;0;No jugado;0;0;3;4;8;5;0;0;5;1;11;2;0;0;0;0;0;0;Pacific;5.77;;;;;;1;;3;4;8;5
+M-149;Pacific;Talon;Ascent;Split;Haven;2do;0;1;0;0;0;1;3;9;4;0;1;9;4;0;3;0;1;4;3;5;8;Pacific;5.27;;;;;;0;;1;3;9;4
+M-149;Pacific;Rex Regnum;Split;Ascent;Haven;1ro;0;1;1;0;1;0;3;9;4;1;1;9;4;1;3;0;1;5;8;4;3;Pacific;5.44;;;;;;0;;0;3;9;4
+M-150;Pacific;Zeta Division;Ascent;Haven;Fracture;2do;0;1;1;1;1;1;3;9;4;1;0;8;5;4;4;1;1;5;8;4;0;Pacific;5.21;;;;;;1;;1;3;9;4
+M-150;Pacific;Gen.G;Haven;Ascent;Fracture;1ro;0;1;0;1;0;4;4;8;5;0;0;9;4;1;3;0;0;4;0;5;8;Pacific;5.38;;;;;;1;;4;4;8;5
+M-151;Pacific;DRX;Pearl;Bind;Ascent;2do;1;1;No jugado;1;1;4;9;3;6;1;1;9;4;7;3;;;0;0;0;0;Pacific;5.42;;;;;;0;;4;9;3;6
+M-151;Pacific;T1;Bind;Pearl;Ascent;1ro;0;0;No jugado;0;0;7;3;9;4;0;0;3;6;4;9;0;0;0;0;0;0;Pacific;5.29;;;;;;1;;7;3;9;4
+M-152;Pacific;Global;Lotus;Haven;Bind;2do;0;0;No jugado;0;0;5;5;7;6;1;0;6;3;7;6;;;0;0;0;0;Pacific;5.75;;;;;;1;;5;5;7;6
+M-152;Pacific;Team Secret;Haven;Lotus;Bind;1ro;1;1;No jugado;1;0;7;6;6;3;1;1;7;6;5;5;0;0;0;0;0;0;Pacific;5.37;;;;;;0;;7;6;6;3
+M-153;Americas;100 Thieves;Fracture;Pearl;Haven;2do;1;0;1;1;0;10;3;5;2;1;1;5;5;6;7;1;1;6;7;5;6;Americas;5.55;;;;;;0;;10;3;5;2
+M-153;Americas;FURIA;Pearl;Fracture;Haven;1ro;1;0;0;0;0;6;7;5;5;1;0;5;2;10;3;0;0;5;6;6;7;Americas;5.42;;;;;;1;;6;7;5;5
+M-154;Americas;Evil Genius;Fracture;Lotus;Ascent;2do;1;1;No jugado;0;0;5;8;4;1;1;1;3;10;2;0;;;0;0;0;0;Americas;5.57;;;;;;0;;5;8;4;1
+M-154;Americas;mibr;Lotus;Fracture;Ascent;1ro;0;0;No jugado;0;0;2;0;3;10;1;1;4;1;5;8;0;0;0;0;0;0;Americas;5.43;;;;;;0;;2;0;3;10
+M-155;Americas;KRU;Bind;Lotus;Pearl;2do;0;0;No jugado;1;0;4;6;5;8;0;0;6;6;7;7;;;0;0;0;0;Americas;5.46;;;;;;1;;4;6;5;8
+M-155;Americas;Sentinels;Lotus;Bind;Pearl;1ro;1;1;No jugado;1;1;7;7;6;6;1;0;5;8;4;6;0;0;0;0;0;0;Americas;5.88;;;;;;1;;7;7;6;6
+M-156;Americas;NRG;Pearl;Split;Haven;2do;1;1;No jugado;1;1;7;6;6;3;1;0;9;4;2;3;;;0;0;0;0;Americas;5.25;;;;;;1;;7;6;6;3
+M-156;Americas;LOUD;Split;Pearl;Haven;1ro;0;0;No jugado;1;0;2;3;9;4;0;0;6;3;7;6;0;0;0;0;0;0;Americas;5.61;;;;;;1;;2;3;9;4
+M-157;Americas;Leviatan;Haven;Lotus;Bind;2do;0;0;No jugado;1;0;2;2;10;3;1;0;4;3;9;4;;;0;0;0;0;Americas;5.47;;;;;;1;;2;2;10;3
+M-157;Americas;Cloud9;Lotus;Haven;Bind;1ro;1;1;No jugado;1;0;9;4;4;3;1;0;10;3;2;2;0;0;0;0;0;0;Americas;5.78;;;;;;1;;9;4;4;3
+M-158;Pacific;DFM;Bind;Lotus;Fracture;2do;0;0;No jugado;0;0;2;2;10;3;0;1;6;5;7;6;;;0;0;0;0;Pacific;5.77;;;;;;0;;2;2;10;3
+M-158;Pacific;Talon;Lotus;Bind;Fracture;1ro;1;1;No jugado;0;1;7;6;6;5;1;1;10;3;2;2;0;0;0;0;0;0;Pacific;5.27;;;;;;0;;7;6;6;5
+M-159;Pacific;Paper Rex;Pearl;Bind;Fracture;2do;1;1;No jugado;1;1;5;8;4;7;1;1;7;6;4;5;;;0;0;0;0;Pacific;5.86;;;;;;0;;5;8;4;7
+M-159;Pacific;Rex Regnum;Bind;Pearl;Fracture;1ro;0;0;No jugado;0;0;4;5;7;6;0;0;4;7;5;8;0;0;0;0;0;0;Pacific;5.44;;;;;;1;;4;5;7;6
+M-160;EMEA;Navi;Split;Lotus;Fracture;2do;0;0;No jugado;0;0;4;4;5;8;1;1;6;3;7;6;;;0;0;0;0;EMEA;5.49;;;;;;0;;4;4;5;8
+M-160;EMEA;Fnatic;Lotus;Split;Fracture;1ro;1;1;No jugado;0;0;7;6;6;3;1;1;5;8;4;4;0;0;0;0;0;0;EMEA;5.78;;;;;;0;;7;6;6;3
+M-161;EMEA;Heretics;Lotus;Haven;Ascent;2do;0;0;No jugado;1;1;9;4;10;5;1;1;2;8;4;9;;;0;0;0;0;EMEA;5.26;;;;;;0;;9;4;10;5
+M-161;EMEA;Vitality;Haven;Lotus;Ascent;1ro;1;1;No jugado;0;0;4;9;2;8;0;0;10;5;9;4;0;0;0;0;0;0;EMEA;5.43;;;;;;1;;4;9;2;8
+M-162;EMEA;Giants;Ascent;Lotus;Haven;2do;1;1;No jugado;0;1;8;5;1;4;1;0;11;5;10;4;;;0;0;0;0;EMEA;5.77;;;;;;1;;8;5;1;4
+M-162;EMEA;Karmine Corp;Lotus;Ascent;Haven;1ro;0;0;No jugado;1;0;10;4;11;5;0;1;1;4;8;5;0;0;0;0;0;0;EMEA;5.04;;;;;;0;;10;4;11;5
+M-163;Americas;FURIA;Haven;Split;Bind;2do;1;0;0;0;1;8;5;1;4;1;1;4;3;9;4;1;0;8;9;9;10;Americas;5.42;;;;;;0;;8;5;1;4
+M-163;Americas;Sentinels;Split;Haven;Bind;1ro;1;0;1;0;0;9;4;4;3;0;1;1;4;8;5;1;0;9;10;8;9;Americas;5.88;;;;;;0;;9;4;4;3
+M-164;Americas;Evil Genius;Split;Bind;Ascent;2do;0;0;No jugado;0;1;2;5;7;6;0;0;1;8;4;9;;;0;0;0;0;Americas;5.57;;;;;;1;;2;5;7;6
+M-164;Americas;NRG;Bind;Split;Ascent;1ro;1;1;No jugado;1;1;4;9;1;8;0;1;7;6;2;5;0;0;0;0;0;0;Americas;5.25;;;;;;0;;4;9;1;8
+M-165;EMEA;KOI;Split;Fracture;Lotus;2do;1;0;0;1;0;8;5;7;4;0;0;5;2;6;7;1;0;5;3;6;7;EMEA;5.49;;;;;;1;;8;5;7;4
+M-165;EMEA;Liquid;Fracture;Split;Lotus;1ro;1;0;1;1;1;6;7;5;2;1;0;7;4;8;5;1;0;6;7;5;3;EMEA;5.33;;;;;;1;;6;7;5;2
+M-166;EMEA;BBL;Haven;Pearl;Split;2do;0;0;No jugado;1;0;5;2;10;3;0;1;0;5;7;6;;;0;0;0;0;EMEA;5.31;;;;;;0;;5;2;10;3
+M-166;EMEA;Fut;Pearl;Haven;Split;1ro;1;1;No jugado;0;1;7;6;0;5;1;0;10;3;5;2;0;0;0;0;0;0;EMEA;5.39;;;;;;1;;7;6;0;5
+M-167;Americas;KRU;Ascent;Lotus;Split;2do;1;0;0;1;1;6;7;0;6;0;0;10;3;11;4;0;1;5;4;8;5;Americas;5.46;;;;;;1;;6;7;0;6
+M-167;Americas;Cloud9;Lotus;Ascent;Split;1ro;1;0;1;1;1;11;4;10;3;0;0;0;6;6;7;0;1;8;5;5;4;Americas;5.78;;;;;;1;;11;4;10;3
+M-168;Americas;LOUD;Ascent;Haven;Lotus;2do;1;1;No jugado;0;1;9;4;2;3;0;0;8;5;3;4;;;0;0;0;0;Americas;5.61;;;;;;1;;9;4;2;3
+M-168;Americas;Leviatan;Haven;Ascent;Lotus;1ro;0;0;No jugado;1;1;3;4;8;5;0;1;2;3;9;4;0;0;0;0;0;0;Americas;5.47;;;;;;0;;3;4;8;5
+M-169;Americas;mibr;Pearl;Fracture;Lotus;2do;0;1;1;0;0;4;8;5;9;1;1;8;5;2;4;0;0;6;7;5;2;Americas;5.43;;;;;;0;;4;8;5;9
+M-169;Americas;100 Thieves;Fracture;Pearl;Lotus;1ro;0;1;0;0;0;2;4;8;5;1;1;5;9;4;8;1;1;5;2;6;7;Americas;5.55;;;;;;0;;2;4;8;5
+M-170;Americas;Leviatan;Pearl;Ascent;Bind;2do;1;0;0;1;0;12;8;11;7;0;0;1;4;8;5;0;1;1;5;7;6;Americas;5.47;;;;;;1;;12;8;11;7
+M-170;Americas;FURIA;Ascent;Pearl;Bind;1ro;1;0;1;1;1;8;5;1;4;1;0;11;7;12;8;0;1;7;6;1;5;Americas;5.42;;;;;;1;;8;5;1;4
+M-171;Americas;Evil Genius;Split;Haven;Ascent;2do;1;0;1;0;0;5;10;4;9;0;0;5;6;6;7;0;0;7;6;2;5;Americas;5.57;;;;;;1;;5;10;4;9
+M-171;Americas;NRG;Haven;Split;Ascent;1ro;1;0;0;1;1;6;7;5;6;1;1;4;9;5;10;1;1;2;5;7;6;Americas;5.25;;;;;;0;;6;7;5;6
+M-172;Americas;LOUD;Ascent;Haven;Bind;2do;1;1;No jugado;0;0;9;4;2;3;1;1;9;4;1;3;;;0;0;0;0;Americas;5.61;;;;;;0;;9;4;2;3
+M-172;Americas;FURIA;Haven;Ascent;Bind;1ro;0;0;No jugado;0;0;1;3;9;4;1;1;2;3;9;4;0;0;0;0;0;0;Americas;5.42;;;;;;0;;1;3;9;4
+M-173;Americas;Cloud9;Bind;Fracture;Ascent;2do;0;0;No jugado;0;0;2;0;3;10;0;0;4;1;5;8;;;0;0;0;0;Americas;5.78;;;;;;1;;2;0;3;10
+M-173;Americas;Evil Genius;Fracture;Bind;Ascent;1ro;1;1;No jugado;1;1;5;8;4;1;1;1;3;10;2;0;0;0;0;0;0;0;Americas;5.57;;;;;;0;;5;8;4;1
+M-174;Americas;Cloud9;Lotus;Haven;Ascent;2do;0;1;1;0;0;6;4;7;6;1;1;9;4;5;3;1;1;8;5;0;4;Americas;5.78;;;;;;0;;6;4;7;6
+M-174;Americas;Leviatan;Haven;Lotus;Ascent;1ro;0;1;0;0;0;5;3;9;4;1;1;7;6;6;4;0;0;0;4;8;5;Americas;5.47;;;;;;0;;5;3;9;4
+M-175;Americas;FURIA;Haven;Bind;Split;2do;0;0;No jugado;0;1;3;7;5;8;0;1;2;7;3;10;;;0;0;0;0;Americas;5.42;;;;;;0;;3;7;5;8
+M-175;Americas;NRG;Bind;Haven;Split;1ro;1;1;No jugado;0;1;3;10;2;7;0;1;5;8;3;7;0;0;0;0;0;0;Americas;5.25;;;;;;0;;3;10;2;7
+M-176;Americas;LOUD;Ascent;Fracture;Bind;2do;0;1;1;1;0;7;4;8;5;0;0;7;6;4;5;1;0;10;3;1;2;Americas;5.61;;;;;;1;;7;4;8;5
+M-176;Americas;Evil Genius;Fracture;Ascent;Bind;1ro;0;1;0;1;1;4;5;7;6;1;0;8;5;7;4;1;0;1;2;10;3;Americas;5.57;;;;;;1;;4;5;7;6
+M-177;Americas;Cloud9;Lotus;Pearl;Haven;2do;0;1;0;0;1;4;5;7;6;0;1;5;8;3;7;1;1;6;6;7;7;Americas;5.78;;;;;;0;;4;5;7;6
+M-177;Americas;NRG;Pearl;Lotus;Haven;1ro;0;1;1;0;1;3;7;5;8;0;1;7;6;4;5;0;0;7;7;6;6;Americas;5.25;;;;;;0;;3;7;5;8
+M-178;Americas;Evil Genius;Ascent;Haven;;2do;0;1;No jugado;0;0;3;5;4;9;1;1;6;7;5;6;;;0;0;0;0;Americas;5.57;;;;;;0;;3;5;4;9
+M-178;Americas;NRG;Haven;Ascent;0;1ro;0;1;No jugado;0;0;5;6;6;7;1;1;4;9;3;5;0;0;0;0;0;0;Americas;5.25;;;;;;0;;5;6;6;7
+M-179;Americas;Evil Genius;Split;Lotus;Pearl;FALSE;0;0;No jugado;1;0;3;1;11;2;0;0;3;7;5;8;;;0;0;0;0;Americas;5.57;;;;;;1;;3;1;11;2
+M-179;Americas;NRG;Lotus;Split;Pearl;FALSE;1;1;No jugado;1;1;5;8;3;7;1;0;11;2;3;1;0;0;0;0;0;0;Americas;5.25;;;;;;1;;5;8;3;7
+M-180;Americas;NRG;Bind;Ascent;;2do;0;0;No jugado;0;0;6;5;7;6;0;0;2;7;5;8;;;0;0;0;0;Americas;5.25;;;;;;1;;6;5;7;6
+M-180;Americas;LOUD;Ascent;Bind;0;1ro;1;1;No jugado;1;1;5;8;2;7;1;1;7;6;6;5;0;0;0;0;0;0;Americas;5.61;;;;;;0;;5;8;2;7
+M-181;Americas;NRG;Lotus;Fracture;Haven;FALSE;0;0;No jugado;;;;;;;1;0;7;4;8;5;;;0;0;0;0;Americas;5.25;;;;;;1;;;;;
+M-181;Americas;LOUD;Fracture;Lotus;Haven;FALSE;1;0;No jugado;1;0;8;5;7;4;0;0;0;0;0;0;0;0;0;0;0;0;Americas;5.61;;;;;;;;8;5;7;4
+M-182;EMEA;Giants;Ascent;Haven;Lotus;2do;0;0;No jugado;0;1;3;9;4;10;0;0;3;2;4;9;;;0;0;0;0;EMEA;5.77;;;;;;1;;3;9;4;10
+M-182;EMEA;Fut;Haven;Ascent;Lotus;1ro;1;1;No jugado;1;1;4;9;3;2;0;1;4;10;3;9;0;0;0;0;0;0;EMEA;5.39;;;;;;0;;4;9;3;2
+M-183;EMEA;Liquid;Bind;Lotus;Ascent;2do;1;0;1;1;1;5;8;4;7;1;1;3;3;4;9;1;0;6;7;5;6;EMEA;5.33;;;;;;0;;5;8;4;7
+M-183;EMEA;Vitality;Lotus;Bind;Ascent;1ro;1;0;0;0;0;4;9;3;3;0;0;4;7;5;8;1;0;5;6;6;7;EMEA;5.43;;;;;;1;;4;9;3;3
+M-184;EMEA;Fut;Split;Bind;Lotus;2do;0;1;0;0;0;2;0;3;10;1;0;9;4;8;1;0;0;0;1;11;2;EMEA;5.39;;;;;;1;;2;0;3;10
+M-184;EMEA;Fnatic;Bind;Split;Lotus;1ro;0;1;1;1;0;8;1;9;4;1;1;3;10;2;0;1;1;11;2;0;1;EMEA;5.78;;;;;;0;;8;1;9;4
+M-185;EMEA;Navi;Split;Bind;Fracture;2do;0;0;No jugado;0;0;8;2;9;4;0;1;3;8;4;9;;;0;0;0;0;EMEA;5.49;;;;;;0;;8;2;9;4
+M-185;EMEA;Liquid;Bind;Split;Fracture;1ro;1;1;No jugado;0;1;4;9;3;8;1;1;9;4;8;2;0;0;0;0;0;0;EMEA;5.33;;;;;;0;;4;9;3;8
+M-186;EMEA;Fut;Haven;Split;Lotus;2do;0;1;1;1;1;5;4;8;5;1;0;9;4;8;1;0;1;4;9;3;3;EMEA;5.39;;;;;;1;;5;4;8;5
+M-186;EMEA;Vitality;Split;Haven;Lotus;1ro;0;1;0;1;0;8;1;9;4;0;0;8;5;5;4;0;1;3;3;4;9;EMEA;5.43;;;;;;1;;8;1;9;4
+M-187;EMEA;Giants;Ascent;Pearl;Lotus;2do;0;0;No jugado;1;1;4;5;5;8;0;1;3;6;6;7;;;0;0;0;0;EMEA;5.77;;;;;;0;;4;5;5;8
+M-187;EMEA;Navi;Pearl;Ascent;Lotus;1ro;1;1;No jugado;0;1;6;7;3;6;0;0;5;8;4;5;0;0;0;0;0;0;EMEA;5.49;;;;;;1;;6;7;3;6
+M-188;EMEA;Navi;Fracture;Lotus;Ascent;2do;0;0;No jugado;0;0;3;4;8;5;1;0;6;2;10;3;;;0;0;0;0;EMEA;5.49;;;;;;1;;3;4;8;5
+M-188;EMEA;Fut;Lotus;Fracture;Ascent;1ro;1;1;No jugado;1;0;10;3;6;2;1;1;8;5;3;4;0;0;0;0;0;0;EMEA;5.39;;;;;;0;;10;3;6;2
+M-189;EMEA;Liquid;Bind;Lotus;Ascent;2do;0;0;No jugado;1;0;6;0;7;6;0;0;7;5;8;6;;;0;0;0;0;EMEA;5.33;;;;;;1;;6;0;7;6
+M-189;EMEA;Fnatic;Lotus;Bind;Ascent;1ro;1;1;No jugado;1;1;8;6;7;5;1;0;7;6;6;0;0;0;0;0;0;0;EMEA;5.78;;;;;;1;;8;6;7;5
+M-190;EMEA;Fut;Lotus;Ascent;;2do;0;0;No jugado;1;0;11;4;12;5;1;0;2;3;9;4;;;0;0;0;0;EMEA;5.39;;;;;;1;;11;4;12;5
+M-190;EMEA;Liquid;Ascent;Lotus;0;1ro;1;1;No jugado;1;0;9;4;2;3;1;0;12;5;11;4;0;0;0;0;0;0;EMEA;5.33;;;;;;1;;9;4;2;3
+M-191;EMEA;Fut;Pearl;Split;Bind;FALSE;0;0;No jugado;;;;;;;0;1;0;5;7;6;;;0;0;0;0;EMEA;5.39;;;;;;0;;;;;
+M-191;EMEA;Liquid;Split;Pearl;Bind;FALSE;1;No jugado;No jugado;0;1;7;6;0;5;0;0;0;0;0;0;0;0;0;0;0;0;EMEA;5.33;;;;;;;;7;6;0;5
+M-192;EMEA;Liquid;Ascent;Lotus;;2do;1;0;No jugado;1;0;5;9;4;8;1;0;7;4;8;5;;;0;0;0;0;EMEA;5.33;;;;;;1;;5;9;4;8
+M-192;EMEA;Fnatic;Lotus;Ascent;0;1ro;1;0;No jugado;1;0;8;5;7;4;1;0;4;8;5;9;0;0;0;0;0;0;EMEA;5.78;;;;;;1;;8;5;7;4
+M-193;EMEA;Liquid;Fracture;Haven;Bind;2do;1;1;No jugado;0;1;5;8;4;7;1;1;5;8;4;2;;;0;0;0;0;EMEA;5.33;;;;;;0;;5;8;4;7
+M-193;EMEA;Fnatic;Haven;Fracture;Bind;1ro;0;0;No jugado;0;0;4;2;5;8;0;1;4;7;5;8;0;0;0;0;0;0;EMEA;5.78;;;;;;0;;4;2;5;8
+M-194;Pacific;Zeta Division;Ascent;Haven;Lotus;2do;0;0;No jugado;0;0;5;7;6;8;0;1;4;9;5;10;;;0;0;0;0;Pacific;5.21;;;;;;0;;5;7;6;8
+M-194;Pacific;Team Secret;Haven;Ascent;Lotus;1ro;1;1;No jugado;0;1;5;10;4;9;1;1;6;8;5;7;0;0;0;0;0;0;Pacific;5.37;;;;;;0;;5;10;4;9
+M-195;Pacific;Gen.G;Ascent;Fracture;Lotus;2do;1;0;0;0;1;4;9;3;8;1;0;5;3;6;7;1;0;6;1;7;6;Pacific;5.38;;;;;;1;;4;9;3;8
+M-195;Pacific;T1;Fracture;Ascent;Lotus;1ro;1;0;1;1;0;6;7;5;3;0;1;3;8;4;9;1;0;7;6;6;1;Pacific;5.29;;;;;;0;;6;7;5;3
+M-196;Pacific;DRX;Split;Haven;Bind;2do;1;0;1;0;0;10;3;3;2;0;1;5;4;8;5;0;1;3;10;2;2;Pacific;5.42;;;;;;0;;10;3;3;2
+M-196;Pacific;Team Secret;Haven;Split;Bind;1ro;1;0;0;0;1;8;5;5;4;1;1;3;2;10;3;0;1;2;2;3;10;Pacific;5.37;;;;;;0;;8;5;5;4
+M-197;Pacific;Paper Rex;Fracture;Lotus;Bind;2do;1;1;No jugado;1;1;5;8;4;6;1;0;6;7;4;6;;;0;0;0;0;Pacific;5.86;;;;;;1;;5;8;4;6
+M-197;Pacific;T1;Lotus;Fracture;Bind;1ro;0;0;No jugado;1;0;4;6;6;7;0;0;4;6;5;8;0;0;0;0;0;0;Pacific;5.29;;;;;;1;;4;6;6;7
+M-198;Pacific;Team Secret;Haven;Ascent;Split;2do;0;1;0;1;0;6;2;10;3;0;0;7;6;6;2;1;0;7;5;6;8;Pacific;5.37;;;;;;1;;6;2;10;3
+M-198;Pacific;Gen.G;Ascent;Haven;Split;1ro;0;1;1;1;1;6;2;7;6;1;0;10;3;6;2;1;0;6;8;7;5;Pacific;5.38;;;;;;1;;6;2;7;6
+M-199;Pacific;T1;Bind;Haven;Fracture;2do;0;1;1;0;0;7;5;8;6;1;1;5;8;4;6;1;1;8;5;7;3;Pacific;5.29;;;;;;0;;7;5;8;6
+M-199;Pacific;Zeta Division;Haven;Bind;Fracture;1ro;0;1;0;0;0;4;6;5;8;1;1;8;6;7;5;0;0;7;3;8;5;Pacific;5.21;;;;;;0;;4;6;5;8
+M-200;Pacific;Gen.G;Ascent;Fracture;Lotus;2do;0;0;No jugado;1;0;5;5;6;7;0;0;7;3;8;5;;;0;0;0;0;Pacific;5.38;;;;;;1;;5;5;6;7
+M-200;Pacific;T1;Fracture;Ascent;Lotus;1ro;1;1;No jugado;1;1;8;5;7;3;1;0;6;7;5;5;0;0;0;0;0;0;Pacific;5.29;;;;;;1;;8;5;7;3
+M-201;Pacific;DRX;Bind;Fracture;Pearl;1ro;0;0;No jugado;1;1;2;4;8;5;1;0;5;0;6;7;;;0;0;0;0;Pacific;5.42;;;;;;1;;2;4;8;5
+M-201;Pacific;Paper Rex;Fracture;Bind;Pearl;2do;1;1;No jugado;1;0;6;7;5;0;0;0;8;5;2;4;0;0;0;0;0;0;Pacific;5.86;;;;;;1;;6;7;5;0
+M-202;Pacific;DRX;Ascent;Fracture;;1ro;1;1;No jugado;0;0;7;9;6;8;0;0;9;4;3;3;;;0;0;0;0;Pacific;5.42;;;;;;1;;7;9;6;8
+M-202;Pacific;Paper Rex;Fracture;Ascent;0;2do;0;0;No jugado;1;1;3;3;9;4;1;1;6;8;7;9;0;0;0;0;0;0;Pacific;5.86;;;;;;0;;3;3;9;4
+M-203;Pacific;DRX;Pearl;Lotus;Bind;3ro;0;0;0;1;0;4;4;8;5;1;0;3;0;4;9;0;1;3;3;4;9;Pacific;5.42;;;;;;1;;4;4;8;5
+M-203;Pacific;Paper Rex;Lotus;Pearl;Bind;4to;1;1;1;1;0;4;9;3;0;1;0;8;5;4;4;0;1;4;9;3;3;Pacific;5.86;;;;;;1;;4;9;3;0
+M-204;Pacific;T1;Fracture;Ascent;;1ro;0;1;No jugado;0;1;3;8;4;9;1;1;10;3;9;2;;;0;0;0;0;Pacific;5.29;;;;;;0;;3;8;4;9
+M-204;Pacific;DRX;Ascent;Fracture;0;2do;0;1;No jugado;0;0;9;2;10;3;0;1;4;9;3;8;0;0;0;0;0;0;Pacific;5.42;;;;;;0;;9;2;10;3
+M-205;Pacific;T1;Bind;Haven;Pearl;1ro;1;0;1;1;0;5;8;4;2;1;1;8;3;9;4;1;1;5;8;4;2;Pacific;5.29;;;;;;0;;5;8;4;2
+M-205;Pacific;DRX;Haven;Bind;Pearl;2do;1;0;0;0;0;9;4;8;3;1;0;4;2;5;8;0;0;4;2;5;8;Pacific;5.42;;;;;;1;;9;4;8;3
+M-206;China;Eduard;Haven;Fracture;Pearl;1ro;1;0;0;1;1;6;7;1;6;0;0;6;4;7;6;1;0;6;6;7;7;Master Tokio;5.2;;;;;;1;;6;7;1;6
+M-206;Pacific;T1;Fracture;Haven;Pearl;2do;1;0;1;1;1;7;6;6;4;0;0;1;6;6;7;1;0;7;7;6;6;Master Tokio;5.29;;;;;;1;;7;6;6;4
+M-207;Americas;NRG;Lotus;Ascent;Split;1ro;0;1;1;1;0;8;4;9;5;0;0;7;6;6;2;1;0;10;3;4;2;Master Tokio;5.25;;;;;;1;;8;4;9;5
+M-207;EMEA;Navi;Ascent;Lotus;Split;2do;0;1;0;1;1;6;2;7;6;1;0;9;5;8;4;1;0;4;2;10;3;Master Tokio;5.49;;;;;;1;;6;2;7;6
+M-208;EMEA;Fut;Lotus;Split;Pearl;1ro;0;0;No jugado;0;0;6;6;7;7;0;0;0;5;7;6;;;0;0;0;0;Master Tokio;5.39;;;;;;1;;6;6;7;7
+M-208;Americas;Evil Genius;Split;Lotus;Pearl;2do;1;1;No jugado;1;1;7;6;0;5;1;1;7;7;6;6;0;0;0;0;0;0;Master Tokio;5.57;;;;;;0;;7;6;0;5
+M-209;Pacific;DRX;Pearl;Fracture;Ascent;1ro;1;1;No jugado;1;0;8;5;3;4;0;1;7;6;5;5;;;0;0;0;0;Master Tokio;5.42;;;;;;0;;8;5;3;4
+M-209;China;Attacking Soul;Fracture;Pearl;Ascent;2do;0;0;No jugado;0;1;5;5;7;6;1;0;3;4;8;5;0;0;0;0;0;0;Master Tokio;5.1;;;;;;1;;5;5;7;6
+M-210;Americas;NRG;Bind;Lotus;Pearl;1ro;1;0;1;0;1;6;7;1;6;1;0;6;5;7;6;1;0;7;6;6;5;Master Tokio;5.25;;;;;;1;;6;7;1;6
+M-210;Pacific;T1;Lotus;Bind;Pearl;2do;1;0;0;1;0;7;6;6;5;0;1;1;6;6;7;1;0;6;5;7;6;Master Tokio;5.29;;;;;;0;;7;6;6;5
+M-211;Pacific;DRX;Ascent;Fracture;Pearl;1ro;0;0;No jugado;0;0;5;4;6;7;0;0;4;1;5;8;;;0;0;0;0;Master Tokio;5.42;;;;;;1;;5;4;6;7
+M-211;Americas;Evil Genius;Fracture;Ascent;Pearl;2do;1;1;No jugado;1;1;5;8;4;1;1;1;6;7;5;4;0;0;0;0;0;0;Master Tokio;5.57;;;;;;0;;5;8;4;1
+M-212;China;Eduard;Bind;Pearl;Lotus;1ro;1;1;No jugado;1;1;7;7;6;6;1;0;10;7;9;6;;;0;0;0;0;Master Tokio;5.2;;;;;;1;;7;7;6;6
+M-212;EMEA;Navi;Pearl;Bind;Lotus;2do;0;0;No jugado;1;0;9;6;10;7;0;0;6;6;7;7;0;0;0;0;0;0;Master Tokio;5.49;;;;;;1;;9;6;10;7
+M-213;China;Attacking Soul;Ascent;Haven;Lotus;1ro;0;1;0;0;0;5;0;6;7;0;1;4;9;3;5;0;0;2;4;8;5;Master Tokio;5.1;;;;;;0;;5;0;6;7
+M-213;EMEA;Fut;Haven;Ascent;Lotus;2do;0;1;1;0;1;3;5;4;9;1;1;6;7;5;0;1;1;8;5;2;4;Master Tokio;5.39;;;;;;0;;3;5;4;9
+M-214;China;Eduard;Haven;Fracture;Lotus;1ro;1;1;No jugado;1;0;10;3;4;2;1;1;8;5;0;4;;;0;0;0;0;Master Tokio;5.2;;;;;;0;;10;3;4;2
+M-214;Pacific;T1;Fracture;Haven;Lotus;2do;0;0;No jugado;0;0;0;4;8;5;1;0;4;2;10;3;0;0;0;0;0;0;Master Tokio;5.29;;;;;;1;;0;4;8;5
+M-215;Pacific;DRX;Fracture;Bind;Haven;1ro;1;0;1;1;1;7;6;6;2;0;0;3;6;4;9;0;1;2;11;1;3;Master Tokio;5.42;;;;;;1;;7;6;6;2
+M-215;EMEA;Fut;Bind;Fracture;Haven;2do;1;0;0;1;1;4;9;3;6;0;0;6;2;7;6;0;1;1;3;2;11;Master Tokio;5.39;;;;;;1;;4;9;3;6
+M-216;EMEA;Liquid;Split;Haven;Lotus;1ro;0;1;1;0;1;2;6;6;7;1;0;7;6;6;3;0;0;8;5;7;4;Master Tokio;5.33;;;;;;1;;2;6;6;7
+M-216;China;Eduard;Haven;Split;Lotus;2do;0;1;0;1;0;6;3;7;6;0;1;6;7;2;6;1;1;7;4;8;5;Master Tokio;5.2;;;;;;0;;6;3;7;6
+M-217;Americas;LOUD;Ascent;Fracture;Lotus;1ro;0;0;No jugado;0;0;5;0;6;7;1;0;4;3;9;4;;;0;0;0;0;Master Tokio;5.61;;;;;;1;;5;0;6;7
+M-217;Americas;Evil Genius;Fracture;Ascent;Lotus;2do;1;1;No jugado;1;0;9;4;4;3;1;1;6;7;5;0;0;0;0;0;0;0;Master Tokio;5.57;;;;;;0;;9;4;4;3
+M-218;Americas;NRG;Bind;Fracture;Split;1ro;0;0;No jugado;0;0;2;2;10;3;1;0;6;3;7;6;;;0;0;0;0;Master Tokio;5.25;;;;;;1;;2;2;10;3
+M-218;EMEA;Fnatic;Fracture;Bind;Split;2do;1;1;No jugado;1;0;7;6;6;3;1;1;10;3;2;2;0;0;0;0;0;0;Master Tokio;5.78;;;;;;0;;7;6;6;3
+M-219;Pacific;Paper Rex;Bind;Split;Fracture;1ro;1;1;No jugado;0;1;5;8;4;6;1;0;9;4;7;3;;;0;0;0;0;Master Tokio;5.86;;;;;;1;;5;8;4;6
+M-219;Pacific;DRX;Split;Bind;Fracture;2do;0;0;No jugado;1;0;7;3;9;4;0;1;4;6;5;8;0;0;0;0;0;0;Master Tokio;5.42;;;;;;0;;7;3;9;4
+M-220;Americas;NRG;Haven;Pearl;Split;1ro;1;1;No jugado;1;1;5;8;4;1;0;1;4;9;3;8;;;0;0;0;0;Master Tokio;5.25;;;;;;0;;5;8;4;1
+M-220;Pacific;DRX;Pearl;Haven;Split;2do;0;0;No jugado;0;1;3;8;4;9;0;0;4;1;5;8;0;0;0;0;0;0;Master Tokio;5.42;;;;;;1;;3;8;4;9
+M-221;China;Eduard;Fracture;Lotus;Bind;1ro;1;1;No jugado;0;1;8;5;7;3;1;0;8;5;2;4;;;0;0;0;0;Master Tokio;5.2;;;;;;1;;8;5;7;3
+M-221;Americas;LOUD;Lotus;Fracture;Bind;2do;0;0;No jugado;1;0;2;4;8;5;0;1;7;3;8;5;0;0;0;0;0;0;Master Tokio;5.61;;;;;;0;;2;4;8;5
+M-222;Pacific;Paper Rex;Bind;Lotus;Split;1ro;0;0;No jugado;0;0;4;3;9;4;0;1;0;5;1;12;;;0;0;0;0;Master Tokio;5.86;;;;;;0;;4;3;9;4
+M-222;EMEA;Fnatic;Lotus;Bind;Split;2do;1;1;No jugado;0;1;1;12;0;5;1;1;9;4;4;3;0;0;0;0;0;0;Master Tokio;5.78;;;;;;0;;1;12;0;5
+M-223;EMEA;Liquid;Haven;Fracture;Split;1ro;0;0;No jugado;0;1;5;4;6;7;1;0;1;1;11;2;;;0;0;0;0;Master Tokio;5.33;;;;;;1;;5;4;6;7
+M-223;Americas;Evil Genius;Fracture;Haven;Split;2do;1;1;No jugado;1;0;11;2;1;1;0;1;6;7;5;4;0;0;0;0;0;0;Master Tokio;5.57;;;;;;0;;11;2;1;1
+M-224;EMEA;Liquid;Ascent;Haven;Split;1ro;1;0;0;0;1;7;6;3;5;1;1;4;8;5;9;0;1;1;4;8;5;Master Tokio;5.33;;;;;;0;;7;6;3;5
+M-224;Americas;NRG;Haven;Ascent;Split;2do;1;0;1;0;0;5;9;4;8;0;1;3;5;7;6;0;1;8;5;1;4;Master Tokio;5.25;;;;;;0;;5;9;4;8
+M-225;Pacific;Paper Rex;Split;Fracture;Lotus;1ro;0;1;1;1;1;3;6;6;7;0;0;5;9;4;8;0;1;5;8;4;4;Master Tokio;5.86;;;;;;1;;3;6;6;7
+M-225;China;Eduard;Fracture;Split;Lotus;2do;0;1;0;1;1;4;8;5;9;0;0;6;7;3;6;0;1;4;4;5;8;Master Tokio;5.2;;;;;;1;;4;8;5;9
+M-226;Pacific;Paper Rex;Lotus;Pearl;Bind;1ro;0;1;1;0;0;4;2;10;3;0;0;7;8;6;7;0;1;8;5;7;4;Master Tokio;5.86;;;;;;1;;4;2;10;3
+M-226;Americas;NRG;Pearl;Lotus;Bind;2do;0;1;0;1;1;6;7;7;8;1;1;10;3;4;2;0;1;7;4;8;5;Master Tokio;5.25;;;;;;0;;6;7;7;8
+M-227;Americas;Evil Genius;Fracture;Lotus;Split;1ro;1;0;0;0;1;4;9;3;6;0;0;1;2;10;3;1;0;6;5;7;6;Master Tokio;5.57;;;;;;1;;4;9;3;6
+M-227;EMEA;Fnatic;Lotus;Fracture;Split;2do;1;0;1;1;1;10;3;1;2;0;1;3;6;4;9;1;0;7;6;6;5;Master Tokio;5.78;;;;;;0;;10;3;1;2
+M-228;Pacific;Paper Rex;Lotus;Fracture;;1ro;0;0;No jugado;0;1;7;5;8;6;0;1;3;4;4;9;;;0;0;0;0;Master Tokio;5.86;;;;;;0;;7;5;8;6
+M-228;Americas;Evil Genius;Fracture;Lotus;0;2do;1;1;No jugado;0;1;4;9;3;4;0;1;8;6;7;5;0;0;0;0;0;0;Master Tokio;5.57;;;;;;0;;4;9;3;4
+M-229;Pacific;Paper Rex;Pearl;Split;Ascent;3ro;0;1;0;0;0;5;1;6;7;0;1;4;9;2;8;0;1;4;4;8;5;Master Tokio;5.86;;;;;;0;;5;1;6;7
+M-229;Americas;Evil Genius;Split;Pearl;Ascent;4to;0;1;1;0;1;2;8;4;9;1;1;6;7;5;1;0;1;8;5;4;4;Master Tokio;5.57;;;;;;0;;2;8;4;9
+M-230;Americas;Evil Genius;Split;Lotus;;1ro;0;0;No jugado;0;1;4;7;5;8;0;1;2;6;6;7;;;0;0;0;0;Master Tokio;5.57;;;;;;0;;4;7;5;8
+M-230;EMEA;Fnatic;Lotus;Split;0;2do;1;1;No jugado;0;1;6;7;2;6;0;1;5;8;4;7;0;0;0;0;0;0;Master Tokio;5.78;;;;;;0;;6;7;2;6
+M-231;Americas;Evil Genius;Ascent;Bind;Haven;1ro;0;0;No jugado;;;;;;;0;1;8;4;9;5;;;0;0;0;0;Master Tokio;5.57;;;;;;0;;;;;
+M-231;EMEA;Fnatic;Bind;Ascent;Haven;2do;1;No jugado;No jugado;0;1;9;5;8;4;0;0;0;0;0;0;0;0;0;0;0;0;Master Tokio;5.78;;;;;;;;9;5;8;4
+M-232;Americas;mibr;Lotus;Bind;Ascent;1ro;0;0;No jugado;0;0;5;3;9;4;0;1;3;4;4;9;;;0;0;0;0;LCQ Americas;5.43;;;;;;0;;5;3;9;4
+M-232;Americas;KRU;Bind;Lotus;Ascent;2do;1;1;No jugado;0;1;4;9;3;4;1;1;9;4;5;3;0;0;0;0;0;0;LCQ Americas;5.46;;;;;;0;;4;9;3;4
+M-233;Americas;FURIA;Ascent;Split;Bind;1ro;0;1;0;1;1;1;3;9;4;1;1;8;6;7;5;1;1;7;4;5;8;LCQ Americas;5.42;;;;;;0;;1;3;9;4
+M-233;Americas;KRU;Split;Ascent;Bind;2do;0;1;1;0;0;7;5;8;6;0;0;9;4;1;3;0;0;5;8;7;4;LCQ Americas;5.46;;;;;;1;;7;5;8;6
+M-234;Americas;Sentinels;Split;Pearl;Bind;1ro;1;0;1;0;1;5;8;0;7;0;1;3;9;4;10;1;0;10;3;5;2;LCQ Americas;5.88;;;;;;0;;5;8;0;7
+M-234;Americas;100 Thieves;Pearl;Split;Bind;2do;1;0;0;0;1;4;10;3;9;0;1;0;7;5;8;1;0;5;2;10;3;LCQ Americas;5.55;;;;;;0;;4;10;3;9
+M-235;Americas;Cloud9;Fracture;Pearl;Split;1ro;0;1;1;0;0;3;2;4;9;1;1;8;5;4;4;1;1;8;5;4;4;LCQ Americas;5.78;;;;;;0;;3;2;4;9
+M-235;Americas;Sentinels;Pearl;Fracture;Split;2do;0;1;0;0;0;4;4;8;5;1;1;4;9;3;2;0;0;4;4;8;5;LCQ Americas;5.88;;;;;;0;;4;4;8;5
+M-236;Americas;Leviatan;Lotus;Split;Haven;1ro;0;0;No jugado;0;0;5;2;6;7;0;1;2;3;9;4;;;0;0;0;0;LCQ Americas;5.47;;;;;;0;;5;2;6;7
+M-236;Americas;KRU;Split;Lotus;Haven;2do;1;1;No jugado;0;1;9;4;2;3;1;1;6;7;5;2;0;0;0;0;0;0;LCQ Americas;5.46;;;;;;0;;9;4;2;3
+M-237;Americas;Sentinels;Split;Fracture;Pearl;1ro;0;0;No jugado;1;0;4;0;5;8;0;0;2;6;6;7;;;0;0;0;0;LCQ Americas;5.88;;;;;;1;;4;0;5;8
+M-237;Americas;Leviatan;Fracture;Split;Pearl;2do;1;1;No jugado;1;1;6;7;2;6;1;0;5;8;4;0;0;0;0;0;0;0;LCQ Americas;5.47;;;;;;1;;6;7;2;6
+M-238;Americas;Cloud9;Pearl;Ascent;Haven;1ro;0;1;0;1;0;4;0;12;1;1;0;5;8;4;0;1;1;2;4;8;5;LCQ Americas;5.78;;;;;;1;;4;0;12;1
+M-238;Americas;KRU;Ascent;Pearl;Haven;2do;0;1;1;1;0;4;0;5;8;1;0;12;1;4;0;0;0;8;5;2;4;LCQ Americas;5.46;;;;;;1;;4;0;5;8
+M-239;EMEA;Heretics;Pearl;Fracture;Haven;1ro;1;0;0;1;1;4;9;2;8;1;0;7;1;8;5;0;0;4;2;5;8;LCQ EMEA;5.26;;;;;;1;;4;9;2;8
+M-239;EMEA;KOI;Fracture;Pearl;Haven;2do;1;0;1;1;0;8;5;7;1;0;0;2;8;4;9;1;1;5;8;4;2;LCQ EMEA;5.49;;;;;;1;;8;5;7;1
+M-240;EMEA;Karmine Corp;Lotus;Haven;Bind;1ro;1;0;1;0;0;6;7;5;4;1;1;6;7;5;9;1;0;8;6;7;5;LCQ EMEA;5.04;;;;;;0;;6;7;5;4
+M-240;EMEA;BBL;Haven;Lotus;Bind;2do;1;0;0;0;0;5;9;6;7;1;1;5;4;6;7;1;0;7;5;8;6;LCQ EMEA;5.31;;;;;;0;;5;9;6;7
+M-241;EMEA;Navi;Lotus;Split;Ascent;1ro;0;0;No jugado;0;0;3;0;4;9;0;0;0;6;6;7;;;0;0;0;0;LCQ EMEA;5.49;;;;;;1;;3;0;4;9
+M-241;EMEA;KOI;Split;Lotus;Ascent;2do;1;1;No jugado;1;1;6;7;0;6;1;1;4;9;3;0;0;0;0;0;0;0;LCQ EMEA;5.49;;;;;;0;;6;7;0;6
+M-242;EMEA;Giants;Split;Pearl;Lotus;1ro;1;1;No jugado;1;1;10;3;3;2;0;1;4;9;3;8;;;0;0;0;0;LCQ EMEA;5.77;;;;;;0;;10;3;3;2
+M-242;EMEA;Karmine Corp;Pearl;Split;Lotus;2do;0;0;No jugado;0;1;3;8;4;9;0;0;3;2;10;3;0;0;0;0;0;0;LCQ EMEA;5.04;;;;;;1;;3;8;4;9
+M-243;EMEA;Navi;Ascent;Lotus;Pearl;1ro;0;1;1;0;0;5;2;6;7;1;0;6;7;5;1;0;1;8;5;3;4;LCQ EMEA;5.49;;;;;;1;;5;2;6;7
+M-243;EMEA;Karmine Corp;Lotus;Ascent;Pearl;2do;0;1;0;1;0;5;1;6;7;1;1;6;7;5;2;0;1;3;4;8;5;LCQ EMEA;5.04;;;;;;0;;5;1;6;7
+M-244;EMEA;Giants;Pearl;Haven;Ascent;1ro;1;1;No jugado;1;1;7;6;0;5;1;0;6;8;5;7;;;0;0;0;0;LCQ EMEA;5.77;;;;;;1;;7;6;0;5
+M-244;EMEA;KOI;Haven;Pearl;Ascent;2do;0;0;No jugado;1;0;5;7;6;8;0;0;0;5;7;6;0;0;0;0;0;0;LCQ EMEA;5.49;;;;;;1;;5;7;6;8
+M-245;EMEA;Navi;Pearl;Split;;1ro;1;1;No jugado;1;0;10;3;8;2;0;1;6;8;5;7;;;0;0;0;0;LCQ EMEA;5.49;;;;;;0;;10;3;8;2
+M-245;EMEA;KOI;Split;Pearl;0;2do;0;0;No jugado;0;1;5;7;6;8;1;0;8;2;10;3;0;0;0;0;0;0;LCQ EMEA;5.49;;;;;;1;;5;7;6;8
+M-246;EMEA;Navi;Ascent;Fracture;Lotus;3ro;0;1;No jugado;;;;;;;1;1;8;5;7;2;;;0;0;0;0;LCQ EMEA;5.49;;;;;;0;;;;;
+M-246;EMEA;KOI;Fracture;Ascent;Lotus;4to;0;No jugado;No jugado;0;0;7;2;8;5;0;0;0;0;0;0;0;0;0;0;0;0;LCQ EMEA;5.49;;;;;;;;7;2;8;5
+M-247;Pacific;Talon;Ascent;Fracture;Pearl;1ro;1;1;No jugado;0;1;7;6;3;5;1;1;7;6;2;5;;;0;0;0;0;LCQ Pacific;5.27;;;;;;0;;7;6;3;5
+M-247;Pacific;DFM;Fracture;Ascent;Pearl;2do;0;0;No jugado;0;0;2;5;7;6;0;1;3;5;7;6;0;0;0;0;0;0;LCQ Pacific;5.77;;;;;;0;;2;5;7;6
+M-248;Pacific;Rex Regnum;Ascent;Split;Bind;1ro;1;1;No jugado;0;0;6;7;4;6;1;1;7;6;5;5;;;0;0;0;0;LCQ Pacific;5.44;;;;;;0;;6;7;4;6
+M-248;Pacific;Global;Split;Ascent;Bind;2do;0;0;No jugado;0;0;5;5;7;6;1;1;4;6;6;7;0;0;0;0;0;0;LCQ Pacific;5.75;;;;;;0;;5;5;7;6
+M-249;Pacific;Gen.G;Split;Pearl;Haven;1ro;1;0;1;0;1;6;7;5;5;0;1;2;9;3;10;1;1;10;5;9;4;LCQ Pacific;5.38;;;;;;0;;6;7;5;5
+M-249;Pacific;Talon;Pearl;Split;Haven;2do;1;0;0;0;1;3;10;2;9;0;1;5;5;6;7;0;0;9;4;10;5;LCQ Pacific;5.27;;;;;;0;;3;10;2;9
+M-250;Pacific;Zeta Division;Split;Haven;Ascent;1ro;1;0;1;1;0;7;6;5;3;0;0;2;0;3;10;0;1;11;10;10;9;LCQ Pacific;5.21;;;;;;1;;7;6;5;3
+M-250;Pacific;Rex Regnum;Haven;Split;Ascent;2do;1;0;0;1;1;3;10;2;0;1;0;5;3;7;6;0;1;10;9;11;10;LCQ Pacific;5.44;;;;;;1;;3;10;2;0
+M-251;Pacific;Gen.G;Ascent;Haven;Lotus;1ro;0;0;No jugado;0;0;4;4;5;8;0;1;3;3;4;9;;;0;0;0;0;LCQ Pacific;5.38;;;;;;0;;4;4;5;8
+M-251;Pacific;Team Secret;Haven;Ascent;Lotus;2do;1;1;No jugado;0;1;4;9;3;3;1;1;5;8;4;4;0;0;0;0;0;0;LCQ Pacific;5.37;;;;;;0;;4;9;3;3
+M-252;Pacific;Zeta Division;Fracture;Lotus;Ascent;1ro;1;1;No jugado;1;0;7;6;6;1;1;0;9;4;6;3;;;0;0;0;0;LCQ Pacific;5.21;;;;;;1;;7;6;6;1
+M-252;Pacific;Team Secret;Lotus;Fracture;Ascent;2do;0;0;No jugado;1;0;6;3;9;4;1;0;6;1;7;6;0;0;0;0;0;0;LCQ Pacific;5.37;;;;;;1;;6;3;9;4
+M-253;Pacific;Gen.G;Pearl;Haven;;1ro;0;1;No jugado;0;0;4;7;5;8;0;1;4;9;3;7;;;0;0;0;0;LCQ Pacific;5.38;;;;;;0;;4;7;5;8
+M-253;Pacific;Team Secret;Haven;Pearl;0;2do;0;1;No jugado;0;1;3;7;4;9;1;1;5;8;4;7;0;0;0;0;0;0;LCQ Pacific;5.37;;;;;;0;;3;7;4;9
+M-254;Pacific;Gen.G;Lotus;Ascent;Fracture;1ro;0;0;No jugado;1;0;4;2;10;3;0;0;0;2;10;3;;;0;0;0;0;LCQ Pacific;5.38;;;;;;1;;4;2;10;3
+M-254;Pacific;Team Secret;Ascent;Lotus;Fracture;2do;1;1;No jugado;1;1;10;3;0;2;1;0;10;3;4;2;0;0;0;0;0;0;LCQ Pacific;5.37;;;;;;1;;10;3;0;2
+M-255;Pacific;Team Secret;Ascent;Fracture;;1ro;1;0;No jugado;1;1;6;7;3;6;1;0;5;7;6;8;;;0;0;0;0;LCQ Pacific;5.37;;;;;;1;;6;7;3;6
+M-255;Pacific;Zeta Division;Fracture;Ascent;0;2do;1;0;No jugado;1;0;6;8;5;7;0;0;3;6;6;7;0;0;0;0;0;0;LCQ Pacific;5.21;;;;;;1;;6;8;5;7
+M-256;Pacific;Team Secret;Lotus;Split;Bind;1ro;0;0;No jugado;0;0;1;5;7;6;1;0;5;2;10;3;;;0;0;0;0;LCQ Pacific;5.37;;;;;;1;;1;5;7;6
+M-256;Pacific;Zeta Division;Split;Lotus;Bind;2do;1;1;No jugado;1;0;10;3;5;2;1;1;7;6;1;5;0;0;0;0;0;0;LCQ Pacific;5.21;;;;;;0;;10;3;5;2
+M-257;Pacific;Gen.G;Lotus;Haven;Ascent;1ro;0;1;1;0;0;0;2;10;3;1;1;5;8;4;2;1;1;9;4;4;3;LCQ Pacific;5.38;;;;;;0;;0;2;10;3
+M-257;Pacific;Rex Regnum;Haven;Lotus;Ascent;2do;0;1;0;0;0;4;2;5;8;1;1;10;3;0;2;0;0;4;3;9;4;LCQ Pacific;5.44;;;;;;0;;4;2;5;8

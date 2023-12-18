@@ -1,0 +1,751 @@
+---
+title: Utilización del Modelo Lineal Generalizado (GLM) para predicción de resultados
+  en esports.
+output:
+  html_document:
+    df_print: paged
+---
+## Lautaro Massara
+
+## **1. Fundamentos del modelo, carga de librerias y datos** 
+
+```{r}
+library(tidymodels)
+library(tidyverse)
+library(GGally) #graficos
+library(ggplot2)
+library(sjPlot)
+library(lme4)
+library(pROC)
+library(recipes)
+library(keras)
+library(tensorflow)
+library(gamlss)
+library(glmnet)
+library(caret)
+```
+## **1.1 Descripción del trabajo y bases del juego**
+
+El presente trabajo está basado en *Generalised linear model for football matches prediction* de Antonie Adam, donde se presenta un modelo que predice el resultado de partidos de futbol. 
+
+El calculo de la predicción esta dividido en tres partes: <br>
+**Primero:** calcula, en base a las features de los equipos, la probabilidad de goles totales esto lo haca con un modelo lineal generalizado utilizando con una distribución de *Poisson* donde uno de los requisitos es que $\lambda_{AvsB} =\lambda_{BvsA}$, para un mismo enfrentamiento la cantidad de goles totales no debe depende de que equipo se considere el equipo A o B. <br>
+**Segundo:** Se calcula la probabilidad de convertir goles del equipo A si ocurrieron N goles en el enfrentamiento. Nuevamente se busca la simetría en esta propiedad: $p_{AvsB}=1-p_{AvsB}$. <br>
+**Tercero:** Se calcula la cantidad de goles de cada equipo como el producto entre la cantidad de goles totales y la probabilidad de convertir goles. 
+
+$P(g_A,g_B|X)=P(g|X)*P(g_A|g.X)$
+
+Si se cumples las premisas en el primer y segundo punto, no importa cual sea el equipo que se tome como referencia el resultado es el mismo.
+
+El objetivo de este trabajo es realizar una adaptación de el modelo utilizado por Antonia Adam pero para predecir resultados en esports. El juego seleccionado para realizar el modelado fue **VALORANT**. Es un juego que consta de dos equipos con 5 jugadores que se enfrentan en diferentes escenarios, llamados **mapas**, una serie completa se juega (en el 95% de los casos) al mejor de 3 (con un sistema de baneo y elección de mapas de los 7 disponibles para jugar se remueven 4 y se juegan 3). 
+El equipo que gane dos de esos tres mapas se considera ganador de la serie. El 5% de los enfrentamientos son al mejor de 5. Con el objetivo de se simplificar los cálculos se tomaron todos los resultados de mapas de forma independiente y **las predicciones de modelo son por mapa**. 
+
+Los mapas poseen dos lados que tienen objetivos diferentes y se juegan 12 rondas de un lado y luego los equipos invierten sus roles hasta que alguno de los equipos llegue a 13 rondas ganadas. Un lado es el atacante que tiene como objetivo plantar una bomba (llamada Spike) y protejerla hasta que estalle, mientras que el objetivo del equipo defensor es evitar el plante o desactivarlo una vez plantado. El resultado de la ronda anterior afecta la ronda siguiente en los recursos económicos que tienen los equipos. Estos son los recursos con los que pueden comprar armas y habilidades. 
+Una de las diferencias más significativa respecto al fútbol es la forma de ganar un enfrentamiento. El ganador es el primero que llega a **13 rondas**, en caso de llegar a la ronda 24 (12 a 12) el primero que obtiene una **diferencia de 2**. En este aspecto un paralelismo más directo sería el tenis que posee un sistema de puntaje similar. Esto podría ser otra línea interesante de investigación. 
+
+Se trato de realizar un paralelismo entre las variables descriptas en el paper original y las que se pudieron obtener mediante la API de Liquipedia. 
+
+Los datos utilizados fueron obtenidos de los 3 torneos que se realizan a nivel global. **VCT Americas** (que posee equipos de todo el continente americano), **VCT EMEA** (equipos de Europa) y **VCT Pacific** (Equipos de Asia), hubo 3 eventos inter regionales,**LOCK//IN**, **Masters Japón** y **Champions** en donde los mejores equipos de estas ligas se cruzan. En total se analizaron 701 mapas, que debido a la simetría de datos necesaria corresponden a 1402 filas en el dataset. 
+
+**Carga del dataset y separación en train test**
+
+Se cargan los datos. 
+
+```{r}
+file = "C:\\Users\\lrktl\\OneDrive\\Escritorio\\Maestria\\Primero\\EEA\\Problemas\\TP 2\\csv\\Crudo.csv"
+datos_crudos <- read_delim(file, delim = ";")
+
+#Agrego columnas necesarios
+datos_crudos$per_rondas_ganadas <- datos_crudos$ganadas_totales/datos_crudos$total_jugadas
+```
+
+```{r}
+# Se verifica la existencia de nulos
+tabla_exploratorios =  datos_crudos %>%
+                                      gather(., 
+                                            key = "variables", 
+                                            value = "valores") %>% 
+                                      group_by(variables) %>% 
+                                      summarise(valores_unicos = n_distinct(valores),
+                                      porcentaje_faltantes = sum(is.na(valores))/nrow(datos_crudos)*100, 
+                                      filas_totales = n()  
+                                      ) %>% 
+                                      arrange(desc(valores_unicos), valores_unicos) 
+tabla_exploratorios
+```
+## **1.2. Modificaciones frente a lo propuesto**
+<br>
+Se modificaron las propuestas columnas respecto a las mencionadas en la propuesta de investigación.  En una primera instancia parecía información útil, pero con la creación del modelo no logré adaptarlo mucha de la información. 
+
+Esta es otra línea de investigación interesante: se tiene mucha información dentro de la partida y tal vez es posible la creación de un modelo con más submodelos dentro, por ejemplo con las rondas ganadas por lado. Otro de los inconvenientes que surgió es que a pesar de haber conseguido rankigs de diferentes fuentes los mismos no se pudieron implementar en el modelo. En el paper original habla de features de equipo como:
+
+**Fifa rank**, **fifa trend**, **uefa rank**, **elorank**
+
+Se busco un paralelo de estas variables con rankings de 3 páginas que hacen seguimiento de los enfrentamientos competitivos de *VALORANT*. El objetivo era cubrir 3 de los 4 ranks, no se utilizo ningún rank de tendencia.
+
+Además, se realizo un rank de equipo con el puntaje de performance de este año para los jugadores llamado **stats_equipo**. 
+El paper trabaja con *3 parámetros basados en la performance individual de los jugadores*, esto se debe a que tiene en cuenta los cambios de jugadores que se pueden dar en los equipos. En el ambiente actual de los esports prácticamente no se realizan cambio de jugadores.
+
+Uno de los procesos que consumió mayor tiempo del trabajo fue *ordenar los datos* de forma correcta para poder procesarlos. Parte la información ya había sido capturada por lo que tuve que reordenarla para que la estructura sea igual a la propuesta por el trabajo de *Generalised linear model for football matches prediction*.
+
+Este objetivo se logró y aquí surgió otro de los problemas. Separar los valores para **Train/Test** en un Split tradicional (70/30) deforma los resultados simétricos porque la separación no asegura que se remuevan el partido y su simétrico, debido a eso se creo la columna filtro que posee los enfrentamientos simétricos, el Split Train/Test creado tiene en sus dos partes siempre un par de resultados (equipos AvsB y equipos BvsA).
+
+
+```{r}
+df_train <- datos_crudos %>% filter(filtro == 1)
+df_test <- datos_crudos %>% filter(filtro == 0)
+```
+```{r}
+df_train
+```
+
+<br>
+Analizando la distribución de algunos valores del dataset
+
+
+
+```{r}
+map_jugados <-  ggplot(df_train, aes(x=factor(mapa),fill=mapa)) +
+                 geom_bar()+ 
+                  labs(y="Cantidad de veces jugado",x="Mapa",title="Selección de mapas")+ theme_classic() +
+                theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+map_jugados
+```
+
+```{r}
+rondas_jugadas <-  ggplot(df_train, aes(x=factor(team),y=total_jugadas,fill=team)) +
+                 geom_violin()+ 
+                  labs(y="Rondas jugadas",x="Equipo",title="Rondas jugadas por equipo")+
+                theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+rondas_jugadas + stat_summary(fun.data=mean_sdl,  
+                 geom="pointrange", color="red") +theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+```{r}
+rondas_ganadas <-  ggplot(df_train, aes(x=factor(team),y=ganadas_totales,fill=team)) +
+                 geom_violin()+ 
+                  labs(y="Rondas ganadas",x="Equipo",title="Rondas ganadas por equipo")+
+                theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+rondas_ganadas + stat_summary(fun.data=mean_sdl,  
+                 geom="pointrange", color="red") +theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+
+```{r}
+ggplot(df_train, aes(fill=mapa, y=gano_map, x=team)) + 
+      labs(y="Mapas ganados",x="Equipo",title="Mapas ganados por equipo")+
+                theme(plot.title = element_text(hjust = 0.5),legend.position="none") +
+    geom_bar(position="stack", stat="identity") +theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+```
+
+## **2 Modificaciones durante el proceso**
+
+Durante la creación del modelo ocurrieron varios cambios, se detallará parte del proceso en el **anexo** al final del trabajo. La selección de variables actual (que es reducida frente a lo planteado originalmente en el trabajo) surge de que aparecen como *variables con NA* cuando se crea el modelo. Esto condujo a *reducir las variables hasta las que no produjeran estos resultados*. Este es un de los puntos más importantes a mejorar. Al no tener un ejemplo de resultados parciales del paper original, no pude detectar la fuente de este error. El proceso de trabajo, debido al tiempo disponible, fue simplificar el modelo hasta que comenzó a funcionar. *Este es probablemente el punto más fuerte a mejorar en el modelo*, agregar las métricas de performance de equipos para los primeros dos modelos, **rondas totales** y **probabilidad de convertir rondas a favor**, mejore significativamente con más parámetros. Los parámetros que quedaron para la creación de los dos primeros modelos fueron (en paréntesis el nombre de la columna): 
+### Para el modelo *gml* de Poisson de total de rondas jugadas: 
+El *equipo* (**team**), *mapa*(**mapa**), *torneo*(**torneo**), *rival*(**rival**), quien elegio el *mapa* (**selección**) y *total de rondas jugadas* (**total_jugadas**)
+Para el modelo *gml* binomial de porcentaje de rondas ganadas: 
+El *equipo* (**team**), *mapa*(**mapa**), *torneo*(**torneo**), *rival*(**rival**), *quien elegio el mapa* (**selección**) y *porcentaje de rondas ganadas* (**per_rondas_ganadas**)
+
+```{r}
+#El onehot encoding estaba orientado principalmente a la modificación de U y V para el descenso de gradiente que no pudo ser aplicado
+df_train_oh <- df_train %>% select( team, mapa, torneo, rival, seleccion, total_jugadas ) %>%
+  recipe(total_jugadas ~ ., df_train) %>%
+  # Realizamos one-hot encoding a team, mapam, torneo, rival y seleccion
+  step_dummy(team, one_hot = FALSE) %>%
+  step_dummy(mapa, one_hot = FALSE) %>%
+  step_dummy(torneo, one_hot = FALSE) %>%
+  step_dummy(rival, one_hot = FALSE) %>%
+  step_dummy(seleccion, one_hot = FALSE) %>%
+  
+  prep() %>%
+  bake(new_data = NULL)
+
+df_train_oh %>% head()
+
+df_test_oh <-  df_test %>% select( team, mapa, torneo, rival, seleccion, total_jugadas ) %>%
+  recipe(total_jugadas ~ ., df_test) %>%
+  # Realizamos one-hot encoding a team, mapam, torneo, rival y seleccion
+  step_dummy(team, one_hot = FALSE) %>%
+  step_dummy(mapa, one_hot = FALSE) %>%
+  step_dummy(torneo, one_hot = FALSE) %>%
+  step_dummy(rival, one_hot = FALSE) %>%
+  step_dummy(seleccion, one_hot = FALSE) %>%
+  
+  prep() %>%
+  bake(new_data = NULL)
+
+df_test_oh %>% head()
+```
+
+
+```{r}
+#Se realiza el mismo procedimiento pero para el modelo binomial que utiliza per_rondas_ganadas
+df_train_oh_bi <- df_train %>% select( team, mapa, torneo, rival, seleccion, per_rondas_ganadas ) %>%
+  recipe(per_rondas_ganadas ~ ., df_train) %>%
+  # Realizamos one-hot encoding a team, mapam, torneo, rival y seleccion
+  step_dummy(team, one_hot = FALSE) %>%
+  step_dummy(mapa, one_hot = FALSE) %>%
+  step_dummy(torneo, one_hot = FALSE) %>%
+  step_dummy(rival, one_hot = FALSE) %>%
+  step_dummy(seleccion, one_hot = FALSE) %>%
+  
+  prep() %>%
+  bake(new_data = NULL)
+
+df_train_oh_bi %>% head()
+
+df_test_oh_bi <-  df_test %>% select( team, mapa, torneo, rival, Region, seleccion, per_rondas_ganadas ) %>%
+  recipe(per_rondas_ganadas ~ ., df_test) %>%
+  # Realizamos one-hot encoding a team, mapam, torneo, rival y seleccion
+  step_dummy(team, one_hot = FALSE) %>%
+  step_dummy(mapa, one_hot = FALSE) %>%
+  step_dummy(torneo, one_hot = FALSE) %>%
+  step_dummy(rival, one_hot = FALSE) %>%
+  step_dummy(seleccion, one_hot = FALSE) %>%
+  
+  prep() %>%
+  bake(new_data = NULL)
+
+df_test_oh_bi %>% head()
+```
+
+Se procedió a crear el modelo con las variables mencionadas: 
+
+```{r}
+#Esto es el modelo 1
+modelo = glm(total_jugadas ~ .
+    , data=df_train_oh, family="poisson")
+```
+```{r}
+#Modelo Nulo
+modelo_nulo = glm(total_jugadas ~ 1
+    , data=df_train_oh, family="poisson")
+
+```
+
+
+```{r}
+deviance(modelo)
+deviance(modelo_nulo)
+```
+
+
+```{r}
+#Parametros del modelo, el intercetp es uo y el resto de los parametros forman la matriz U
+summary(modelo)
+```
+
+```{r}
+tab_model(modelo)
+```
+
+
+```{r}
+#Este corresponde al modelo 2 
+modelo_bino = glm(per_rondas_ganadas ~ .
+    , data=df_train_oh_bi, family="binomial")
+modelo_bino_nulo = glm(per_rondas_ganadas ~ 1
+    , data=df_train_oh_bi, family="binomial")
+
+```
+```{r}
+deviance(modelo_bino)
+deviance(modelo_bino_nulo)
+```
+
+```{r}
+#Parametros del modelo, el intercetp es vo y el resto de los parametros forman la matriz V
+summary(modelo_bino)
+```
+
+```{r}
+tab_model(modelo_bino)
+```
+
+<br>Armo las variables U y V y el intercep u0 y v0
+
+```{r}
+# Supongamos que 'coefs_lista' es tu lista de coeficientes
+coefs_lista <- as.list(coef(modelo))
+intercept <- coef(modelo)[1]
+# Convertir la lista a una matriz
+U <- do.call(cbind, coefs_lista)
+U <- U[-1]
+
+```
+
+<br>
+Las variables $U$, $V$, $u_0$ y $v_0$ representan los parametros de las ecuaciones del modelo.
+
+**Modelo 1:**
+
+$\lambda(X)=exp(U^TX+u_0)$
+
+**Modelo 2:**
+
+$p(X)=\frac{1}{1+exp(-(V^TX+v_0))}$
+
+**Goles totales:**
+$g=g_A+g_B$
+
+**Modelo 3:**
+
+$P(g_A,g_B|X)=P(g|X)*P(g_A|g.X)$
+
+
+Creo los parametros V y U
+```{r}
+# Supongamos que 'coefs_lista' es tu lista de coeficientes
+coefs_lista_bino <- as.list(coef(modelo_bino))
+intercept_bino <- coef(modelo_bino)[1]
+# Convertir la lista a una matriz
+V <- do.call(cbind, coefs_lista_bino)
+V <- V[-1]
+```
+
+
+```{r} 
+#Separo los train de cada bloque para hacer los predict
+df_train_oh_sj <- df_train_oh %>% select(-total_jugadas)
+df_train_oh_bi_sj <- df_train_oh_bi %>% select(-per_rondas_ganadas)
+
+df_train_oh_sj_y <- df_train_oh %>% select(total_jugadas)
+df_train_oh_bi_sj_y <- df_train_oh_bi %>% select(per_rondas_ganadas)
+
+```
+
+Verifico que la función predict da el mismo resultado que el calculo manual
+
+```{r}
+i = 4 #Verifico que el predict y el calculo por Variables de bien
+exp(sum(U*df_train_oh_sj[i,]) + intercept)
+predict(modelo, type = "response", newdata = df_train_oh_sj[i,] )
+
+poisson_lam = exp(sum(U*df_train_oh_sj[i,]) + intercept)
+
+```
+
+```{r}
+i = 4
+1/(1+exp(-(sum(V*df_train_oh_bi_sj[i,]) + intercept_bino)))
+predict(modelo_bino, type = "response", newdata = df_train_oh_bi_sj[i,] )
+
+bino_p = 1/(1+exp(-(sum(V*df_train_oh_bi_sj[i,]) + intercept_bino)))
+
+```
+Separo los predict para evaluar la performance del modelo
+
+```{r}
+y_real <- df_train_oh_sj_y$total_jugadas
+y_real_bi <- df_train_oh_bi_sj_y$per_rondas_ganadas
+y_combi <- df_train$ganadas_totales
+y_real_win <- df_train$gano_map
+```
+
+Creo las predicciones con los df_train respectivos a cada modelo. 
+
+```{r}
+pred <- round(predict(modelo,type = "response", newdata = df_train_oh_sj))
+pred_bi <- predict(modelo_bino,type = "response", newdata = df_train_oh_bi_sj)
+pred_combi <- round(pred*pred_bi)
+```
+## **3. Evaluación del modelo**
+
+Se plantearon diferentes métricas de evaluación para los modelos: $MSE$, $R^2$ y matriz de confusión con curva **ROC** para uno de los modelos.
+
+Se realizó una evaluación para cada modelo por separado. 
+
+Además, se generó un nuevo modelo que solo predice si un equipo va a ganar o perder un enfrentamiento.
+
+Para crear este nuevo modelo se utiliza el modelo que predice la cantidad de rondas ganadas, pero lo evalua con una binomial en k intento para ver cuantos de esos resultados llegan a 13 rondas gandas. 
+Se realiza lo mismo para el equipo B y el $p_{real}$ es el cociente de el número de veces que el equipo A llegó a 13 rondas (las necesarias para ganar) dividido el número de veces que el equipo A llegó a 13 rondas y el número de veces que el equipo B llego a 13 rondas en 1000 repeticiones.
+
+
+Luego se realizó una binomial para obtener el resultado. Del enfrentamiento. 
+El resultado obtenido se compara con el resultado del partido. 
+
+
+```{r}
+#Creación de la funcion para calcular el ganador 
+calc_bino <- function(k,p,sim){
+  resultados <- numeric(sim)
+  for (i in 1:sim){
+    resultados[i] <- rbinom (1,k,p)
+  }
+  return(resultados)
+}
+  
+cocient_bino <- function(k,p,sim){
+  r1 <- calc_bino(k,p,sim)
+  r2 <- calc_bino(k,1-p,sim)
+  r1_f <- subset(r1,r1>12)
+  r2_f <- subset(r2,r2>12)
+  
+  p_real <- length(r1_f)/(length(r2_f)+length(r1_f))
+  
+  return(p_real)
+}
+```
+
+```{r}
+#Resultado de ganadores
+resultados_ganadores <- list()
+for (i in 1:length(pred)){
+  resultado <- cocient_bino(pred[i],pred_bi[i],1000)
+  resultados_ganadores[i] <- resultado
+}
+resultados_ganadores <- unlist(resultados_ganadores)
+```
+
+
+```{r}
+#Prediccion de resultados pasada en limpio para utilizar en los graficos y las metricas
+pre_resul <- list()
+for (i in 1:length(resultados_ganadores)){
+  temp <- resultados_ganadores[i]
+  res_tem <- rbinom(1,1,temp)
+  pre_resul[i] <- res_tem
+}
+
+pre_resul <- unlist(pre_resul)
+```
+
+Si graficamos los valors predichos vs los valores reales tenemos: 
+
+```{r}
+
+df_graph <- data.frame(y_real = y_real, pred = pred)
+ggplot(df_graph, aes(x = y_real, y = pred)) +
+  geom_point(alpha = 0.3) +
+  geom_abline(intercept = 0, slope = 1, color = "red") + geom_smooth(method=lm)+ 
+  labs(title = "Predicciones vs. Valores Reales Total rondas jugadas", x = "Valores Reales", y = "Predicciones")
+```
+
+La **línea roja** representa los resultados que deberíamos obtener, la **azul** es la tendencia de los obtenidos. 
+
+En el grafico se aprecia que los resultados obtenidos *no son muy buenos*, a pesar de que se encuentran alrededor de la línea roja, la dispersión es muy grande.  Es un resultado esperable debido a lo mencionado al principio del trabajo. 
+
+
+```{r}
+df_graph <- data.frame(y_real = y_real_bi, pred = pred_bi)
+ggplot(df_graph, aes(x = y_real, y = pred)) +
+  geom_point(alpha = 0.3) +
+  geom_abline(intercept = 0, slope = 1, color = "red") + geom_smooth(method=lm)+ 
+  labs(title = "Predicciones vs. Valores Reales %rondas ganadas", x = "Valores Reales", y = "Predicciones")
+```
+
+La diferencia de pendiente con la probabilidad de ganar ronda **es menor**, pero todavía pronunciada, ninguno de los dos modelos parece explicar de forma adecuada la variabilidad de los resultados e insistoes un resultado esperable con las limitaciones planteadas en un principio. 
+
+```{r}
+df_graph <- data.frame(y_real = y_combi, pred = pred_combi)
+ggplot(df_graph, aes(x = y_real, y = pred)) +
+  geom_point(alpha = 0.3) +
+  geom_abline(intercept = 0, slope = 1, color = "red") + geom_smooth(method=lm)+ 
+  labs(title = "Predicciones vs. rondas ganadas", x = "Valores Reales", y = "Predicciones")
+
+```
+La combinación de los modelos parece dar un resultado superior al obtenido por cada uno de ellos en forma independiente. 
+Analizando el $MSE$ y el $R^2$ nos contramos con: 
+```{r}
+y_real_bi[is.na(y_real_bi)] <- 0
+
+Modelo_1 <- mean((pred - y_real)^2)
+
+Modelo_2 <- mean((y_real_bi - pred_bi)^2)
+
+Modelo_3 <-  mean((y_combi - pred_combi)^2)
+
+Modelo_4 <-  mean((y_real_win - pre_resul)^2)
+
+resultados_df <- data.frame(
+  "Poisson" = Modelo_1,
+  "Binomial" = Modelo_2,
+  "PoissonxBinomial" = Modelo_3
+  
+)
+
+resultados_df <- (resultados_df)
+
+
+rownames(resultados_df) <- "MSE"
+
+ssr <- sum((pred - mean(y_real))^2)
+sst <- sum((y_real - mean(y_real))^2)
+r_cuadrado_1 <- ssr / sst
+
+
+ssr <- sum((pred_bi - mean(y_real_bi))^2)
+sst <- sum((y_real_bi - mean(y_real_bi))^2)
+r_cuadrado_2 <- ssr / sst
+
+
+ssr <- sum((pred_combi - mean(y_combi))^2)
+sst <- sum((y_combi - mean(y_combi))^2)
+r_cuadrado_3 <- ssr / sst
+
+
+ssr <- sum((pre_resul - mean(y_real_win))^2)
+sst <- sum((y_real_win - mean(y_real_win))^2)
+r_cuadrado_4 <- ssr / sst
+
+resultados_df["R2",] <- c(
+  r_cuadrado_1,
+  r_cuadrado_2,
+  r_cuadrado_3
+)
+
+dev_poisson = deviance(modelo)
+dev_bino = deviance(modelo_bino)
+dev_poixbino = 0 
+
+dev_poisson_nul = deviance(modelo_nulo)
+dev_bino_nul = deviance(modelo_bino_nulo)
+dev_poixbino = 0 
+
+resultados_df["Deviance explicada",] <- c(
+  (dev_poisson_nul-dev_poisson)/dev_poisson_nul,
+  (dev_bino_nul-dev_bino)/dev_bino_nul,
+  dev_poixbino
+)
+
+resultados_df
+```
+
+Con estas métricas se puede observar la **bajísima performance del modelo**, pero se observa claramente como la performance de la **combinación de los dos modelos mejora considerablemente sobre los modelos individuales**. 
+
+Finalmente analizamos el modelo compuesto para predecir si gana el equipo A o el equipo B.
+Para evaluarlo utilizaremos una matriz de confusión y la curva ROC
+
+```{r}
+#Creación de la matriz de confusión
+conf_matrix <- confusionMatrix(as.factor(pre_resul), as.factor(y_real_win))
+```
+
+```{r}
+draw_confusion_matrix <- function(cm) {
+
+  layout(matrix(c(1,1,2)))
+  par(mar=c(2,2,2,2))
+  plot(c(100, 345), c(300, 450), type = "n", xlab="", ylab="", xaxt='n', yaxt='n')
+  title('CONFUSION MATRIX', cex.main=2)
+
+  # create the matrix 
+  rect(150, 430, 240, 370, col='#3F97D0')
+  text(195, 435, 'Perdido', cex=1.2)
+  rect(250, 430, 340, 370, col='#F7AD50')
+  text(295, 435, 'Ganado', cex=1.2)
+  text(125, 370, 'Predicha', cex=1.3, srt=90, font=2)
+  text(245, 450, 'Real', cex=1.3, font=2)
+  rect(150, 305, 240, 365, col='#F7AD50')
+  rect(250, 305, 340, 365, col='#3F97D0')
+  text(140, 400, 'Perdido', cex=1.2, srt=90)
+  text(140, 335, 'Ganado', cex=1.2, srt=90)
+
+  # add in the cm results 
+  res <- as.numeric(cm$table)
+  text(195, 400, res[1], cex=1.6, font=2, col='white')
+  text(195, 335, res[2], cex=1.6, font=2, col='white')
+  text(295, 400, res[3], cex=1.6, font=2, col='white')
+  text(295, 335, res[4], cex=1.6, font=2, col='white')
+
+  # add in the specifics 
+  plot(c(100, 0), c(100, 0), type = "n", xlab="", ylab="", main = "Detalles", xaxt='n', yaxt='n')
+  text(10, 85, names(cm$byClass[1]), cex=1.2, font=2)
+  text(10, 70, round(as.numeric(cm$byClass[1]), 3), cex=1.2)
+  text(30, 85, names(cm$byClass[2]), cex=1.2, font=2)
+  text(30, 70, round(as.numeric(cm$byClass[2]), 3), cex=1.2)
+  text(50, 85, names(cm$byClass[5]), cex=1.2, font=2)
+  text(50, 70, round(as.numeric(cm$byClass[5]), 3), cex=1.2)
+  text(70, 85, names(cm$byClass[6]), cex=1.2, font=2)
+  text(70, 70, round(as.numeric(cm$byClass[6]), 3), cex=1.2)
+  text(90, 85, names(cm$byClass[7]), cex=1.2, font=2)
+  text(90, 70, round(as.numeric(cm$byClass[7]), 3), cex=1.2)
+
+  # add in the accuracy information 
+  text(30, 35, names(cm$overall[1]), cex=1.5, font=2)
+  text(30, 20, round(as.numeric(cm$overall[1]), 3), cex=1.4)
+  text(70, 35, names(cm$overall[2]), cex=1.5, font=2)
+  text(70, 20, round(as.numeric(cm$overall[2]), 3), cex=1.4)
+}  
+
+```
+```{r}
+draw_confusion_matrix(conf_matrix)
+```
+Calculamos la curva **ROC**
+
+```{r}
+# Calcular la curva ROC
+roc_curve <- roc(y_real_win, pre_resul)
+
+roc_data <- data.frame(
+  FPR = roc_curve$specificities,
+  TPR = roc_curve$sensitivities
+)
+
+plot(roc_curve, main = "Curva ROC", col = "blue", lwd = 2)
+
+# Agregar etiquetas y leyenda
+abline(a = 0, b = 1, col = "gray", lty = 2)
+legend("bottomright", legend = paste("AUC =", round(auc(roc_curve), 2)), col = "blue", lwd = 2)
+```
+## **3.1 Evaluación de test**
+
+Este modelo posee una performance **muy superior** a la de sus antecesores. Lo que está tratando de predecir es menos especifico, pero lo hace de una forma mucho más eficiente. 
+
+Se procede a evaluar la performance en el *df_test* repitiendo las mismas evaluaciones
+
+```{r}
+#Preparacion de df_test
+df_test_oh_sj <- df_test_oh %>% select(-total_jugadas)
+df_test_oh_bi_sj <- df_test_oh_bi %>% select(-per_rondas_ganadas)
+
+df_test_oh_sj_y <- df_test_oh %>% select(total_jugadas)
+df_test_oh_bi_sj_y <- df_test_oh_bi %>% select(per_rondas_ganadas)
+
+```
+
+```{r}
+#Separacion de los y reales
+y_real_test <- df_test_oh_sj_y$total_jugadas
+y_real_bi_test <- df_test_oh_bi_sj_y$per_rondas_ganadas
+y_combi_test <- df_test$ganadas_totales
+y_real_win_test <- df_test$gano_map
+```
+
+```{r}
+#Predicciones de las y de utilizando los modelos entrenados
+pred_test <- round(predict(modelo,type = "response", newdata = df_test_oh_sj))
+pred_bi_test <- predict(modelo_bino,type = "response", newdata = df_test_oh_bi_sj)
+pred_combi_test <- round(pred_test*pred_bi_test)
+```
+
+
+```{r}
+resultados_ganadores_test <- list()
+for (i in 1:length(pred_test)){
+  resultado_test <- cocient_bino(pred_test[i],pred_bi_test[i],1000)
+  resultados_ganadores_test[i] <- resultado_test
+
+}
+
+resultados_ganadores_test <- unlist(resultados_ganadores_test)
+```
+
+
+```{r}
+#resultado de las precciones Ganar / Perder
+pre_resul_test <- list()
+for (i in 1:length(resultados_ganadores_test)){
+  temp <- resultados_ganadores_test[i]
+  res_tem <- rbinom(1,1,temp)
+  pre_resul_test[i] <- res_tem
+}
+
+pre_resul_test <- unlist(pre_resul_test)
+```
+
+```{r}
+
+df_graph <- data.frame(y_real = y_real_test, pred = pred_test)
+ggplot(df_graph, aes(x = y_real, y = pred)) +
+  geom_point(alpha = 0.3) +
+  geom_abline(intercept = 0, slope = 1, color = "red") + geom_smooth(method=lm)+ 
+  labs(title = "Predicciones vs. Valores Reales Total rondas jugadas", x = "Valores Reales", y = "Predicciones")
+```
+
+
+```{r}
+df_graph <- data.frame(y_real = y_real_bi_test, pred = pred_bi_test)
+ggplot(df_graph, aes(x = y_real, y = pred)) +
+  geom_point(alpha = 0.3) +
+  geom_abline(intercept = 0, slope = 1, color = "red") + geom_smooth(method=lm)+ 
+  labs(title = "Predicciones vs. Valores Reales %rondas ganadas", x = "Valores Reales", y = "Predicciones")
+```
+
+
+```{r}
+df_graph <- data.frame(y_real = y_combi_test, pred = pred_combi_test)
+ggplot(df_graph, aes(x = y_real, y = pred)) +
+  geom_point(alpha = 0.3) +
+  geom_abline(intercept = 0, slope = 1, color = "red") + geom_smooth(method=lm)+ 
+  labs(title = "Predicciones vs. rondas ganadas", x = "Valores Reales", y = "Predicciones")
+
+```
+Los resultados obtenidos son similares a los obtenidos durante la etapa de train, lo cual es un indicador de que el modelo esta funcionando correctamente. Si evaluamos las métricas obtenemos. 
+
+```{r}
+y_real_bi_test[is.na(y_real_bi_test)] <- 0
+
+Modelo_1 <- mean((pred_test - y_real_test)^2)
+
+Modelo_2 <- mean((y_real_bi_test - pred_bi_test)^2)
+
+Modelo_3 <-  mean((y_combi_test - pred_combi_test)^2)
+
+Modelo_4 <-  mean((y_real_win_test - pre_resul_test)^2)
+
+resultados_df["MSE Test",] <- c(
+  Modelo_1,
+  Modelo_2,
+  Modelo_3
+)
+resultados_df <- (resultados_df)
+
+
+ssr <- sum((pred_test - mean(y_real_test))^2)
+sst <- sum((y_real_test - mean(y_real_test))^2)
+r_cuadrado_1 <- ssr / sst
+
+
+ssr <- sum((pred_bi_test - mean(y_real_bi_test))^2)
+sst <- sum((y_real_bi_test - mean(y_real_bi_test))^2)
+r_cuadrado_2 <- ssr / sst
+
+
+ssr <- sum((pred_combi_test - mean(y_combi_test))^2)
+sst <- sum((y_combi_test - mean(y_combi_test))^2)
+r_cuadrado_3 <- ssr / sst
+
+
+ssr <- sum((pre_resul_test - mean(y_real_win_test))^2)
+sst <- sum((y_real_win_test - mean(y_real_win_test))^2)
+r_cuadrado_4 <- ssr / sst
+
+resultados_df["R2 test",] <- c(
+  r_cuadrado_1,
+  r_cuadrado_2,
+  r_cuadrado_3
+)
+
+resultados_df
+```
+
+Las métricas responden a lo observado en los gráficos, la performance es similar un buen indicador de que el modelo no esta overfieado. 
+Si analizamos la matriz de confusión de test obtenemos
+
+```{r}
+conf_matrix_test <- confusionMatrix(as.factor(pre_resul_test), as.factor(y_real_win_test))
+draw_confusion_matrix(conf_matrix_test)
+
+```
+<br>
+
+Hubo una leve caída en la performance, pero todos los parámetros se encuentran por encima de 0,5. 
+
+
+## Conclusiones: 
+El modelado de resultados deportivos es un tópico complejo. La idea de este modelo explicativo a partir de diferentes modelos más pequeños *demostró tener su eficiencia y podría ser un campo a explorar*. 
+Uno de los mayores inconvenientes de este modelo y que **no tiene en cuenta la línea temporal de los resultados**, los equipos deportivos tienen rachas de victorias y/o derrotas y es un elemento que no se considera en este modelo 
+
+Durante la construcción de los distintos modelos fueron surgiendo inconvenientes, mientras que algunos pudieron ser soslayados, otros persisten en la presente entrega y deberían ser los primeros puntos a abordar para mejorar la performance, en particular la de los modelos individuales. En el paper también se realiza un descenso de gradiente para ajustar los valores de las matrices U y V debido a las restricciones temporales eso no pudo ser llevado a cabo en este trabajo. 
+
+## Anexo “Cosas que fracasaron”: 
+No quería dejar pasar este trabajo sin enumerar algunos de mis múltiples intentos por hacer funcionar cosas que no funcionaron. Algunos por ser conceptualmente equivocados, otros por la cantidad de tiempo disponible y varios por la falta de practica en el lenguaje.
+Como mencioné durante el trabajo el primer problema fue la organización original de la información y como tuve que adaptarla para trabajar como lo describía el paper. Gran parte de los datos los había tomado durante el presente año con un formato orientado a la estadística descriptiva, adaptar el formato que tenía al formato necesario para modelar fue uno proceso que demando mucho tiempo. 
+Otro desafío que se encuentra vinculado con el punto anterior es como armar los grupos de train/test si en la toma de datos no se mantiene la trazabilidad sobre la id del enfrentamiento es extremadamente complicado separar en train test y que se mantenga la condición de simetría, en los enfrentamientos. Con el dataset completo esta premisa se cumple, pero cuando separo en Train/Test comienza a haber pequeñas diferencias entre los resultados simétricos. Esto probablemente se deba a un valor asignado erróneamente en la columna “filtro” para la separación de a mapas de a pares relacionados. 
+Como fue mencionado en las conclusiones, no utilizar multiples features de equipos como fue mencionado en el paper creo que es uno de los puntos más optimizables del trabajo. Con un buen seguimiento valores como el ELO se pueden actualizar partido a partido, incluso otros como el rating de los jugadores se puede tomar en base al último partido jugado.
+Agregar variables para tener en cuenta rachas de equipos y performance en el tiempo, no creo que sea suficiente analizar un pool de datos para evaluar performance deportiva sin tener en cuenta los últimos n resultados. 
+Durante la realización del trabajo traté de implementar el descenso de gradiente, pero no se si fue debido a problemas con la derivada para modificar U y V o tener que aplicar descenso de gradiente a una formula diferente a la lineal, los intentos de implementación fallaron y decidí continuar para tener algo que presentar. En el proceso trate de crear una pequeña red neuronal para la predicción de los resultados, pero las variables que estaba utilizando de entrada no eran las que podía utilizar para predecir luego. 
+Finalmente, con la cantidad de información disponible abre las puertas a complejizar el modelo final, se podrían crear modelos para las rondas totales ganadas, las rondas por lado ganadas, las rondas de pistola ganadas, todo eso como variables de entrada extra a un modelo más complejo podría funcionar mejor. 
+
